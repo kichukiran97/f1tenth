@@ -1,0 +1,1 @@
+/home/f1tenth/f1tenth_ws/build/waypoint_generator/ament_cmake_core/waypoint_generatorConfig.cmake

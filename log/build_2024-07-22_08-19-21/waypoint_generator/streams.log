@@ -1,0 +1,73 @@
+[0.095s] Invoking command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/waypoint_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/waypoint_generator
+[0.595s] -- The C compiler identification is GNU 9.4.0
+[1.020s] -- The CXX compiler identification is GNU 9.4.0
+[1.051s] -- Check for working C compiler: /usr/bin/cc
+[1.611s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.622s] -- Detecting C compiler ABI info
+[2.217s] -- Detecting C compiler ABI info - done
+[2.289s] -- Detecting C compile features
+[2.292s] -- Detecting C compile features - done
+[2.314s] -- Check for working CXX compiler: /usr/bin/c++
+[2.923s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.928s] -- Detecting CXX compiler ABI info
+[3.714s] -- Detecting CXX compiler ABI info - done
+[3.821s] -- Detecting CXX compile features
+[3.825s] -- Detecting CXX compile features - done
+[3.840s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.004s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.005s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.317s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.570s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.622s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.259s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.456s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.924s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.266s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.279s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.284s] -- Looking for pthread.h
+[7.892s] -- Looking for pthread.h - found
+[7.895s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.495s] -- Looking for pthread_create in pthreads
+[9.045s] -- Looking for pthread_create in pthreads - not found
+[9.048s] -- Looking for pthread_create in pthread
+[9.637s] -- Looking for pthread_create in pthread - found
+[9.645s] -- Found Threads: TRUE  
+[10.799s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[10.804s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[11.010s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[11.415s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[11.622s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.017s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[12.405s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[15.321s] -- Configuring done
+[15.427s] -- Generating done
+[15.441s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/waypoint_generator
+[15.522s] Invoked command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/waypoint_generator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/waypoint_generator
+[15.535s] Invoking command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/waypoint_generator -- -j4 -l4
+[15.906s] [35m[1mScanning dependencies of target waypoint_generator[0m
+[16.270s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o[0m
+[46.629s] [100%] [32m[1mLinking CXX executable waypoint_generator[0m
+[48.638s] [100%] Built target waypoint_generator
+[48.745s] Invoked command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/waypoint_generator -- -j4 -l4
+[48.937s] Invoking command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/waypoint_generator
+[49.075s] -- Install configuration: ""
+[49.077s] -- Execute custom install script
+[49.081s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[49.149s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[49.238s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[49.299s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[49.380s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[49.499s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[49.558s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[49.621s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[49.717s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[49.844s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[49.902s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[50.030s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[50.114s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[50.191s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[50.245s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[50.341s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[50.435s] Invoked command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/waypoint_generator

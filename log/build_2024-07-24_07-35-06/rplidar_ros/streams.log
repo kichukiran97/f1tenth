@@ -1,0 +1,54 @@
+[0.145s] Invoking command in '/home/f1tenth/f1tenth_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/rplidar_ros -- -j4 -l4
+[0.977s] [  5%] Built target rplidar_client
+[1.034s] [ 52%] Built target rplidar_composition
+[1.392s] [100%] Built target rplidar_node
+[1.506s] Invoked command in '/home/f1tenth/f1tenth_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/rplidar_ros -- -j4 -l4
+[2.468s] Invoking command in '/home/f1tenth/f1tenth_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/rplidar_ros
+[2.608s] -- Install configuration: ""
+[2.610s] -- Execute custom install script
+[2.620s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[2.622s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[2.648s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[2.648s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[2.649s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[2.650s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[2.651s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[2.651s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[2.653s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[2.656s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[2.662s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[2.670s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[2.674s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[2.677s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[2.685s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[2.691s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[2.706s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[2.708s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[2.716s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[2.718s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[2.722s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[2.729s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[2.734s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[2.737s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[2.750s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[2.763s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[2.771s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[2.788s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[2.789s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[2.794s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[2.814s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[2.821s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[2.822s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[2.823s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[2.832s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[2.835s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[2.838s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[2.840s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[2.851s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[2.892s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[2.894s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.896s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.898s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[2.902s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[2.907s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[2.925s] Invoked command in '/home/f1tenth/f1tenth_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/rplidar_ros

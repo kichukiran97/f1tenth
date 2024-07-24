@@ -1,0 +1,31 @@
+[1.802s] Invoking command in '/home/f1tenth/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/pure_pursuit -- -j4 -l4
+[2.420s] [ 50%] Built target waypoint_visualizer
+[2.806s] [100%] Built target pure_pursuit
+[2.885s] Invoked command in '/home/f1tenth/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/pure_pursuit -- -j4 -l4
+[3.292s] Invoking command in '/home/f1tenth/f1tenth_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/pure_pursuit
+[3.395s] -- Install configuration: ""
+[3.400s] -- Execute custom install script
+[3.409s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit
+[3.416s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/lib/pure_pursuit/waypoint_visualizer
+[3.418s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit.rviz
+[3.419s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/pure_pursuit_launch.py
+[3.420s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit.rviz
+[3.421s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/launch/sim_pure_pursuit_launch.py
+[3.424s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/config.yaml
+[3.426s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/config/sim_config.yaml
+[3.428s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[3.432s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[3.438s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[3.440s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[3.442s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[3.444s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[3.450s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[3.459s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[3.480s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[3.488s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[3.494s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[3.585s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[3.587s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[3.590s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[3.591s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[3.604s] Invoked command in '/home/f1tenth/f1tenth_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/pure_pursuit

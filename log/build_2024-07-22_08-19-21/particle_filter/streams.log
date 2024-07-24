@@ -1,0 +1,37 @@
+[9.036s] Invoking command in '/home/f1tenth/f1tenth_ws/build/particle_filter': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/particle_filter/build --no-deps symlink_data
+[10.857s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[10.858s]   warnings.warn(
+[11.176s] running develop
+[12.565s] running egg_info
+[12.567s] creating particle_filter.egg-info
+[12.569s] writing particle_filter.egg-info/PKG-INFO
+[12.572s] writing dependency_links to particle_filter.egg-info/dependency_links.txt
+[12.574s] writing entry points to particle_filter.egg-info/entry_points.txt
+[12.575s] writing requirements to particle_filter.egg-info/requires.txt
+[12.576s] writing top-level names to particle_filter.egg-info/top_level.txt
+[12.587s] writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+[12.599s] reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+[12.604s] writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+[12.841s] running build_ext
+[12.842s] Creating /home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+[12.847s] Installing particle_filter script to /home/f1tenth/f1tenth_ws/install/particle_filter/lib/particle_filter
+[12.854s] 
+[12.855s] Installed /home/f1tenth/f1tenth_ws/build/particle_filter
+[12.856s] running symlink_data
+[12.856s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index
+[12.856s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index
+[12.857s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+[12.857s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/resource/particle_filter -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+[12.858s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/package.xml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter
+[12.859s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.860s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/map.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.860s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/levine.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.861s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/map.pgm -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.861s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/basement_fixed.map.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.861s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/basement_fixed.png -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.862s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/levine.pgm -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[12.862s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+[12.863s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/launch/localize_launch.py -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+[12.863s] creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[12.864s] symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/config/localize.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[13.046s] Invoked command in '/home/f1tenth/f1tenth_ws/build/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/particle_filter/build --no-deps symlink_data

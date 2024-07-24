@@ -1,0 +1,102 @@
+[0.187s] Invoking command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/f1tenth_system/ackermann_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/ackermann_mux
+[2.407s] -- The C compiler identification is GNU 9.4.0
+[2.408s] -- The CXX compiler identification is GNU 9.4.0
+[2.408s] -- Check for working C compiler: /usr/bin/cc
+[2.408s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.409s] -- Detecting C compiler ABI info
+[2.909s] -- Detecting C compiler ABI info - done
+[3.000s] -- Detecting C compile features
+[3.001s] -- Detecting C compile features - done
+[3.015s] -- Check for working CXX compiler: /usr/bin/c++
+[3.645s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.654s] -- Detecting CXX compiler ABI info
+[4.307s] -- Detecting CXX compiler ABI info - done
+[4.387s] -- Detecting CXX compile features
+[4.389s] -- Detecting CXX compile features - done
+[4.409s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.598s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.599s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.942s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.093s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.569s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.195s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.417s] -- Found FastRTPS: /opt/ros/foxy/include  
+[7.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.597s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.610s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.616s] -- Looking for pthread.h
+[9.171s] -- Looking for pthread.h - found
+[9.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.850s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.851s] -- Looking for pthread_create in pthreads
+[10.477s] -- Looking for pthread_create in pthreads - not found
+[10.479s] -- Looking for pthread_create in pthread
+[11.035s] -- Looking for pthread_create in pthread - found
+[11.054s] -- Found Threads: TRUE  
+[12.340s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[12.638s] -- Found diagnostic_updater: 3.1.2 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[13.234s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.023s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[14.227s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[14.271s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[14.272s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[14.272s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[14.273s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.422s] -- Found PythonExtra: .so  
+[14.565s] -- Added test 'xmllint' to check XML markup files
+[14.568s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.580s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.582s] -- Configured cppcheck include dirs: /home/f1tenth/f1tenth_ws/src/f1tenth_system/ackermann_mux/include
+[14.582s] -- Configured cppcheck exclude dirs and/or files: 
+[14.595s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.595s] -- Configured cpplint exclude dirs and/or files: 
+[14.598s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.604s] -- Added test 'lint_cmake' to check CMake code style
+[14.609s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.629s] -- Added test 'uncrustify' to check C / C++ code style
+[14.629s] -- Configured uncrustify additional arguments: 
+[14.664s] -- Configuring done
+[14.723s] -- Generating done
+[14.733s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/ackermann_mux
+[14.812s] Invoked command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/f1tenth_system/ackermann_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/ackermann_mux
+[14.815s] Invoking command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[15.335s] [35m[1mScanning dependencies of target ackermann_mux[0m
+[16.329s] [ 25%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_node.cpp.o[0m
+[16.375s] [ 50%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux_diagnostics.cpp.o[0m
+[16.376s] [ 75%] [32mBuilding CXX object CMakeFiles/ackermann_mux.dir/src/ackermann_mux.cpp.o[0m
+[76.915s] [100%] [32m[1mLinking CXX executable ackermann_mux[0m
+[79.992s] [100%] Built target ackermann_mux
+[80.068s] Invoked command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[80.376s] Invoking command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/ackermann_mux
+[80.449s] -- Install configuration: ""
+[80.453s] -- Execute custom install script
+[80.467s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[80.544s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[80.669s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[80.747s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[80.828s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[80.902s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[80.967s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[81.051s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[81.110s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[81.193s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[81.279s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[81.361s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[81.422s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[81.516s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[81.595s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[81.659s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[81.731s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[81.801s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[81.874s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[81.963s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[82.020s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[82.096s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[82.166s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[82.236s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[82.298s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[82.359s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[82.414s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[82.474s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[82.545s] Invoked command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/ackermann_mux

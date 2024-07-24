@@ -1,0 +1,35 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+creating particle_filter.egg-info
+writing particle_filter.egg-info/PKG-INFO
+writing dependency_links to particle_filter.egg-info/dependency_links.txt
+writing entry points to particle_filter.egg-info/entry_points.txt
+writing requirements to particle_filter.egg-info/requires.txt
+writing top-level names to particle_filter.egg-info/top_level.txt
+writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+reading manifest file 'particle_filter.egg-info/SOURCES.txt'
+writing manifest file 'particle_filter.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle-filter.egg-link (link to .)
+Installing particle_filter script to /home/f1tenth/f1tenth_ws/install/particle_filter/lib/particle_filter
+
+Installed /home/f1tenth/f1tenth_ws/build/particle_filter
+running symlink_data
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/resource/particle_filter -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/package.xml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/map.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/levine.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/map.pgm -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/basement_fixed.map.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/basement_fixed.png -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/maps/levine.pgm -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/launch/localize_launch.py -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/launch
+creating /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/config
+symbolically linking /home/f1tenth/f1tenth_ws/build/particle_filter/config/localize.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/config
