@@ -1,0 +1,4 @@
+source;share/birds_eye_view/local_setup.bash
+source;share/birds_eye_view/local_setup.dsv
+source;share/birds_eye_view/local_setup.sh
+source;share/birds_eye_view/local_setup.zsh

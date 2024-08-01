@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from internal_interface/msg/Semaphore.msg
+// generated code does not contain a copyright notice
+
+
+module internal_interface {
+  module msg {
+    struct Semaphore {
+      double x;
+
+      double y;
+
+      uint64 id;
+
+      string device;
+
+      string state;
+
+      string name;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+ControlInput control
+float64 duration_seconds

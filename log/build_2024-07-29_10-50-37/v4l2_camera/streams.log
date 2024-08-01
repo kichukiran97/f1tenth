@@ -1,0 +1,44 @@
+[0.065s] Invoking command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/v4l2_camera -- -j4 -l4
+[0.468s] [ 42%] Built target v4l2_camera
+[0.642s] [ 71%] Built target v4l2_camera_node
+[0.688s] [100%] Built target v4l2_camera_compose_test
+[0.765s] Invoked command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/v4l2_camera -- -j4 -l4
+[1.052s] Invoking command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/v4l2_camera
+[1.108s] -- Install configuration: ""
+[1.109s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include
+[1.109s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera
+[1.110s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[1.111s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[1.112s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[1.112s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[1.113s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[1.113s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[1.114s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[1.114s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[1.117s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[1.120s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[1.122s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[1.123s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[1.124s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[1.125s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[1.125s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[1.126s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[1.126s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[1.127s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[1.127s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[1.128s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[1.128s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[1.129s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[1.129s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[1.134s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[1.136s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[1.136s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[1.137s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[1.138s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.138s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[1.139s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[1.139s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.139s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[1.140s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[1.140s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[1.150s] Invoked command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/v4l2_camera

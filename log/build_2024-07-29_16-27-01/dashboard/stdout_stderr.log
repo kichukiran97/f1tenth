@@ -1,0 +1,821 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- libudev stable: 1
+-- Found UDev: /usr/lib/aarch64-linux-gnu/libudev.so
+--    include: /usr/include
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found calibration: 0.0.0 (/home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/dashboard
+[35m[1mScanning dependencies of target sfml-system[0m
+[  1%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o[0m
+[  3%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o[0m
+[  4%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o[0m
+[  4%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o[0m
+[  5%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o[0m
+[  6%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o[0m
+[  7%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o[0m
+[  7%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o[0m
+[  8%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o[0m
+[  9%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o[0m
+[ 10%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o[0m
+[ 10%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o[0m
+[ 11%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o[0m
+[ 12%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.hpp:731[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/String.hpp:32[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/System/String.cpp:28[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:[m[K In static member function ‘[01m[Kstatic Out sf::Utf<8>::encode(sf::Uint32, Out, sf::Uint8) [with Out = std::back_insert_iterator<std::__cxx11::basic_string<unsigned char> >][m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:117:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  117 |             case 4: bytes[3] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:118:13:[m[K [01;36m[Knote: [m[Khere
+  118 |             [01;36m[Kcase[m[K 3: bytes[2] = static_cast<Uint8>((input | 0x80) & 0xBF); input >>= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:118:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  118 |             case 3: bytes[2] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:119:13:[m[K [01;36m[Knote: [m[Khere
+  119 |             [01;36m[Kcase[m[K 2: bytes[1] = static_cast<Uint8>((input | 0x80) & 0xBF); input >>= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:119:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  119 |             case 2: bytes[1] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                           [01;35m[K^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:120:13:[m[K [01;36m[Knote: [m[Khere
+  120 |             [01;36m[Kcase[m[K 1: bytes[0] = static_cast<Uint8> (input | firstBytes[bytestoWrite]);
+      |             [01;36m[K^~~~[m[K
+[ 13%] [32m[1mLinking CXX shared library ../../../lib/libsfml-system.so[0m
+[ 13%] Built target sfml-system
+[35m[1mScanning dependencies of target sfml-audio[0m
+[35m[1mScanning dependencies of target sfml-window[0m
+[35m[1mScanning dependencies of target sfml-network[0m
+[ 14%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o[0m
+[ 15%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o[0m
+[ 16%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o[0m
+[ 16%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o[0m
+[ 17%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o[0m
+[ 18%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o[0m
+[ 19%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o[0m
+[ 20%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o[0m
+[ 21%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o[0m
+[ 22%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:[m[K In static member function ‘[01m[Kstatic bool sf::priv::AudioDevice::isExtensionSupported(const string&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:110:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  110 |     std::[01;35m[Kauto_ptr[m[K<AudioDevice> device;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:32[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:[m[K In static member function ‘[01m[Kstatic int sf::priv::AudioDevice::getFormatFromChannelCount(unsigned int)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:128:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class> class std::auto_ptr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+  128 |     std::[01;35m[Kauto_ptr[m[K<AudioDevice> device;
+      |          [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/AudioDevice.cpp:32[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:53:28:[m[K [01;36m[Knote: [m[Kdeclared here
+   53 |   template<typename> class [01;36m[Kauto_ptr[m[K;
+      |                            [01;36m[K^~~~~~~~[m[K
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o[0m
+[ 24%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o[0m
+[ 25%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o[0m
+[ 26%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o[0m
+[ 27%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o[0m
+[ 28%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o[0m
+[ 29%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o[0m
+[ 29%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o[0m
+[ 30%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o[0m
+[ 31%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o[0m
+[ 32%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o[0m
+[ 33%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o[0m
+[ 34%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o[0m
+[ 35%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o[0m
+[ 35%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o[0m
+[ 37%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o[0m
+[ 38%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o[0m
+[ 39%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o[0m
+[ 40%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o[0m
+[ 41%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o[0m
+[ 41%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o[0m
+[ 42%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library ../../../lib/libsfml-network.so[0m
+[ 44%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o[0m
+[ 44%] Built target sfml-network
+[ 45%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o[0m
+[ 46%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o[0m
+[ 46%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o[0m
+[ 47%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o[0m
+[ 47%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.hpp:731[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/String.hpp:32[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.hpp:31[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/ClipboardImpl.cpp:28[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:[m[K In static member function ‘[01m[Kstatic In sf::Utf<8>::decode(In, In, sf::Uint32&, sf::Uint32) [with In = unsigned char*][m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:65:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   65 |             case 5: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:13:[m[K [01;36m[Knote: [m[Khere
+   66 |             [01;36m[Kcase[m[K 4: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   66 |             case 4: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:13:[m[K [01;36m[Knote: [m[Khere
+   67 |             [01;36m[Kcase[m[K 3: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   67 |             case 3: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:13:[m[K [01;36m[Knote: [m[Khere
+   68 |             [01;36m[Kcase[m[K 2: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   68 |             case 2: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:13:[m[K [01;36m[Knote: [m[Khere
+   69 |             [01;36m[Kcase[m[K 1: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   69 |             case 1: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:70:13:[m[K [01;36m[Knote: [m[Khere
+   70 |             [01;36m[Kcase[m[K 0: output += static_cast<Uint8>(*begin++);
+      |             [01;36m[K^~~~[m[K
+[ 48%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o[0m
+[ 49%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o[0m
+[ 50%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o[0m
+[ 51%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o[0m
+[ 52%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o[0m
+[ 53%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o[0m
+[ 53%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o[0m
+[ 54%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o[0m
+[ 54%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o[0m
+[ 55%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp:[m[K In member function ‘[01m[Kvoid sf::priv::WindowImplX11::setVideoMode(const sf::VideoMode&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp:1319:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1319 |         if ([01;35m[Kres->modes[i].width == static_cast<int>(mode.width)[m[K &&
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp:1320:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1320 |             [01;35m[Kres->modes[i].height == static_cast<int>(mode.height)[m[K)
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 56%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.cpp:[m[K In constructor ‘[01m[Ksf::priv::GlxContext::GlxContext(sf::priv::GlxContext*, const sf::ContextSettings&, const sf::priv::WindowImpl*, unsigned int)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/GlxContext.cpp:123:115:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbitsPerPixel[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  123 | GlxContext::GlxContext(GlxContext* shared, const ContextSettings& settings, const WindowImpl* owner, [01;35m[Kunsigned int bitsPerPixel[m[K) :
+      |                                                                                                      [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[ 57%] [32m[1mLinking CXX shared library ../../../lib/libsfml-audio.so[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.hpp:731[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/String.hpp:32[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/Window/Joystick.hpp:32[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/Window/Event.hpp:32[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.hpp:31[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Window/Unix/WindowImplX11.cpp:28[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:[m[K In static member function ‘[01m[Kstatic In sf::Utf<8>::decode(In, In, sf::Uint32&, sf::Uint32) [with In = const char*][m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:65:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   65 |             case 5: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:13:[m[K [01;36m[Knote: [m[Khere
+   66 |             [01;36m[Kcase[m[K 4: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   66 |             case 4: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:13:[m[K [01;36m[Knote: [m[Khere
+   67 |             [01;36m[Kcase[m[K 3: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   67 |             case 3: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:13:[m[K [01;36m[Knote: [m[Khere
+   68 |             [01;36m[Kcase[m[K 2: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   68 |             case 2: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:13:[m[K [01;36m[Knote: [m[Khere
+   69 |             [01;36m[Kcase[m[K 1: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   69 |             case 1: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:70:13:[m[K [01;36m[Knote: [m[Khere
+   70 |             [01;36m[Kcase[m[K 0: output += static_cast<Uint8>(*begin++);
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:[m[K In static member function ‘[01m[Kstatic Out sf::Utf<8>::encode(sf::Uint32, Out, sf::Uint8) [with Out = std::back_insert_iterator<std::__cxx11::basic_string<unsigned char> >][m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:117:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  117 |      case 4: bytes[3] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                    [01;35m[K^~~~~[m[K
+
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:118:13:[m[K [01;36m[Knote: [m[Khere
+  118 |             [01;36m[Kcase[m[K 3: bytes[2] = static_cast<Uint8>((input | 0x80) & 0xBF); input >>= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:118:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  118 |      case 3: bytes[2] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                    [01;35m[K^~~~~[m[K
+
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:119:13:[m[K [01;36m[Knote: [m[Khere
+  119 |             [01;36m[Kcase[m[K 2: bytes[1] = static_cast<Uint8>((input | 0x80) & 0xBF); input >>= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:119:75:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+  119 |      case 2: bytes[1] = static_cast<Uint8>((input | 0x80) & 0xBF); [01;35m[Kinput[m[K >>= 6;
+      |                                                                    [01;35m[K^~~~~[m[K
+
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:120:13:[m[K [01;36m[Knote: [m[Khere
+  120 |             [01;36m[Kcase[m[K 1: bytes[0] = static_cast<Uint8> (input | firstBytes[bytestoWrite]);
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:[m[K In static member function ‘[01m[Kstatic In sf::Utf<8>::decode(In, In, sf::Uint32&, sf::Uint32) [with In = unsigned char*][m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:65:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   65 |             case 5: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:13:[m[K [01;36m[Knote: [m[Khere
+   66 |             [01;36m[Kcase[m[K 4: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:66:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   66 |             case 4: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:13:[m[K [01;36m[Knote: [m[Khere
+   67 |             [01;36m[Kcase[m[K 3: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:67:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   67 |             case 3: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:13:[m[K [01;36m[Knote: [m[Khere
+   68 |             [01;36m[Kcase[m[K 2: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:68:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   68 |             case 2: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:13:[m[K [01;36m[Knote: [m[Khere
+   69 |             [01;36m[Kcase[m[K 1: output += static_cast<Uint8>(*begin++); output <<= 6;
+      |             [01;36m[K^~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:69:61:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+   69 |             case 1: output += static_cast<Uint8>(*begin++); [01;35m[Koutput[m[K <<= 6;
+      |                                                             [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/include/SFML/System/Utf.inl:70:13:[m[K [01;36m[Knote: [m[Khere
+   70 |             [01;36m[Kcase[m[K 0: output += static_cast<Uint8>(*begin++);
+      |             [01;36m[K^~~~[m[K
+[ 57%] Built target sfml-audio
+[ 57%] [32m[1mLinking CXX shared library ../../../lib/libsfml-window.so[0m
+[ 57%] Built target sfml-window
+[35m[1mScanning dependencies of target sfml-graphics[0m
+[ 58%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o[0m
+[ 59%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o[0m
+[ 60%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o[0m
+[ 60%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o[0m
+[ 61%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o[0m
+[ 62%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o[0m
+[ 63%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o[0m
+[ 63%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o[0m
+[ 64%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o[0m
+[ 65%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Graphics/ImageLoader.cpp:32[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h:[m[K In function ‘[01m[Kint stbi__parse_png_file(stbi__png*, int, int)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h:4836:28:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kinvalid_chunk[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+ 4836 |                static char [01;35m[Kinvalid_chunk[m[K[] = "XXXX PNG chunk not known";
+      |                            [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h:[m[K In function ‘[01m[Kint stbi__tga_get_comp(int, int, int*)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h:5242:16:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
+ 5242 |       case 16: [01;35m[Kif[m[K(is_grey) return STBI_grey_alpha;
+      |                [01;35m[K^~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/extlibs/headers/stb_image/stb_image.h:5244:7:[m[K [01;36m[Knote: [m[Khere
+ 5244 |       [01;36m[Kcase[m[K 15: if(is_rgb16) *is_rgb16 = 1;
+      |       [01;36m[K^~~~[m[K
+[ 66%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o[0m
+[ 66%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o[0m
+[ 67%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o[0m
+[ 67%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o[0m
+[ 68%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o[0m
+[ 69%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o[0m
+[ 70%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o[0m
+[ 70%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o[0m
+[ 71%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o[0m
+[ 72%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o[0m
+[ 73%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o[0m
+[ 73%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o[0m
+[ 74%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o[0m
+[ 75%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o[0m
+[ 76%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o[0m
+[ 76%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o[0m
+[ 77%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o[0m
+[ 78%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o[0m
+[ 79%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o[0m
+[ 80%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::contextDestroyCallback(void*)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Graphics/RenderTextureImplFBO.cpp:80:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Karg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   80 |     void contextDestroyCallback([01;35m[Kvoid* arg[m[K)
+      |                                 [01;35m[K~~~~~~^~~[m[K
+[ 81%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library ../../../lib/libsfml-graphics.so[0m
+[ 81%] Built target sfml-graphics
+[35m[1mScanning dependencies of target interface_lib[0m
+[ 82%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/car_state_subscriber.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/camera_subscriber.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/control_publisher.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/gps_curve_subscriber.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/objects_subscriber.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/ros_handler.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/look_ahead_publisher.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/gps_subscriber.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/interface/gps_subscriber.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/interface/gps_subscriber.hpp:16:5:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   16 |     [01;35m[Kinline[m[K static constexpr const char* tag_ = "server/raw_gps";
+      |     [01;35m[K^~~~~~[m[K
+[ 87%] [32m[1mLinking CXX static library libinterface_lib.a[0m
+[ 87%] Built target interface_lib
+[35m[1mScanning dependencies of target ui_lib[0m
+[ 87%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/camera_element.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/button.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/element.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/font.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/slider.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/font.cpp:[m[K In constructor ‘[01m[Kui::Font::Font(const char*, int)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/font.cpp:7:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfontsize[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+    7 | Font::Font(const char* fontfile, [01;35m[Kint fontsize[m[K){
+      |                                  [01;35m[K~~~~^~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:[m[K In member function ‘[01m[Kvirtual void ui::Element::Update(double)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:11:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdt[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 | void Element::Update([01;35m[Kdouble dt[m[K) {
+      |                      [01;35m[K~~~~~~~^~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:[m[K In member function ‘[01m[Kvirtual bool ui::Element::HandleEvent(const sf::Event&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:14:44:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kevent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   14 | bool Element::HandleEvent([01;35m[Kconst sf::Event& event[m[K) {
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:[m[K In member function ‘[01m[Kvirtual void ui::Element::Render(sf::RenderWindow&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/element.cpp:18:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kwindow[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   18 | void Element::Render([01;35m[Ksf::RenderWindow& window[m[K) {
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 91%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/text_box.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/text_element.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/slider.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/slider.hpp:[m[K In constructor ‘[01m[Kui::Slider::Slider(double, double, double, double, std::shared_ptr<double>)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/slider.hpp:30:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kui::Slider::beingDragged_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   30 |     bool [01;35m[KbeingDragged_[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/slider.hpp:23:12:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble ui::Slider::minRange_[m[K’ [[01;35m[K-Wreorder[m[K]
+   23 |     double [01;35m[KminRange_[m[K, maxRange_;
+      |            [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/slider.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    5 | [01;35m[KSlider[m[K::Slider(double x, double y, double w, double h, std::shared_ptr<double> output) :
+      | [01;35m[K^~~~~~[m[K
+[ 93%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/ui.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_box.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_box.hpp:[m[K In constructor ‘[01m[Kui::TextBox::TextBox(double, double, double, double, std::string, const ui::Font&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_box.hpp:17:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Kui::TextBox::h_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   17 |     double w_, [01;35m[Kh_[m[K;
+      |                [01;35m[K^~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_box.cpp:7:37:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[Kui::TextElement[m[K’ [[01;35m[K-Wreorder[m[K]
+    7 |     TextElement(x, y, 16, text, font[01;35m[K)[m[K
+      |                                     [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_box.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    5 | [01;35m[KTextBox[m[K::TextBox(double x, double y, double w, double h, std::string text, const Font& font) :
+      | [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_element.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_element.hpp:[m[K In constructor ‘[01m[Kui::TextElement::TextElement(double, double, double, std::string, const ui::Font&)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_element.hpp:29:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kui::TextElement::size_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   29 |     double [01;35m[Ksize_[m[K;
+      |            [01;35m[K^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_element.hpp:27:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string ui::TextElement::text_[m[K’ [[01;35m[K-Wreorder[m[K]
+   27 |     std::string [01;35m[Ktext_[m[K;
+      |                 [01;35m[K^~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/text_element.cpp:5:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+    5 | [01;35m[KTextElement[m[K::TextElement(double x, double y, double size, std::string text, const Font& font):
+      | [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/ui.cpp:6[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:9:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+    9 | [01;35m[Kinline[m[K constexpr const double g_MinSteeringAngle = 0.001;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:10:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   10 | [01;35m[Kinline[m[K constexpr const double g_MaxSteeringAngle = 25 * (3.14159 / 180.0);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:11:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   11 | [01;35m[Kinline[m[K constexpr const double g_MaxSpeed = 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:14:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   14 | [01;35m[Kinline[m[K constexpr const double g_ControlSpeedFactor = 1.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:15:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   15 | [01;35m[Kinline[m[K constexpr const double g_ControlSteerFactor = 3.14159 * 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const int g_ScreenWidth = 1920;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:19:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   19 | [01;35m[Kinline[m[K constexpr const int g_ScreenHeight = 1200;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:22:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   22 | [01;35m[Kinline[m[K constexpr const double g_UIScrollFactor = 1.2;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:23:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   23 | [01;35m[Kinline[m[K constexpr const sf::Mouse::Button g_UIDragButton = sf::Mouse::Button::Left;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:26:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   26 | [01;35m[Kinline[m[K constexpr double g_CarWheelL = 747.2 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/../../config.hpp:27:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   27 | [01;35m[Kinline[m[K constexpr double g_CarWheelT = 500.3 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[ 94%] [32m[1mLinking CXX static library libui_lib.a[0m
+[ 94%] Built target ui_lib
+[35m[1mScanning dependencies of target simulator_lib[0m
+[ 95%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/car_state_display.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/car.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/map.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/car.cpp:3[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:9:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+    9 | [01;35m[Kinline[m[K constexpr const double g_MinSteeringAngle = 0.001;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:10:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   10 | [01;35m[Kinline[m[K constexpr const double g_MaxSteeringAngle = 25 * (3.14159 / 180.0);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:11:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   11 | [01;35m[Kinline[m[K constexpr const double g_MaxSpeed = 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:14:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   14 | [01;35m[Kinline[m[K constexpr const double g_ControlSpeedFactor = 1.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:15:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   15 | [01;35m[Kinline[m[K constexpr const double g_ControlSteerFactor = 3.14159 * 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const int g_ScreenWidth = 1920;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:19:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   19 | [01;35m[Kinline[m[K constexpr const int g_ScreenHeight = 1200;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:22:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   22 | [01;35m[Kinline[m[K constexpr const double g_UIScrollFactor = 1.2;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:23:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   23 | [01;35m[Kinline[m[K constexpr const sf::Mouse::Button g_UIDragButton = sf::Mouse::Button::Left;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:26:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   26 | [01;35m[Kinline[m[K constexpr double g_CarWheelL = 747.2 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:27:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   27 | [01;35m[Kinline[m[K constexpr double g_CarWheelT = 500.3 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/car.cpp:[m[K In member function ‘[01m[Kvoid Car::Update(double)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/car.cpp:11:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KrearRadius[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   11 |         double [01;35m[KrearRadius[m[K = frontRadius * std::cos(control_.steer);
+      |                [01;35m[K^~~~~~~~~~[m[K
+[ 97%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/simulator.cpp.o[0m
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:5[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:9:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+    9 | [01;35m[Kinline[m[K constexpr const double g_MinSteeringAngle = 0.001;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:10:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   10 | [01;35m[Kinline[m[K constexpr const double g_MaxSteeringAngle = 25 * (3.14159 / 180.0);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:11:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   11 | [01;35m[Kinline[m[K constexpr const double g_MaxSpeed = 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:14:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   14 | [01;35m[Kinline[m[K constexpr const double g_ControlSpeedFactor = 1.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:15:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   15 | [01;35m[Kinline[m[K constexpr const double g_ControlSteerFactor = 3.14159 * 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const int g_ScreenWidth = 1920;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:19:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   19 | [01;35m[Kinline[m[K constexpr const int g_ScreenHeight = 1200;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:22:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   22 | [01;35m[Kinline[m[K constexpr const double g_UIScrollFactor = 1.2;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:23:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   23 | [01;35m[Kinline[m[K constexpr const sf::Mouse::Button g_UIDragButton = sf::Mouse::Button::Left;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:26:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   26 | [01;35m[Kinline[m[K constexpr double g_CarWheelL = 747.2 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:27:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   27 | [01;35m[Kinline[m[K constexpr double g_CarWheelT = 500.3 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const Track g_TestTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:29:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   29 | [01;35m[Kinline[m[K constexpr const Track g_CompetitionTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:43:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   43 | [01;35m[Kinline[m[K constexpr const Track g_LanekeepingTest = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:53:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   53 | [01;35m[Kinline[m[K constexpr const Track g_OurTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:[m[K In member function ‘[01m[Kvoid Map::HandleEvent(sf::Event)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:67:17:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   67 |             auto[01;35m[K[[m[Kx2, y2] = ConvertToRealCoordinates(event.mouseMove.x, event.mouseMove.y, startcx, startcy);
+      |                 [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:[m[K In member function ‘[01m[Kvoid Map::Render()[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:83:9:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   83 |     auto[01;35m[K[[m[Kx,y] = ConvertToScreenCoordinates(trackPositionX_, trackPositionY_);
+      |         [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:85:9:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   85 |     auto[01;35m[K[[m[Kw,h] = std::tuple<double,double>{
+      |         [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:[m[K In member function ‘[01m[Kstd::tuple<double, double> Map::ConvertScreenToMapTextureCoordinates(double, double)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.cpp:102:9:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  102 |     auto[01;35m[K[[m[Kx2, y2] = ConvertToRealCoordinates(x, y);
+      |         [01;35m[K^[m[K
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:5[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:9:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+    9 | [01;35m[Kinline[m[K constexpr const double g_MinSteeringAngle = 0.001;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:10:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   10 | [01;35m[Kinline[m[K constexpr const double g_MaxSteeringAngle = 25 * (3.14159 / 180.0);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:11:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   11 | [01;35m[Kinline[m[K constexpr const double g_MaxSpeed = 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:14:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   14 | [01;35m[Kinline[m[K constexpr const double g_ControlSpeedFactor = 1.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:15:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   15 | [01;35m[Kinline[m[K constexpr const double g_ControlSteerFactor = 3.14159 * 0.5;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const int g_ScreenWidth = 1920;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:19:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   19 | [01;35m[Kinline[m[K constexpr const int g_ScreenHeight = 1200;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:22:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   22 | [01;35m[Kinline[m[K constexpr const double g_UIScrollFactor = 1.2;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:23:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   23 | [01;35m[Kinline[m[K constexpr const sf::Mouse::Button g_UIDragButton = sf::Mouse::Button::Left;
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:26:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   26 | [01;35m[Kinline[m[K constexpr double g_CarWheelL = 747.2 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/../config.hpp:27:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   27 | [01;35m[Kinline[m[K constexpr double g_CarWheelT = 500.3 * (0.25 / 684.6);
+      | [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/map.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.hpp:6[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:18:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   18 | [01;35m[Kinline[m[K constexpr const Track g_TestTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:29:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   29 | [01;35m[Kinline[m[K constexpr const Track g_CompetitionTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:43:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   43 | [01;35m[Kinline[m[K constexpr const Track g_LanekeepingTest = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/track.hpp:53:1:[m[K [01;35m[Kwarning: [m[Kinline variables are only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+   53 | [01;35m[Kinline[m[K constexpr const Track g_OurTrack = Track{
+      | [01;35m[K^~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:[m[K In member function ‘[01m[Kvoid Simulator::RenderCar(CarStates, CarConstants, bool, sf::Color)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:164:13:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  164 |     for(auto[01;35m[K[[m[Kw_angle, L_factor, x_factor, y_factor] : wheelProperties){
+      |             [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:168:13:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  168 |         auto[01;35m[K[[m[Kx, y] = map_.ConvertToScreenCoordinates(x1, y1);
+      |             [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:184:15:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  184 |     const auto[01;35m[K[[m[Kx, y] = map_.ConvertToScreenCoordinates(states.x, states.y);
+      |               [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:202:17:[m[K [01;35m[Kwarning: [m[Kstructured bindings only available with ‘[01m[K-std=c++17[m[K’ or ‘[01m[K-std=gnu++17[m[K’
+  202 |             auto[01;35m[K[[m[Kcx,cy] = map_.ConvertToScreenCoordinates(coords[0], coords[1]);
+      |                 [01;35m[K^[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:101:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrearRadius[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  101 |     double [01;35m[KrearRadius[m[K;
+      |            [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/simulator/simulator.cpp:102:12:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KangularVelocity[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  102 |     double [01;35m[KangularVelocity[m[K;
+      |            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 98%] [32m[1mLinking CXX static library libsimulator_lib.a[0m
+[ 98%] Built target simulator_lib
+[35m[1mScanning dependencies of target start_dashboard[0m
+[ 99%] [32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconsumed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  101 |             bool [01;35m[Kconsumed[m[K = ui.HandleEvent(event);
+      |                  [01;35m[K^~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable start_dashboard[0m
+[100%] Built target start_dashboard
+-- Install configuration: ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py
+Listing '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg'...
+Compiling '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py'...
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch/start_dashboard.launch.py
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/package_run_dependencies/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/parent_prefix_path/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.bash
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.zsh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/packages/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig-version.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.xml
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-all.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-system.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-window.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-graphics.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-audio.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-network.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/GpuPreference.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/OpenGL.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Ftp.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Http.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Packet.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpSocket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/UdpSocket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/IpAddress.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketHandle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketSelector.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpListener.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Socket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileReader.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundSource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Listener.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Music.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/AlResource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/InputSoundFile.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBuffer.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileWriter.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBufferRecorder.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Sound.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/OutputSoundFile.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundRecorder.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Main.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderStates.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Vertex.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Drawable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Image.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/BlendMode.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Texture.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Text.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexArray.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/ConvexShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/PrimitiveType.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderWindow.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/View.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glyph.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/CircleShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shader.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Color.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Font.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RectangleShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transformable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTexture.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Sprite.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTarget.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transform.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexBuffer.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/InputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocal.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Mutex.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Sleep.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Time.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/FileInputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NativeActivity.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Lock.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Clock.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/MemoryInputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Err.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NonCopyable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Config.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/GlResource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Touch.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Event.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Mouse.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowHandle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowStyle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Window.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Context.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Keyboard.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Joystick.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/VideoMode.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/ContextSettings.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Clipboard.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Cursor.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Sensor.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/license.md
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/readme.md
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigDependencies.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigVersion.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard" to ""

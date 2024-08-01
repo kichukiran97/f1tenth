@@ -1,0 +1,11 @@
+source;share/birds_eye_view/hook/cmake_prefix_path.ps1
+source;share/birds_eye_view/hook/cmake_prefix_path.dsv
+source;share/birds_eye_view/hook/cmake_prefix_path.sh
+source;share/birds_eye_view/hook/pythonpath.ps1
+source;share/birds_eye_view/hook/pythonpath.dsv
+source;share/birds_eye_view/hook/pythonpath.sh
+source;share/birds_eye_view/local_setup.bash
+source;share/birds_eye_view/local_setup.dsv
+source;share/birds_eye_view/local_setup.ps1
+source;share/birds_eye_view/local_setup.sh
+source;share/birds_eye_view/local_setup.zsh

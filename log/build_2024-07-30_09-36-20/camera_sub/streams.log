@@ -1,0 +1,18 @@
+[0.091s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_sub': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_sub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_sub
+[0.203s] CMake Error: The source directory "/home/f1tenth/f1tenth_ws/src/camera_sub" does not appear to contain CMakeLists.txt.
+[0.206s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.215s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_sub' returned '1': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_sub -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_sub
+[0.236s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/catkin/build.py", line 74, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

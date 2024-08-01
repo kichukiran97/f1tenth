@@ -1,0 +1,17 @@
+CMake Error at src/CMakeLists.txt:11 (find_package):
+  By not providing "Findcalibration.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "calibration", but CMake did not find one.
+
+  Could not find a package configuration file provided by "calibration" with
+  any of the following names:
+
+    calibrationConfig.cmake
+    calibration-config.cmake
+
+  Add the installation prefix of "calibration" to CMAKE_PREFIX_PATH or set
+  "calibration_DIR" to a directory containing one of the above files.  If
+  "calibration" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

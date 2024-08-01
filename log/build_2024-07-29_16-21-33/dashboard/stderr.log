@@ -1,0 +1,6 @@
+CMake Error at /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/cmake/Macros.cmake:287 (message):
+  No path given for include dir VORBIS_INCLUDE_DIRS
+Call Stack (most recent call first):
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt:70 (sfml_find_package)
+
+

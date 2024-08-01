@@ -1,0 +1,187 @@
+[0.187s] Invoking command in '/home/f1tenth/f1tenth_ws/build/dashboard': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/dashboard -- -j4 -l4
+[0.702s] [ 13%] Built target sfml-system
+[0.974s] [ 22%] Built target sfml-network
+[1.006s] [ 38%] Built target sfml-audio
+[1.067s] [ 57%] Built target sfml-window
+[1.283s] [ 81%] Built target sfml-graphics
+[1.568s] [ 87%] Built target interface_lib
+[1.767s] [ 94%] Built target ui_lib
+[1.962s] [ 98%] Built target simulator_lib
+[2.049s] [35m[1mScanning dependencies of target start_dashboard[0m
+[2.319s] [ 99%] [32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o[0m
+[14.619s] [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[14.620s] [01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconsumed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[14.620s]   101 |             bool [01;35m[Kconsumed[m[K = ui.HandleEvent(event);
+[14.621s]       |                  [01;35m[K^~~~~~~~[m[K
+[19.358s] [100%] [32m[1mLinking CXX executable start_dashboard[0m
+[21.893s] [100%] Built target start_dashboard
+[22.007s] Invoked command in '/home/f1tenth/f1tenth_ws/build/dashboard' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/dashboard -- -j4 -l4
+[22.373s] Invoking command in '/home/f1tenth/f1tenth_ws/build/dashboard': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/dashboard
+[22.439s] -- Install configuration: ""
+[22.439s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.sh
+[22.440s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.dsv
+[22.440s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg
+[22.441s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py
+[22.731s] Listing '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg'...
+[22.787s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch
+[22.788s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch/start_dashboard.launch.py
+[22.789s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/package_run_dependencies/dashboard
+[22.789s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/parent_prefix_path/dashboard
+[22.791s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.sh
+[22.793s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.dsv
+[22.794s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.sh
+[22.794s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.dsv
+[22.795s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.bash
+[22.795s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.sh
+[22.796s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.zsh
+[22.797s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.dsv
+[22.797s] -- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.dsv
+[22.798s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/packages/dashboard
+[22.798s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig.cmake
+[22.799s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig-version.cmake
+[22.799s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.xml
+[22.805s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-all.pc
+[22.806s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-system.pc
+[22.807s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-window.pc
+[22.808s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-graphics.pc
+[22.817s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-audio.pc
+[22.818s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-network.pc
+[22.819s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include
+[22.821s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML
+[22.822s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network.hpp
+[22.822s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/GpuPreference.hpp
+[22.823s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/OpenGL.hpp
+[22.824s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network
+[22.827s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Ftp.hpp
+[22.829s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Http.hpp
+[22.829s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Packet.hpp
+[22.830s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpSocket.hpp
+[22.830s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/UdpSocket.hpp
+[22.830s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/IpAddress.hpp
+[22.831s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketHandle.hpp
+[22.831s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketSelector.hpp
+[22.832s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpListener.hpp
+[22.832s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Export.hpp
+[22.832s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Socket.hpp
+[22.832s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window.hpp
+[22.833s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio
+[22.833s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileReader.hpp
+[22.833s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundSource.hpp
+[22.834s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Listener.hpp
+[22.834s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.inl
+[22.834s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Music.hpp
+[22.834s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/AlResource.hpp
+[22.835s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/InputSoundFile.hpp
+[22.835s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBuffer.hpp
+[22.835s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileWriter.hpp
+[22.837s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBufferRecorder.hpp
+[22.837s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Sound.hpp
+[22.838s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.hpp
+[22.838s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/OutputSoundFile.hpp
+[22.839s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundStream.hpp
+[22.839s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Export.hpp
+[22.839s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundRecorder.hpp
+[22.840s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Main.hpp
+[22.840s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio.hpp
+[22.841s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics
+[22.842s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderStates.hpp
+[22.842s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Vertex.hpp
+[22.842s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Drawable.hpp
+[22.843s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Image.hpp
+[22.843s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/BlendMode.hpp
+[22.843s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Texture.hpp
+[22.844s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.inl
+[22.844s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Text.hpp
+[22.845s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexArray.hpp
+[22.845s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.hpp
+[22.845s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/ConvexShape.hpp
+[22.846s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/PrimitiveType.hpp
+[22.846s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shape.hpp
+[22.846s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderWindow.hpp
+[22.847s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/View.hpp
+[22.847s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.hpp
+[22.847s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glyph.hpp
+[22.852s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/CircleShape.hpp
+[22.852s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shader.hpp
+[22.853s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Color.hpp
+[22.853s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Font.hpp
+[22.854s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RectangleShape.hpp
+[22.854s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transformable.hpp
+[22.854s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTexture.hpp
+[22.855s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Sprite.hpp
+[22.868s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Export.hpp
+[22.869s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTarget.hpp
+[22.869s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transform.hpp
+[22.869s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexBuffer.hpp
+[22.870s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.inl
+[22.870s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System
+[22.871s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.hpp
+[22.871s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/InputStream.hpp
+[22.871s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocal.hpp
+[22.873s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Mutex.hpp
+[22.873s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.hpp
+[22.878s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Sleep.hpp
+[22.878s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Time.hpp
+[22.878s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.inl
+[22.879s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.inl
+[22.879s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/FileInputStream.hpp
+[22.880s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NativeActivity.hpp
+[22.880s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.hpp
+[22.880s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.hpp
+[22.880s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Lock.hpp
+[22.881s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.hpp
+[22.902s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.hpp
+[22.902s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Clock.hpp
+[22.903s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/MemoryInputStream.hpp
+[22.903s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Err.hpp
+[22.904s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.inl
+[22.904s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.inl
+[22.904s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NonCopyable.hpp
+[22.905s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.inl
+[22.905s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Export.hpp
+[22.905s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.inl
+[22.906s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Config.hpp
+[22.906s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics.hpp
+[22.906s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System.hpp
+[22.906s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window
+[22.909s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/GlResource.hpp
+[22.910s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Touch.hpp
+[22.910s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Event.hpp
+[22.910s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Mouse.hpp
+[22.911s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowHandle.hpp
+[22.911s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowStyle.hpp
+[22.912s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Window.hpp
+[22.912s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Context.hpp
+[22.912s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Keyboard.hpp
+[22.912s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Export.hpp
+[22.913s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Joystick.hpp
+[22.913s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/VideoMode.hpp
+[22.913s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/ContextSettings.hpp
+[22.914s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Clipboard.hpp
+[22.914s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Cursor.hpp
+[22.914s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Sensor.hpp
+[22.914s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/license.md
+[22.915s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/readme.md
+[22.915s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets.cmake
+[22.915s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake
+[22.916s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfig.cmake
+[22.916s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigDependencies.cmake
+[22.917s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigVersion.cmake
+[22.917s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5.1
+[22.917s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5
+[22.918s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so
+[22.918s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1
+[22.918s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5
+[22.918s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so
+[22.919s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1
+[22.919s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5
+[22.920s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so
+[22.922s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1
+[22.923s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5
+[22.923s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so
+[22.924s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1
+[22.924s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5
+[22.924s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so
+[22.940s] -- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard
+[22.978s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard" to ""
+[22.999s] Invoked command in '/home/f1tenth/f1tenth_ws/build/dashboard' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/dashboard

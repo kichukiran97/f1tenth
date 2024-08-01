@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt
+../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+../../build/opencv_tools/opencv_tools.egg-info/zip-safe
+opencv_tools/__init__.py
+resource/opencv_tools
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

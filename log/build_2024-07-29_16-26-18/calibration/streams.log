@@ -1,0 +1,261 @@
+[0.097s] Invoking command in '/home/f1tenth/f1tenth_ws/build/calibration': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/calibration -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/calibration
+[0.455s] -- The C compiler identification is GNU 9.4.0
+[0.807s] -- The CXX compiler identification is GNU 9.4.0
+[0.854s] -- Check for working C compiler: /usr/bin/cc
+[1.259s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.263s] -- Detecting C compiler ABI info
+[1.693s] -- Detecting C compiler ABI info - done
+[1.741s] -- Detecting C compile features
+[1.743s] -- Detecting C compile features - done
+[1.757s] -- Check for working CXX compiler: /usr/bin/c++
+[2.184s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.196s] -- Detecting CXX compiler ABI info
+[2.644s] -- Detecting CXX compiler ABI info - done
+[2.701s] -- Detecting CXX compile features
+[2.703s] -- Detecting CXX compile features - done
+[2.726s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.905s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.238s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.295s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.364s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.063s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.213s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.884s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[6.067s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[6.084s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.905s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[7.548s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[8.603s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[8.776s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[8.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[8.776s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[8.777s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[8.917s] -- Found PythonExtra: .so  
+[9.093s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.097s] -- Added test 'lint_cmake' to check CMake code style
+[9.101s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[9.110s] -- Added test 'xmllint' to check XML markup files
+[9.159s] -- Configuring done
+[9.504s] -- Generating done
+[9.521s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/calibration
+[9.580s] Invoked command in '/home/f1tenth/f1tenth_ws/build/calibration' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/calibration -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/calibration
+[9.587s] Invoking command in '/home/f1tenth/f1tenth_ws/build/calibration': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/calibration -- -j4 -l4
+[9.827s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.844s] [35m[1mScanning dependencies of target calibration__cpp[0m
+[9.930s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[12.139s] [35m[1mScanning dependencies of target calibration__rosidl_generator_c[0m
+[12.256s] [  7%] [32mBuilding C object CMakeFiles/calibration__rosidl_generator_c.dir/rosidl_generator_c/calibration/action/detail/take_image__functions.c.o[0m
+[12.257s] [ 10%] [32mBuilding C object CMakeFiles/calibration__rosidl_generator_c.dir/rosidl_generator_c/calibration/action/detail/do_camera_calibration__functions.c.o[0m
+[12.304s] [ 10%] Built target calibration__cpp
+[12.369s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.395s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.094s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.346s] [ 20%] [32m[1mLinking C shared library libcalibration__rosidl_generator_c.so[0m
+[13.659s] [ 20%] Built target calibration__rosidl_generator_c
+[13.749s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.675s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_cpp[0m
+[14.812s] [ 25%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/calibration/action/detail/take_image__type_support.cpp.o[0m
+[15.123s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_cpp[0m
+[15.138s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_cpp[0m
+[15.227s] [ 28%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/calibration/action/take_image__type_support.cpp.o[0m
+[15.355s] [ 30%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/calibration/action/detail/dds_fastrtps/take_image__type_support.cpp.o[0m
+[15.916s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_c[0m
+[16.049s] [ 33%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/calibration/action/take_image__type_support.cpp.o[0m
+[16.421s] [ 35%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/calibration/action/do_camera_calibration__type_support.cpp.o[0m
+[16.748s] [ 38%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_c.so[0m
+[17.036s] [ 38%] Built target calibration__rosidl_typesupport_c
+[17.134s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[17.288s] [ 43%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/calibration/action/detail/do_camera_calibration__type_support.cpp.o[0m
+[17.633s] [ 46%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/calibration/action/do_camera_calibration__type_support.cpp.o[0m
+[19.005s] [ 48%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/calibration/action/detail/dds_fastrtps/do_camera_calibration__type_support.cpp.o[0m
+[19.801s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_c[0m
+[19.874s] [ 51%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_introspection_cpp.so[0m
+[19.949s] [ 53%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/calibration/action/detail/take_image__type_support.c.o[0m
+[20.159s] [ 56%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_cpp.so[0m
+[20.330s] [ 58%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/calibration/action/detail/do_camera_calibration__type_support.c.o[0m
+[20.331s] [ 58%] Built target calibration__rosidl_typesupport_introspection_cpp
+[20.505s] [ 58%] Built target calibration__rosidl_typesupport_cpp
+[20.653s] [ 61%] [32m[1mLinking C shared library libcalibration__rosidl_typesupport_introspection_c.so[0m
+[20.857s] [ 61%] Built target calibration__rosidl_typesupport_introspection_c
+[21.963s] [ 64%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.371s] [ 64%] Built target calibration__rosidl_typesupport_fastrtps_cpp
+[22.429s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[24.176s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_c[0m
+[24.308s] [ 69%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/calibration/action/detail/take_image__type_support_c.cpp.o[0m
+[24.330s] [ 71%] [32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/calibration/action/detail/do_camera_calibration__type_support_c.cpp.o[0m
+[26.490s] [ 74%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_c.so[0m
+[26.914s] [ 74%] Built target calibration__rosidl_typesupport_fastrtps_c
+[26.967s] [35m[1mScanning dependencies of target calibration[0m
+[27.027s] [ 74%] Built target calibration
+[27.084s] [35m[1mScanning dependencies of target calibration__py[0m
+[27.145s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.257s] [ 76%] Built target calibration__py
+[31.317s] [35m[1mScanning dependencies of target calibration__python[0m
+[31.446s] [ 79%] [32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_take_image_s.c.o[0m
+[31.451s] [ 82%] [32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_do_camera_calibration_s.c.o[0m
+[32.252s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/calibration/libcalibration__python.so[0m
+[32.496s] [ 84%] Built target calibration__python
+[32.562s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_c__pyext[0m
+[32.563s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_c__pyext[0m
+[32.581s] [35m[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_c__pyext[0m
+[32.706s] [ 87%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_c.c.o[0m
+[32.717s] [ 89%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.721s] [ 92%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.465s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[33.540s] [ 97%] [32m[1mLinking CXX shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[33.546s] [100%] [32m[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[33.728s] [100%] Built target calibration__rosidl_typesupport_introspection_c__pyext
+[33.825s] [100%] Built target calibration__rosidl_typesupport_c__pyext
+[33.910s] [100%] Built target calibration__rosidl_typesupport_fastrtps_c__pyext
+[33.986s] Invoked command in '/home/f1tenth/f1tenth_ws/build/calibration' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/calibration -- -j4 -l4
+[34.543s] Invoking command in '/home/f1tenth/f1tenth_ws/build/calibration': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/calibration
+[34.598s] -- Install configuration: ""
+[34.598s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.sh
+[34.600s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.dsv
+[34.601s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg
+[34.602s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/__init__.py
+[34.603s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/chessboard_calibration.py
+[34.604s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/save_image.py
+[34.806s] Listing '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg'...
+[34.806s] Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/__init__.py'...
+[34.807s] Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/chessboard_calibration.py'...
+[34.807s] Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/save_image.py'...
+[34.824s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/rosidl_interfaces/calibration
+[34.824s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.825s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.827s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.828s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.h
+[34.828s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.h
+[34.829s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.h
+[34.829s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.h
+[34.829s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__functions.h
+[34.830s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__functions.c
+[34.831s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__functions.c
+[34.832s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__functions.h
+[34.833s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.h
+[34.834s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.h
+[34.834s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg
+[34.835s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_c__visibility_control.h
+[34.837s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.sh
+[34.837s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.dsv
+[34.839s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_generator_c.so
+[34.842s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_generator_c.so" to ""
+[34.843s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.843s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.844s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.845s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_c.h
+[34.848s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_c.h
+[34.850s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg
+[34.850s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.851s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_c.so
+[34.852s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_c.so" to ""
+[34.852s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.853s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.858s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.859s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+[34.860s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/dds_fastrtps
+[34.860s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_cpp.hpp
+[34.860s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg
+[34.860s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[34.861s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_cpp.so
+[34.861s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_cpp.so" to ""
+[34.862s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.862s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.863s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.863s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_c.h
+[34.863s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_c.h
+[34.864s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.c
+[34.865s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.c
+[34.866s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg
+[34.866s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[34.867s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_c.so
+[34.870s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_c.so" to ""
+[34.870s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_c.so
+[34.873s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_c.so" to ""
+[34.873s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.874s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.874s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.874s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__builder.hpp
+[34.875s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__traits.hpp
+[34.875s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__traits.hpp
+[34.876s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.hpp
+[34.877s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.hpp
+[34.877s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.hpp
+[34.878s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.hpp
+[34.879s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__builder.hpp
+[34.880s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.hpp
+[34.880s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.hpp
+[34.881s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg
+[34.881s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.883s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration
+[34.884s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action
+[34.885s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail
+[34.885s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_cpp.hpp
+[34.885s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_cpp.hpp
+[34.886s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.cpp
+[34.887s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.cpp
+[34.887s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_cpp.so
+[34.892s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_cpp.so" to ""
+[34.893s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_cpp.so
+[34.896s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_cpp.so" to ""
+[34.897s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py
+[35.090s] Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py'...
+[35.103s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action
+[35.103s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_do_camera_calibration.py
+[35.104s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_take_image_s.c
+[35.105s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/__init__.py
+[35.106s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_do_camera_calibration_s.c
+[35.107s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_take_image.py
+[35.109s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[35.112s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.113s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[35.116s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.117s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[35.121s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[35.121s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__python.so
+[35.124s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__python.so" to ""
+[35.129s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.idl
+[35.130s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.idl
+[35.131s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.action
+[35.133s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.action
+[35.139s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/camera_calibration.py
+[35.139s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/imu_calibration.py
+[35.140s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/package_run_dependencies/calibration
+[35.140s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/parent_prefix_path/calibration
+[35.141s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.sh
+[35.142s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.dsv
+[35.143s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.sh
+[35.144s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.dsv
+[35.144s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.bash
+[35.145s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.sh
+[35.146s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.zsh
+[35.147s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.dsv
+[35.148s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.dsv
+[35.149s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/packages/calibration
+[35.150s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport.cmake
+[35.151s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport-noconfig.cmake
+[35.152s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport.cmake
+[35.153s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.154s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport.cmake
+[35.155s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport-noconfig.cmake
+[35.156s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cppExport.cmake
+[35.157s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport.cmake
+[35.157s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.158s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport.cmake
+[35.160s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport-noconfig.cmake
+[35.160s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake-extras.cmake
+[35.161s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.162s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_libraries-extras.cmake
+[35.163s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_targets-extras.cmake
+[35.163s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.164s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.165s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.166s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig.cmake
+[35.167s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig-version.cmake
+[35.168s] -- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.xml
+[35.185s] Invoked command in '/home/f1tenth/f1tenth_ws/build/calibration' returned '0': CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/calibration

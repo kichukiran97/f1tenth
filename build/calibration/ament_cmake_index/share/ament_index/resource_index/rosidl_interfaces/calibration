@@ -1,0 +1,4 @@
+action/DoCameraCalibration.action
+action/DoCameraCalibration.idl
+action/TakeImage.action
+action/TakeImage.idl

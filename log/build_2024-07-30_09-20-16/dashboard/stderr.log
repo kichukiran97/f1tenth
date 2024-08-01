@@ -1,0 +1,4 @@
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconsumed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  101 |             bool [01;35m[Kconsumed[m[K = ui.HandleEvent(event);
+      |                  [01;35m[K^~~~~~~~[m[K

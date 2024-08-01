@@ -1,0 +1,2 @@
+/usr/bin/ar qc libui_lib.a  CMakeFiles/ui_lib.dir/camera_element.cpp.o CMakeFiles/ui_lib.dir/core/button.cpp.o CMakeFiles/ui_lib.dir/core/element.cpp.o CMakeFiles/ui_lib.dir/core/font.cpp.o CMakeFiles/ui_lib.dir/core/slider.cpp.o CMakeFiles/ui_lib.dir/core/text_box.cpp.o CMakeFiles/ui_lib.dir/core/text_element.cpp.o CMakeFiles/ui_lib.dir/core/ui.cpp.o
+/usr/bin/ranlib libui_lib.a

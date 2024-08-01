@@ -1,0 +1,21 @@
+[ 13%] Built target sfml-system
+[ 22%] Built target sfml-network
+[ 38%] Built target sfml-audio
+[ 57%] Built target sfml-window
+[ 81%] Built target sfml-graphics
+[ 87%] Built target interface_lib
+[ 94%] Built target ui_lib
+[ 98%] Built target simulator_lib
+[35m[1mScanning dependencies of target start_dashboard[0m
+[ 99%] [32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o[0m
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:65:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kcamera_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[KcameraSubscriber[m[K’?
+   65 |     ui.AddElement([01;31m[Kcamera_subscriber[m[K);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[KcameraSubscriber[m[K
+[01m[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kconsumed[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  101 |             bool [01;35m[Kconsumed[m[K = ui.HandleEvent(event);
+      |                  [01;35m[K^~~~~~~~[m[K
+make[2]: *** [src/CMakeFiles/start_dashboard.dir/build.make:63: src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:531: src/CMakeFiles/start_dashboard.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

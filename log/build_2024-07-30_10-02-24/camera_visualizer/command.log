@@ -1,0 +1,2 @@
+Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer
+Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '1': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer

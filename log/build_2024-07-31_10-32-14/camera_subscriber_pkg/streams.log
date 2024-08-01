@@ -1,0 +1,26 @@
+[4.544s] Invoking command in '/home/f1tenth/f1tenth_ws/src/camera_subscriber_pkg': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_subscriber_pkg build --build-base /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build install --record /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log --install-scripts $base/lib/camera_subscriber_pkg --single-version-externally-managed install_data
+[6.045s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.046s]   warnings.warn(
+[6.191s] running egg_info
+[6.196s] writing ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/PKG-INFO
+[6.197s] writing dependency_links to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/dependency_links.txt
+[6.199s] writing entry points to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/entry_points.txt
+[6.200s] writing requirements to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/requires.txt
+[6.202s] writing top-level names to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/top_level.txt
+[6.216s] reading manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'
+[6.228s] writing manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'
+[6.229s] running build
+[6.231s] running build_py
+[6.231s] copying camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg
+[6.234s] running install
+[6.241s] running install_lib
+[6.247s] copying /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg
+[6.256s] byte-compiling /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg/camera_subscriber.py to camera_subscriber.cpython-38.pyc
+[6.266s] running install_data
+[6.267s] running install_egg_info
+[6.279s] removing '/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[6.281s] Copying ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg-0.0.0-py3.8.egg-info
+[6.289s] running install_scripts
+[6.400s] Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+[6.404s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log'
+[6.514s] Invoked command in '/home/f1tenth/f1tenth_ws/src/camera_subscriber_pkg' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_subscriber_pkg build --build-base /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build install --record /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log --install-scripts $base/lib/camera_subscriber_pkg --single-version-externally-managed install_data

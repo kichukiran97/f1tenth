@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.001992] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.002651] (-) JobUnselected: {'identifier': 'calibration'}
+[0.003218] (-) JobUnselected: {'identifier': 'camera'}
+[0.003443] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.003689] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.003912] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.004092] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.004249] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.004850] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.005576] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.005705] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.005792] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005868] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.005949] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.006028] (-) JobUnselected: {'identifier': 'vesc'}
+[0.006101] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.006174] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.006260] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.006357] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.006447] (dashboard) JobQueued: {'identifier': 'dashboard', 'dependencies': OrderedDict([('internal_interface', '/home/f1tenth/f1tenth_ws/install/internal_interface'), ('camera', '/home/f1tenth/f1tenth_ws/install/camera'), ('calibration', '/home/f1tenth/f1tenth_ws/install/calibration')])}
+[0.006598] (dashboard) JobStarted: {'identifier': 'dashboard'}
+[0.099235] (-) TimerEvent: {}
+[0.178381] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'cmake'}
+[0.192393] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'build'}
+[0.197507] (dashboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/dashboard', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/dashboard', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2388'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5175'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52300'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '322dc57426434ab6b1191a822e826201'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:677fa234-278d-48de-8525-43e87490a3c2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/dashboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.222163] (-) TimerEvent: {}
+[0.334174] (-) TimerEvent: {}
+[0.448200] (-) TimerEvent: {}
+[0.549342] (-) TimerEvent: {}
+[0.651752] (-) TimerEvent: {}
+[0.753264] (-) TimerEvent: {}
+[0.802203] (dashboard) StdoutLine: {'line': b'[ 13%] Built target sfml-system\n'}
+[0.853511] (-) TimerEvent: {}
+[0.954592] (-) TimerEvent: {}
+[1.031467] (dashboard) StdoutLine: {'line': b'[ 22%] Built target sfml-network\n'}
+[1.055487] (-) TimerEvent: {}
+[1.086530] (dashboard) StdoutLine: {'line': b'[ 38%] Built target sfml-audio\n'}
+[1.113881] (dashboard) StdoutLine: {'line': b'[ 57%] Built target sfml-window\n'}
+[1.156689] (-) TimerEvent: {}
+[1.257737] (-) TimerEvent: {}
+[1.341508] (dashboard) StdoutLine: {'line': b'[ 81%] Built target sfml-graphics\n'}
+[1.360736] (-) TimerEvent: {}
+[1.462948] (-) TimerEvent: {}
+[1.564257] (-) TimerEvent: {}
+[1.644112] (dashboard) StdoutLine: {'line': b'[ 87%] Built target interface_lib\n'}
+[1.664530] (-) TimerEvent: {}
+[1.766128] (-) TimerEvent: {}
+[1.867295] (-) TimerEvent: {}
+[1.889770] (dashboard) StdoutLine: {'line': b'[ 94%] Built target ui_lib\n'}
+[1.967596] (-) TimerEvent: {}
+[2.063084] (dashboard) StdoutLine: {'line': b'[ 98%] Built target simulator_lib\n'}
+[2.067738] (-) TimerEvent: {}
+[2.154397] (dashboard) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target start_dashboard\x1b[0m\n'}
+[2.168004] (-) TimerEvent: {}
+[2.269037] (-) TimerEvent: {}
+[2.369948] (-) TimerEvent: {}
+[2.453605] (dashboard) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o\x1b[0m\n'}
+[2.470214] (-) TimerEvent: {}
+[2.571156] (-) TimerEvent: {}
+[2.673853] (-) TimerEvent: {}
+[2.775221] (-) TimerEvent: {}
+[2.876529] (-) TimerEvent: {}
+[2.978783] (-) TimerEvent: {}
+[3.080763] (-) TimerEvent: {}
+[3.183135] (-) TimerEvent: {}
+[3.285109] (-) TimerEvent: {}
+[3.390106] (-) TimerEvent: {}
+[3.491333] (-) TimerEvent: {}
+[3.592589] (-) TimerEvent: {}
+[3.693585] (-) TimerEvent: {}
+[3.797009] (-) TimerEvent: {}
+[3.900666] (-) TimerEvent: {}
+[4.001682] (-) TimerEvent: {}
+[4.102677] (-) TimerEvent: {}
+[4.203839] (-) TimerEvent: {}
+[4.307759] (-) TimerEvent: {}
+[4.415380] (-) TimerEvent: {}
+[4.519861] (-) TimerEvent: {}
+[4.623945] (-) TimerEvent: {}
+[4.725691] (-) TimerEvent: {}
+[4.826627] (-) TimerEvent: {}
+[4.927643] (-) TimerEvent: {}
+[5.028698] (-) TimerEvent: {}
+[5.129792] (-) TimerEvent: {}
+[5.231078] (-) TimerEvent: {}
+[5.332670] (-) TimerEvent: {}
+[5.434471] (-) TimerEvent: {}
+[5.535612] (-) TimerEvent: {}
+[5.636521] (-) TimerEvent: {}
+[5.738270] (-) TimerEvent: {}
+[5.841016] (-) TimerEvent: {}
+[5.941976] (-) TimerEvent: {}
+[6.043208] (-) TimerEvent: {}
+[6.145223] (-) TimerEvent: {}
+[6.247986] (-) TimerEvent: {}
+[6.349907] (-) TimerEvent: {}
+[6.450770] (-) TimerEvent: {}
+[6.554275] (-) TimerEvent: {}
+[6.655187] (-) TimerEvent: {}
+[6.762956] (-) TimerEvent: {}
+[6.868625] (-) TimerEvent: {}
+[6.969703] (-) TimerEvent: {}
+[7.070600] (-) TimerEvent: {}
+[7.171752] (-) TimerEvent: {}
+[7.273114] (-) TimerEvent: {}
+[7.374120] (-) TimerEvent: {}
+[7.475072] (-) TimerEvent: {}
+[7.576686] (-) TimerEvent: {}
+[7.679872] (-) TimerEvent: {}
+[7.780762] (-) TimerEvent: {}
+[7.882072] (-) TimerEvent: {}
+[7.984107] (-) TimerEvent: {}
+[8.086410] (-) TimerEvent: {}
+[8.189886] (-) TimerEvent: {}
+[8.291221] (-) TimerEvent: {}
+[8.392483] (-) TimerEvent: {}
+[8.493958] (-) TimerEvent: {}
+[8.597647] (-) TimerEvent: {}
+[8.698610] (-) TimerEvent: {}
+[8.799644] (-) TimerEvent: {}
+[8.904130] (-) TimerEvent: {}
+[9.005040] (-) TimerEvent: {}
+[9.105974] (-) TimerEvent: {}
+[9.207088] (-) TimerEvent: {}
+[9.309633] (-) TimerEvent: {}
+[9.412852] (-) TimerEvent: {}
+[9.516007] (-) TimerEvent: {}
+[9.616979] (-) TimerEvent: {}
+[9.717950] (-) TimerEvent: {}
+[9.818941] (-) TimerEvent: {}
+[9.920065] (-) TimerEvent: {}
+[10.021657] (-) TimerEvent: {}
+[10.123089] (-) TimerEvent: {}
+[10.227034] (-) TimerEvent: {}
+[10.328916] (-) TimerEvent: {}
+[10.430487] (-) TimerEvent: {}
+[10.534148] (-) TimerEvent: {}
+[10.635639] (-) TimerEvent: {}
+[10.736530] (-) TimerEvent: {}
+[10.838985] (-) TimerEvent: {}
+[10.940657] (-) TimerEvent: {}
+[11.041602] (-) TimerEvent: {}
+[11.142553] (-) TimerEvent: {}
+[11.243497] (-) TimerEvent: {}
+[11.344785] (-) TimerEvent: {}
+[11.446581] (-) TimerEvent: {}
+[11.547446] (-) TimerEvent: {}
+[11.649636] (-) TimerEvent: {}
+[11.750815] (-) TimerEvent: {}
+[11.852821] (-) TimerEvent: {}
+[11.954857] (-) TimerEvent: {}
+[12.055776] (-) TimerEvent: {}
+[12.158088] (-) TimerEvent: {}
+[12.259107] (-) TimerEvent: {}
+[12.361112] (-) TimerEvent: {}
+[12.463953] (-) TimerEvent: {}
+[12.565594] (-) TimerEvent: {}
+[12.667420] (-) TimerEvent: {}
+[12.768485] (-) TimerEvent: {}
+[12.870631] (-) TimerEvent: {}
+[12.972556] (-) TimerEvent: {}
+[13.075661] (-) TimerEvent: {}
+[13.176868] (-) TimerEvent: {}
+[13.277835] (-) TimerEvent: {}
+[13.379040] (-) TimerEvent: {}
+[13.480907] (-) TimerEvent: {}
+[13.583170] (-) TimerEvent: {}
+[13.685249] (-) TimerEvent: {}
+[13.794636] (-) TimerEvent: {}
+[13.895783] (-) TimerEvent: {}
+[13.996748] (-) TimerEvent: {}
+[14.097664] (-) TimerEvent: {}
+[14.198769] (-) TimerEvent: {}
+[14.302466] (-) TimerEvent: {}
+[14.403717] (-) TimerEvent: {}
+[14.504660] (-) TimerEvent: {}
+[14.605643] (-) TimerEvent: {}
+[14.706587] (-) TimerEvent: {}
+[14.807657] (-) TimerEvent: {}
+[14.889477] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.890830] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:65:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcamera_subscriber\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KcameraSubscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[14.893697] (dashboard) StderrLine: {'line': b'   65 |     ui.AddElement(\x1b[01;31m\x1b[Kcamera_subscriber\x1b[m\x1b[K);\n'}
+[14.894813] (dashboard) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[14.895236] (dashboard) StderrLine: {'line': b'      |                   \x1b[32m\x1b[KcameraSubscriber\x1b[m\x1b[K\n'}
+[14.896596] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kconsumed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[14.897306] (dashboard) StderrLine: {'line': b'  101 |             bool \x1b[01;35m\x1b[Kconsumed\x1b[m\x1b[K = ui.HandleEvent(event);\n'}
+[14.897647] (dashboard) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.907898] (-) TimerEvent: {}
+[15.008916] (-) TimerEvent: {}
+[15.111415] (-) TimerEvent: {}
+[15.212678] (-) TimerEvent: {}
+[15.313876] (-) TimerEvent: {}
+[15.416105] (-) TimerEvent: {}
+[15.518514] (-) TimerEvent: {}
+[15.626062] (-) TimerEvent: {}
+[15.728575] (-) TimerEvent: {}
+[15.829713] (-) TimerEvent: {}
+[15.930864] (-) TimerEvent: {}
+[16.034048] (-) TimerEvent: {}
+[16.136146] (-) TimerEvent: {}
+[16.237120] (-) TimerEvent: {}
+[16.338077] (-) TimerEvent: {}
+[16.439620] (-) TimerEvent: {}
+[16.554420] (-) TimerEvent: {}
+[16.655993] (-) TimerEvent: {}
+[16.758009] (-) TimerEvent: {}
+[16.864398] (-) TimerEvent: {}
+[16.965565] (-) TimerEvent: {}
+[17.066738] (-) TimerEvent: {}
+[17.167781] (-) TimerEvent: {}
+[17.230378] (dashboard) StderrLine: {'line': b'make[2]: *** [src/CMakeFiles/start_dashboard.dir/build.make:63: src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o] Error 1\n'}
+[17.232846] (dashboard) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:531: src/CMakeFiles/start_dashboard.dir/all] Error 2\n'}
+[17.234024] (dashboard) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[17.247735] (dashboard) CommandEnded: {'returncode': 2}
+[17.271331] (-) TimerEvent: {}
+[17.378347] (-) TimerEvent: {}
+[17.479393] (-) TimerEvent: {}
+[17.582679] (-) TimerEvent: {}
+[17.628809] (dashboard) JobEnded: {'identifier': 'dashboard', 'rc': 2}
+[17.641269] (-) EventReactorShutdown: {}

@@ -1,0 +1,63 @@
+[0.083s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4
+[0.460s] [35m[1mScanning dependencies of target camera_subscriber_node[0m
+[0.702s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o[0m
+[13.832s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:[m[K In member function ‘[01m[Kvoid CameraSubscriber::TopicCallback(internal_interface::msg::EncodedImage_<std::allocator<void> >::SharedPtr) const[m[K’:
+[13.833s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:37:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’} and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’})
+[13.834s]    37 |     last_image_ = [01;31m[Kmsg[m[K; // Assign the message to the variable
+[13.834s]       |                   [01;31m[K^~~[m[K
+[13.835s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[13.835s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[13.836s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:4[m[K,
+[13.836s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[13.836s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >][m[K’ <near match>
+[13.837s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[13.837s]       |                   [01;36m[K^~~~~~~~[m[K
+[13.837s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[13.838s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = internal_interface::msg::EncodedImage_<std::allocator<void> >; _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >; std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> = std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >&][m[K’ <near match>
+[13.838s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[13.839s]       |  [01;36m[K^~~~~~~~[m[K
+[13.839s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  passing ‘[01m[Kconst SharedPtr*[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >*[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers
+[13.839s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >][m[K’
+[13.840s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[13.840s]       |  [01;36m[K^~~~~~~~[m[K
+[13.841s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.842s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:37:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::auto_ptr<_Up>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[13.843s]    37 |     last_image_ = [01;36m[Kmsg[m[K; // Assign the message to the variable
+[13.844s]       |                   [01;36m[K^~~[m[K
+[13.844s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[13.844s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[13.845s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:4[m[K,
+[13.845s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[13.846s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >][m[K’ <near match>
+[13.846s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[13.846s]       |       [01;36m[K^~~~~~~~[m[K
+[13.847s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[13.847s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:37:19:[m[K [01;31m[Kerror: [m[Kcannot bind rvalue reference of type ‘[01m[Kstd::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >&&[m[K’ to lvalue of type ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’}
+[13.847s]    37 |     last_image_ = [01;31m[Kmsg[m[K; // Assign the message to the variable
+[13.847s]       |                   [01;31m[K^~~[m[K
+[13.848s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[13.848s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[13.848s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:4[m[K,
+[13.848s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[13.849s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >][m[K’
+[13.852s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[13.854s]       |  [01;36m[K^~~~~~~~[m[K
+[13.855s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.855s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:37:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[13.856s]    37 |     last_image_ = [01;36m[Kmsg[m[K; // Assign the message to the variable
+[13.856s]       |                   [01;36m[K^~~[m[K
+[13.856s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[13.857s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[13.857s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:4[m[K,
+[13.857s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[13.858s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = internal_interface::msg::EncodedImage_<std::allocator<void> >][m[K’
+[13.859s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[13.859s]       |  [01;36m[K^~~~~~~~[m[K
+[13.860s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[13.860s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:37:19:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<internal_interface::msg::EncodedImage_<std::allocator<void> > >[m[K’} have incompatible cv-qualifiers
+[13.860s]    37 |     last_image_ = [01;36m[Kmsg[m[K; // Assign the message to the variable
+[13.861s]       |                   [01;36m[K^~~[m[K
+[23.718s] make[2]: *** [CMakeFiles/camera_subscriber_node.dir/build.make:63: CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o] Error 1
+[23.722s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_subscriber_node.dir/all] Error 2
+[23.723s] make: *** [Makefile:141: all] Error 2
+[23.749s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '2': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4

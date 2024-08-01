@@ -1,0 +1,29 @@
+running egg_info
+creating ../../build/camera_sub/camera_sub.egg-info
+writing ../../build/camera_sub/camera_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_sub/camera_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_sub/camera_sub.egg-info/entry_points.txt
+writing requirements to ../../build/camera_sub/camera_sub.egg-info/requires.txt
+writing top-level names to ../../build/camera_sub/camera_sub.egg-info/top_level.txt
+writing manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_sub/camera_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/f1tenth/f1tenth_ws/build/camera_sub/build
+creating /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib
+creating /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib/camera_sub
+copying camera_sub/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib/camera_sub
+copying camera_sub/__init__.py -> /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib/camera_sub
+running install
+running install_lib
+creating /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub
+copying /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib/camera_sub/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub
+copying /home/f1tenth/f1tenth_ws/build/camera_sub/build/lib/camera_sub/__init__.py -> /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub
+byte-compiling /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub/camera_subscriber.py to camera_subscriber.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub/__init__.py to __init__.cpython-38.pyc
+running install_egg_info
+Copying ../../build/camera_sub/camera_sub.egg-info to /home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages/camera_sub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_sub/lib/camera_sub
+writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_sub/install.log'

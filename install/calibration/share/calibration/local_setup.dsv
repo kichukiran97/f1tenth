@@ -1,0 +1,4 @@
+source;share/calibration/environment/ament_prefix_path.sh
+source;share/calibration/environment/library_path.sh
+source;share/calibration/environment/path.sh
+source;share/calibration/environment/pythonpath.sh

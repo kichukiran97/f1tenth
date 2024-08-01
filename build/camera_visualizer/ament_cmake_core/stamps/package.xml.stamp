@@ -1,0 +1,13 @@
+<package format="3">
+  <name>camera_visualizer</name>
+  <version>0.0.0</version>
+  <description>Package for visualizing camera images using OpenCV</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache 2.0</license>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>opencv</depend> <!-- Use 'opencv' if that's how it's listed in your system/package manager -->
+
+</package>
+

@@ -1,0 +1,23 @@
+[0.204s] Invoking command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/waypoint_generator -- -j4 -l4
+[0.831s] [100%] Built target waypoint_generator
+[0.942s] Invoked command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/waypoint_generator -- -j4 -l4
+[1.225s] Invoking command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/waypoint_generator
+[1.350s] -- Install configuration: ""
+[1.383s] -- Execute custom install script
+[1.384s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator
+[1.384s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator
+[1.385s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator
+[1.395s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh
+[1.398s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv
+[1.412s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh
+[1.414s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv
+[1.419s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash
+[1.425s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh
+[1.426s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh
+[1.436s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv
+[1.439s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv
+[1.514s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator
+[1.529s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake
+[1.538s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake
+[1.542s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml
+[1.556s] Invoked command in '/home/f1tenth/f1tenth_ws/build/waypoint_generator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/waypoint_generator

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from internal_interface/msg/WheelEncoders.msg
+// generated code does not contain a copyright notice
+
+
+module internal_interface {
+  module msg {
+    struct WheelEncoders {
+      int64 left_wheel_count;
+
+      int64 right_wheel_count;
+    };
+  };
+};

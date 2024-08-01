@@ -1,0 +1,32 @@
+{
+  "package_name": "internal_interface",
+  "non_idl_tuples": [
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/GoalState.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/LocalizedObject.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Object.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/StopSignal.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/CarState.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Node.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Path.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/LocalizedObjects.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/DetectedLanes.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/RawBattery.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/ControlInput.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/EncodedImage.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/ProximityStatus.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/ManueverPart.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/RawDistanceSensor.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/WheelEncoders.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/ManueverDescription.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/RealControlInput.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/RawImu.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Objects.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/RawGps.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/LookAheadPoint.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/GpsNode.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/GpsCurve.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Semaphore.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/Intersection.msg",
+    "/home/f1tenth/f1tenth_ws/src/internal_interface:msg/PurePursuitParams.msg"
+  ]
+}

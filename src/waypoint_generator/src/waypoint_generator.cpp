@@ -11,9 +11,9 @@
 #include "rclcpp/rclcpp.hpp"
 
 WaypointGenerator::WaypointGenerator() : Node("waypoint_generator_node") {
-    this->declare_parameter("odom_topic", "/ego_racecar/odom");
+    this->declare_parameter("odom_topic", "/pf/pose/odom");
     this->declare_parameter("min_distance", 0.05);
-    this->declare_parameter("save_path", "/sim_ws/src/waypoint_generator/src/waypoints_odom.csv");
+    this->declare_parameter("save_path", "waypoints_odom.csv");
 
     odom_topic = this->get_parameter("odom_topic").as_string();
     min_distance = this->get_parameter("min_distance").as_double();

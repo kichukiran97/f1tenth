@@ -1,0 +1,41 @@
+[3.610s] Invoking command in '/home/f1tenth/f1tenth_ws/src/opencv_tools': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/f1tenth/f1tenth_ws/build/opencv_tools/build install --record /home/f1tenth/f1tenth_ws/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[4.803s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.803s]   warnings.warn(
+[4.922s] running egg_info
+[4.924s] creating ../../build/opencv_tools/opencv_tools.egg-info
+[4.925s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[4.927s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[4.933s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[4.939s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[4.939s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[4.948s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[4.955s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[4.958s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[4.959s] running build
+[4.960s] running build_py
+[4.960s] creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build
+[4.961s] creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib
+[4.961s] creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+[4.962s] copying opencv_tools/img_publisher.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+[4.962s] copying opencv_tools/__init__.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+[4.962s] copying opencv_tools/img_subscriber.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+[4.963s] running install
+[4.966s] running install_lib
+[4.977s] creating /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+[4.978s] copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/img_publisher.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+[4.980s] copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+[4.982s] copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/img_subscriber.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+[4.990s] byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/img_publisher.py to img_publisher.cpython-38.pyc
+[4.996s] byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/__init__.py to __init__.cpython-38.pyc
+[4.999s] byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/img_subscriber.py to img_subscriber.cpython-38.pyc
+[5.002s] running install_data
+[5.003s] creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index
+[5.004s] creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index
+[5.004s] creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[5.005s] copying resource/opencv_tools -> /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index/packages
+[5.005s] copying package.xml -> /home/f1tenth/f1tenth_ws/install/opencv_tools/share/opencv_tools
+[5.006s] running install_egg_info
+[5.014s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info
+[5.018s] running install_scripts
+[5.111s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/opencv_tools/install.log'
+[5.203s] Invoked command in '/home/f1tenth/f1tenth_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/f1tenth/f1tenth_ws/build/opencv_tools/build install --record /home/f1tenth/f1tenth_ws/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data

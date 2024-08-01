@@ -1,0 +1,641 @@
+[0.000000] (-) TimerEvent: {}
+[0.001422] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.002071] (-) JobUnselected: {'identifier': 'camera'}
+[0.002618] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.002861] (-) JobUnselected: {'identifier': 'dashboard'}
+[0.003073] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.003276] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.003472] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.003638] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.003797] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.003957] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.004161] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.004318] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004469] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.004621] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.004772] (-) JobUnselected: {'identifier': 'vesc'}
+[0.004946] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005044] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.005202] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.005310] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.005416] (calibration) JobQueued: {'identifier': 'calibration', 'dependencies': OrderedDict([('internal_interface', '/home/f1tenth/f1tenth_ws/install/internal_interface'), ('camera', '/home/f1tenth/f1tenth_ws/install/camera')])}
+[0.005568] (calibration) JobStarted: {'identifier': 'calibration'}
+[0.094680] (calibration) JobProgress: {'identifier': 'calibration', 'progress': 'cmake'}
+[0.097767] (calibration) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/f1tenth_ws/src/calibration', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/calibration'], 'cwd': '/home/f1tenth/f1tenth_ws/build/calibration', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2330'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1691'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52299'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2501,unix/ubuntu:/tmp/.ICE-unix/2501'), ('INVOCATION_ID', '2752c9a9fcc54ab59902a51bcb536aa8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d11c728c_52de_4d80_b09d_4e447e21831c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/calibration'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.104828] (-) TimerEvent: {}
+[0.206173] (-) TimerEvent: {}
+[0.308562] (-) TimerEvent: {}
+[0.409750] (-) TimerEvent: {}
+[0.459587] (calibration) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.511691] (-) TimerEvent: {}
+[0.612782] (-) TimerEvent: {}
+[0.713876] (-) TimerEvent: {}
+[0.811678] (calibration) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.813966] (-) TimerEvent: {}
+[0.857940] (calibration) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.914266] (-) TimerEvent: {}
+[1.015408] (-) TimerEvent: {}
+[1.116451] (-) TimerEvent: {}
+[1.217540] (-) TimerEvent: {}
+[1.263472] (calibration) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.267995] (calibration) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.317758] (-) TimerEvent: {}
+[1.419003] (-) TimerEvent: {}
+[1.523068] (-) TimerEvent: {}
+[1.624821] (-) TimerEvent: {}
+[1.698056] (calibration) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.725046] (-) TimerEvent: {}
+[1.746565] (calibration) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.748011] (calibration) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.762019] (calibration) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.825247] (-) TimerEvent: {}
+[1.926232] (-) TimerEvent: {}
+[2.027819] (-) TimerEvent: {}
+[2.128882] (-) TimerEvent: {}
+[2.188915] (calibration) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.200636] (calibration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.229260] (-) TimerEvent: {}
+[2.331235] (-) TimerEvent: {}
+[2.432383] (-) TimerEvent: {}
+[2.533795] (-) TimerEvent: {}
+[2.635093] (-) TimerEvent: {}
+[2.649496] (calibration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.706003] (calibration) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.707873] (calibration) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.730533] (calibration) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.737751] (-) TimerEvent: {}
+[2.839253] (-) TimerEvent: {}
+[2.909021] (calibration) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.909874] (calibration) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.939412] (-) TimerEvent: {}
+[3.040292] (-) TimerEvent: {}
+[3.141199] (-) TimerEvent: {}
+[3.242097] (-) TimerEvent: {}
+[3.343008] (-) TimerEvent: {}
+[3.444380] (-) TimerEvent: {}
+[3.545898] (-) TimerEvent: {}
+[3.646868] (-) TimerEvent: {}
+[3.748468] (-) TimerEvent: {}
+[3.849563] (-) TimerEvent: {}
+[3.950547] (-) TimerEvent: {}
+[4.051598] (-) TimerEvent: {}
+[4.153028] (-) TimerEvent: {}
+[4.242576] (calibration) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.253205] (-) TimerEvent: {}
+[4.300568] (calibration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.353455] (-) TimerEvent: {}
+[4.368170] (calibration) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[4.453707] (-) TimerEvent: {}
+[4.554726] (-) TimerEvent: {}
+[4.655700] (-) TimerEvent: {}
+[4.756991] (-) TimerEvent: {}
+[4.858157] (-) TimerEvent: {}
+[4.959148] (-) TimerEvent: {}
+[5.062290] (-) TimerEvent: {}
+[5.067371] (calibration) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[5.162514] (-) TimerEvent: {}
+[5.218158] (calibration) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.262757] (-) TimerEvent: {}
+[5.363826] (-) TimerEvent: {}
+[5.465796] (-) TimerEvent: {}
+[5.566690] (-) TimerEvent: {}
+[5.667615] (-) TimerEvent: {}
+[5.721137] (calibration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.767844] (-) TimerEvent: {}
+[5.868855] (-) TimerEvent: {}
+[5.888481] (calibration) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[5.969108] (-) TimerEvent: {}
+[6.070211] (-) TimerEvent: {}
+[6.071956] (calibration) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[6.089251] (calibration) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.170436] (-) TimerEvent: {}
+[6.271437] (-) TimerEvent: {}
+[6.372581] (-) TimerEvent: {}
+[6.473514] (-) TimerEvent: {}
+[6.574501] (-) TimerEvent: {}
+[6.675380] (-) TimerEvent: {}
+[6.780664] (-) TimerEvent: {}
+[6.881942] (-) TimerEvent: {}
+[6.910217] (calibration) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.982142] (-) TimerEvent: {}
+[7.082977] (-) TimerEvent: {}
+[7.184468] (-) TimerEvent: {}
+[7.285481] (-) TimerEvent: {}
+[7.386488] (-) TimerEvent: {}
+[7.487459] (-) TimerEvent: {}
+[7.552968] (calibration) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[7.588377] (-) TimerEvent: {}
+[7.690933] (-) TimerEvent: {}
+[7.792304] (-) TimerEvent: {}
+[7.894600] (-) TimerEvent: {}
+[7.996784] (-) TimerEvent: {}
+[8.098091] (-) TimerEvent: {}
+[8.199463] (-) TimerEvent: {}
+[8.296279] (calibration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.299719] (-) TimerEvent: {}
+[8.401079] (-) TimerEvent: {}
+[8.438078] (calibration) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.501260] (-) TimerEvent: {}
+[8.586833] (calibration) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.601443] (-) TimerEvent: {}
+[8.607817] (calibration) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[8.701617] (-) TimerEvent: {}
+[8.780340] (calibration) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[8.781355] (calibration) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[8.781748] (calibration) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[8.782036] (calibration) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[8.801966] (-) TimerEvent: {}
+[8.903992] (-) TimerEvent: {}
+[8.921630] (calibration) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.004221] (-) TimerEvent: {}
+[9.097864] (calibration) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[9.102538] (calibration) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[9.104312] (-) TimerEvent: {}
+[9.106682] (calibration) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[9.115226] (calibration) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[9.164465] (calibration) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.205368] (-) TimerEvent: {}
+[9.307423] (-) TimerEvent: {}
+[9.408763] (-) TimerEvent: {}
+[9.509154] (calibration) StdoutLine: {'line': b'-- Generating done\n'}
+[9.510139] (-) TimerEvent: {}
+[9.526590] (calibration) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/calibration\n'}
+[9.575663] (calibration) CommandEnded: {'returncode': 0}
+[9.588690] (calibration) JobProgress: {'identifier': 'calibration', 'progress': 'build'}
+[9.590799] (calibration) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/calibration', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/calibration', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2330'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1691'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52299'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2501,unix/ubuntu:/tmp/.ICE-unix/2501'), ('INVOCATION_ID', '2752c9a9fcc54ab59902a51bcb536aa8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d11c728c_52de_4d80_b09d_4e447e21831c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/calibration'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[9.610496] (-) TimerEvent: {}
+[9.712351] (-) TimerEvent: {}
+[9.813756] (-) TimerEvent: {}
+[9.831300] (calibration) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[9.848640] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__cpp\x1b[0m\n'}
+[9.914480] (-) TimerEvent: {}
+[9.934481] (calibration) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.014805] (-) TimerEvent: {}
+[10.115686] (-) TimerEvent: {}
+[10.216794] (-) TimerEvent: {}
+[10.317691] (-) TimerEvent: {}
+[10.420351] (-) TimerEvent: {}
+[10.521309] (-) TimerEvent: {}
+[10.622670] (-) TimerEvent: {}
+[10.724022] (-) TimerEvent: {}
+[10.825414] (-) TimerEvent: {}
+[10.926321] (-) TimerEvent: {}
+[11.027369] (-) TimerEvent: {}
+[11.128911] (-) TimerEvent: {}
+[11.230376] (-) TimerEvent: {}
+[11.331687] (-) TimerEvent: {}
+[11.433676] (-) TimerEvent: {}
+[11.539593] (-) TimerEvent: {}
+[11.640937] (-) TimerEvent: {}
+[11.741841] (-) TimerEvent: {}
+[11.842662] (-) TimerEvent: {}
+[11.943826] (-) TimerEvent: {}
+[12.046190] (-) TimerEvent: {}
+[12.144309] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_generator_c\x1b[0m\n'}
+[12.146371] (-) TimerEvent: {}
+[12.247686] (-) TimerEvent: {}
+[12.261423] (calibration) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_generator_c.dir/rosidl_generator_c/calibration/action/detail/take_image__functions.c.o\x1b[0m\n'}
+[12.262562] (calibration) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_generator_c.dir/rosidl_generator_c/calibration/action/detail/do_camera_calibration__functions.c.o\x1b[0m\n'}
+[12.308391] (calibration) StdoutLine: {'line': b'[ 10%] Built target calibration__cpp\n'}
+[12.347933] (-) TimerEvent: {}
+[12.374345] (calibration) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.399734] (calibration) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.448180] (-) TimerEvent: {}
+[12.549377] (-) TimerEvent: {}
+[12.650307] (-) TimerEvent: {}
+[12.751256] (-) TimerEvent: {}
+[12.852547] (-) TimerEvent: {}
+[12.953478] (-) TimerEvent: {}
+[13.056022] (-) TimerEvent: {}
+[13.099372] (calibration) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.156272] (-) TimerEvent: {}
+[13.257251] (-) TimerEvent: {}
+[13.351287] (calibration) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcalibration__rosidl_generator_c.so\x1b[0m\n'}
+[13.357453] (-) TimerEvent: {}
+[13.459274] (-) TimerEvent: {}
+[13.564597] (-) TimerEvent: {}
+[13.664018] (calibration) StdoutLine: {'line': b'[ 20%] Built target calibration__rosidl_generator_c\n'}
+[13.664674] (-) TimerEvent: {}
+[13.754177] (calibration) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.764903] (-) TimerEvent: {}
+[13.865842] (-) TimerEvent: {}
+[13.966758] (-) TimerEvent: {}
+[14.067566] (-) TimerEvent: {}
+[14.169549] (-) TimerEvent: {}
+[14.270363] (-) TimerEvent: {}
+[14.371198] (-) TimerEvent: {}
+[14.472022] (-) TimerEvent: {}
+[14.574014] (-) TimerEvent: {}
+[14.674905] (-) TimerEvent: {}
+[14.679592] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.775111] (-) TimerEvent: {}
+[14.816912] (calibration) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/calibration/action/detail/take_image__type_support.cpp.o\x1b[0m\n'}
+[14.875600] (-) TimerEvent: {}
+[14.976605] (-) TimerEvent: {}
+[15.078604] (-) TimerEvent: {}
+[15.128192] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_cpp\x1b[0m\n'}
+[15.143549] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[15.178809] (-) TimerEvent: {}
+[15.232022] (calibration) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/calibration/action/take_image__type_support.cpp.o\x1b[0m\n'}
+[15.279035] (-) TimerEvent: {}
+[15.359929] (calibration) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/calibration/action/detail/dds_fastrtps/take_image__type_support.cpp.o\x1b[0m\n'}
+[15.379267] (-) TimerEvent: {}
+[15.480205] (-) TimerEvent: {}
+[15.581104] (-) TimerEvent: {}
+[15.682018] (-) TimerEvent: {}
+[15.783339] (-) TimerEvent: {}
+[15.884373] (-) TimerEvent: {}
+[15.920951] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_c\x1b[0m\n'}
+[15.984629] (-) TimerEvent: {}
+[16.053843] (calibration) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/calibration/action/take_image__type_support.cpp.o\x1b[0m\n'}
+[16.084879] (-) TimerEvent: {}
+[16.186398] (-) TimerEvent: {}
+[16.288098] (-) TimerEvent: {}
+[16.390944] (-) TimerEvent: {}
+[16.425834] (calibration) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_c.dir/rosidl_typesupport_c/calibration/action/do_camera_calibration__type_support.cpp.o\x1b[0m\n'}
+[16.491228] (-) TimerEvent: {}
+[16.592911] (-) TimerEvent: {}
+[16.694920] (-) TimerEvent: {}
+[16.752535] (calibration) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libcalibration__rosidl_typesupport_c.so\x1b[0m\n'}
+[16.795209] (-) TimerEvent: {}
+[16.896878] (-) TimerEvent: {}
+[16.998414] (-) TimerEvent: {}
+[17.039771] (calibration) StdoutLine: {'line': b'[ 38%] Built target calibration__rosidl_typesupport_c\n'}
+[17.098682] (-) TimerEvent: {}
+[17.138630] (calibration) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[17.199004] (-) TimerEvent: {}
+[17.292931] (calibration) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/calibration/action/detail/do_camera_calibration__type_support.cpp.o\x1b[0m\n'}
+[17.299273] (-) TimerEvent: {}
+[17.400897] (-) TimerEvent: {}
+[17.502276] (-) TimerEvent: {}
+[17.603635] (-) TimerEvent: {}
+[17.637582] (calibration) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/calibration/action/do_camera_calibration__type_support.cpp.o\x1b[0m\n'}
+[17.703959] (-) TimerEvent: {}
+[17.806015] (-) TimerEvent: {}
+[17.907587] (-) TimerEvent: {}
+[18.009241] (-) TimerEvent: {}
+[18.110777] (-) TimerEvent: {}
+[18.212610] (-) TimerEvent: {}
+[18.314732] (-) TimerEvent: {}
+[18.416358] (-) TimerEvent: {}
+[18.518575] (-) TimerEvent: {}
+[18.620559] (-) TimerEvent: {}
+[18.721992] (-) TimerEvent: {}
+[18.824643] (-) TimerEvent: {}
+[18.927238] (-) TimerEvent: {}
+[19.010073] (calibration) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/calibration/action/detail/dds_fastrtps/do_camera_calibration__type_support.cpp.o\x1b[0m\n'}
+[19.027483] (-) TimerEvent: {}
+[19.130073] (-) TimerEvent: {}
+[19.232241] (-) TimerEvent: {}
+[19.334181] (-) TimerEvent: {}
+[19.435644] (-) TimerEvent: {}
+[19.537150] (-) TimerEvent: {}
+[19.638709] (-) TimerEvent: {}
+[19.740288] (-) TimerEvent: {}
+[19.806006] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[19.840556] (-) TimerEvent: {}
+[19.879010] (calibration) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libcalibration__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.940806] (-) TimerEvent: {}
+[19.953670] (calibration) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/calibration/action/detail/take_image__type_support.c.o\x1b[0m\n'}
+[20.041313] (-) TimerEvent: {}
+[20.145701] (-) TimerEvent: {}
+[20.163721] (calibration) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libcalibration__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[20.245980] (-) TimerEvent: {}
+[20.335331] (calibration) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/calibration/action/detail/do_camera_calibration__type_support.c.o\x1b[0m\n'}
+[20.336674] (calibration) StdoutLine: {'line': b'[ 58%] Built target calibration__rosidl_typesupport_introspection_cpp\n'}
+[20.346431] (-) TimerEvent: {}
+[20.447824] (-) TimerEvent: {}
+[20.510575] (calibration) StdoutLine: {'line': b'[ 58%] Built target calibration__rosidl_typesupport_cpp\n'}
+[20.548228] (-) TimerEvent: {}
+[20.649202] (-) TimerEvent: {}
+[20.658603] (calibration) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libcalibration__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[20.749550] (-) TimerEvent: {}
+[20.852662] (-) TimerEvent: {}
+[20.862301] (calibration) StdoutLine: {'line': b'[ 61%] Built target calibration__rosidl_typesupport_introspection_c\n'}
+[20.952901] (-) TimerEvent: {}
+[21.054012] (-) TimerEvent: {}
+[21.158281] (-) TimerEvent: {}
+[21.260887] (-) TimerEvent: {}
+[21.363028] (-) TimerEvent: {}
+[21.464971] (-) TimerEvent: {}
+[21.566017] (-) TimerEvent: {}
+[21.667528] (-) TimerEvent: {}
+[21.771023] (-) TimerEvent: {}
+[21.872594] (-) TimerEvent: {}
+[21.968311] (calibration) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[21.972823] (-) TimerEvent: {}
+[22.074049] (-) TimerEvent: {}
+[22.175005] (-) TimerEvent: {}
+[22.275984] (-) TimerEvent: {}
+[22.375650] (calibration) StdoutLine: {'line': b'[ 64%] Built target calibration__rosidl_typesupport_fastrtps_cpp\n'}
+[22.376438] (-) TimerEvent: {}
+[22.434279] (calibration) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.476672] (-) TimerEvent: {}
+[22.578861] (-) TimerEvent: {}
+[22.680278] (-) TimerEvent: {}
+[22.782974] (-) TimerEvent: {}
+[22.883816] (-) TimerEvent: {}
+[22.985995] (-) TimerEvent: {}
+[23.087569] (-) TimerEvent: {}
+[23.190883] (-) TimerEvent: {}
+[23.293326] (-) TimerEvent: {}
+[23.394432] (-) TimerEvent: {}
+[23.495910] (-) TimerEvent: {}
+[23.597395] (-) TimerEvent: {}
+[23.698783] (-) TimerEvent: {}
+[23.800169] (-) TimerEvent: {}
+[23.901086] (-) TimerEvent: {}
+[24.002026] (-) TimerEvent: {}
+[24.103091] (-) TimerEvent: {}
+[24.180564] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[24.203388] (-) TimerEvent: {}
+[24.304649] (-) TimerEvent: {}
+[24.311160] (calibration) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/calibration/action/detail/take_image__type_support_c.cpp.o\x1b[0m\n'}
+[24.334794] (calibration) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/calibration/action/detail/do_camera_calibration__type_support_c.cpp.o\x1b[0m\n'}
+[24.404897] (-) TimerEvent: {}
+[24.506415] (-) TimerEvent: {}
+[24.607955] (-) TimerEvent: {}
+[24.712159] (-) TimerEvent: {}
+[24.814137] (-) TimerEvent: {}
+[24.916400] (-) TimerEvent: {}
+[25.018075] (-) TimerEvent: {}
+[25.119514] (-) TimerEvent: {}
+[25.221347] (-) TimerEvent: {}
+[25.324831] (-) TimerEvent: {}
+[25.428379] (-) TimerEvent: {}
+[25.530239] (-) TimerEvent: {}
+[25.632875] (-) TimerEvent: {}
+[25.733986] (-) TimerEvent: {}
+[25.835226] (-) TimerEvent: {}
+[25.938270] (-) TimerEvent: {}
+[26.039340] (-) TimerEvent: {}
+[26.140811] (-) TimerEvent: {}
+[26.242310] (-) TimerEvent: {}
+[26.343297] (-) TimerEvent: {}
+[26.444520] (-) TimerEvent: {}
+[26.495323] (calibration) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[26.544711] (-) TimerEvent: {}
+[26.645671] (-) TimerEvent: {}
+[26.746621] (-) TimerEvent: {}
+[26.847615] (-) TimerEvent: {}
+[26.918853] (calibration) StdoutLine: {'line': b'[ 74%] Built target calibration__rosidl_typesupport_fastrtps_c\n'}
+[26.947839] (-) TimerEvent: {}
+[26.972024] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration\x1b[0m\n'}
+[27.032399] (calibration) StdoutLine: {'line': b'[ 74%] Built target calibration\n'}
+[27.048230] (-) TimerEvent: {}
+[27.088965] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__py\x1b[0m\n'}
+[27.148489] (-) TimerEvent: {}
+[27.150383] (calibration) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[27.248699] (-) TimerEvent: {}
+[27.349596] (-) TimerEvent: {}
+[27.450510] (-) TimerEvent: {}
+[27.551412] (-) TimerEvent: {}
+[27.652319] (-) TimerEvent: {}
+[27.753308] (-) TimerEvent: {}
+[27.854481] (-) TimerEvent: {}
+[27.955931] (-) TimerEvent: {}
+[28.057425] (-) TimerEvent: {}
+[28.158304] (-) TimerEvent: {}
+[28.259247] (-) TimerEvent: {}
+[28.360239] (-) TimerEvent: {}
+[28.461189] (-) TimerEvent: {}
+[28.562157] (-) TimerEvent: {}
+[28.663812] (-) TimerEvent: {}
+[28.765828] (-) TimerEvent: {}
+[28.873672] (-) TimerEvent: {}
+[28.975375] (-) TimerEvent: {}
+[29.076698] (-) TimerEvent: {}
+[29.177805] (-) TimerEvent: {}
+[29.280727] (-) TimerEvent: {}
+[29.382158] (-) TimerEvent: {}
+[29.483277] (-) TimerEvent: {}
+[29.584234] (-) TimerEvent: {}
+[29.685213] (-) TimerEvent: {}
+[29.788406] (-) TimerEvent: {}
+[29.893173] (-) TimerEvent: {}
+[29.995155] (-) TimerEvent: {}
+[30.097850] (-) TimerEvent: {}
+[30.198727] (-) TimerEvent: {}
+[30.299658] (-) TimerEvent: {}
+[30.401038] (-) TimerEvent: {}
+[30.502425] (-) TimerEvent: {}
+[30.603305] (-) TimerEvent: {}
+[30.704262] (-) TimerEvent: {}
+[30.805110] (-) TimerEvent: {}
+[30.906045] (-) TimerEvent: {}
+[31.009885] (-) TimerEvent: {}
+[31.117288] (-) TimerEvent: {}
+[31.220444] (-) TimerEvent: {}
+[31.262345] (calibration) StdoutLine: {'line': b'[ 76%] Built target calibration__py\n'}
+[31.319195] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__python\x1b[0m\n'}
+[31.324845] (-) TimerEvent: {}
+[31.428892] (-) TimerEvent: {}
+[31.451149] (calibration) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_take_image_s.c.o\x1b[0m\n'}
+[31.455545] (calibration) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_do_camera_calibration_s.c.o\x1b[0m\n'}
+[31.529210] (-) TimerEvent: {}
+[31.630551] (-) TimerEvent: {}
+[31.731980] (-) TimerEvent: {}
+[31.833335] (-) TimerEvent: {}
+[31.936281] (-) TimerEvent: {}
+[32.037369] (-) TimerEvent: {}
+[32.138904] (-) TimerEvent: {}
+[32.240665] (-) TimerEvent: {}
+[32.256973] (calibration) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/calibration/libcalibration__python.so\x1b[0m\n'}
+[32.340905] (-) TimerEvent: {}
+[32.441972] (-) TimerEvent: {}
+[32.501261] (calibration) StdoutLine: {'line': b'[ 84%] Built target calibration__python\n'}
+[32.542206] (-) TimerEvent: {}
+[32.567222] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[32.568662] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[32.585678] (calibration) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[32.642921] (-) TimerEvent: {}
+[32.710774] (calibration) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[32.721887] (calibration) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.726547] (calibration) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.743135] (-) TimerEvent: {}
+[32.844388] (-) TimerEvent: {}
+[32.945370] (-) TimerEvent: {}
+[33.046511] (-) TimerEvent: {}
+[33.147430] (-) TimerEvent: {}
+[33.248432] (-) TimerEvent: {}
+[33.349347] (-) TimerEvent: {}
+[33.450869] (-) TimerEvent: {}
+[33.469521] (calibration) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[33.544508] (calibration) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[33.551007] (calibration) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[33.551803] (-) TimerEvent: {}
+[33.653056] (-) TimerEvent: {}
+[33.732766] (calibration) StdoutLine: {'line': b'[100%] Built target calibration__rosidl_typesupport_introspection_c__pyext\n'}
+[33.753324] (-) TimerEvent: {}
+[33.830120] (calibration) StdoutLine: {'line': b'[100%] Built target calibration__rosidl_typesupport_c__pyext\n'}
+[33.853528] (-) TimerEvent: {}
+[33.915051] (calibration) StdoutLine: {'line': b'[100%] Built target calibration__rosidl_typesupport_fastrtps_c__pyext\n'}
+[33.953779] (-) TimerEvent: {}
+[33.983456] (calibration) CommandEnded: {'returncode': 0}
+[34.053991] (-) TimerEvent: {}
+[34.155136] (-) TimerEvent: {}
+[34.256281] (-) TimerEvent: {}
+[34.357248] (-) TimerEvent: {}
+[34.458160] (-) TimerEvent: {}
+[34.476241] (calibration) JobProgress: {'identifier': 'calibration', 'progress': 'install'}
+[34.541004] (calibration) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/f1tenth_ws/build/calibration'], 'cwd': '/home/f1tenth/f1tenth_ws/build/calibration', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2330'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1691'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52299'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2501,unix/ubuntu:/tmp/.ICE-unix/2501'), ('INVOCATION_ID', '2752c9a9fcc54ab59902a51bcb536aa8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d11c728c_52de_4d80_b09d_4e447e21831c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/calibration'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[34.558494] (-) TimerEvent: {}
+[34.602038] (calibration) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[34.603633] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.sh\n'}
+[34.604395] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.dsv\n'}
+[34.605920] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg\n'}
+[34.607120] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/__init__.py\n'}
+[34.608329] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/chessboard_calibration.py\n'}
+[34.608900] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/save_image.py\n'}
+[34.658698] (-) TimerEvent: {}
+[34.760388] (-) TimerEvent: {}
+[34.810402] (calibration) StdoutLine: {'line': b"Listing '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg'...\n"}
+[34.811605] (calibration) StdoutLine: {'line': b"Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/__init__.py'...\n"}
+[34.812203] (calibration) StdoutLine: {'line': b"Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/chessboard_calibration.py'...\n"}
+[34.812716] (calibration) StdoutLine: {'line': b"Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/save_image.py'...\n"}
+[34.828792] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/rosidl_interfaces/calibration\n'}
+[34.829683] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.830297] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.830811] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.832799] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.h\n'}
+[34.833468] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.h\n'}
+[34.834041] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.h\n'}
+[34.834383] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.h\n'}
+[34.834713] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__functions.h\n'}
+[34.835167] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__functions.c\n'}
+[34.836264] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__functions.c\n'}
+[34.837330] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__functions.h\n'}
+[34.838317] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.h\n'}
+[34.838941] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.h\n'}
+[34.839529] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg\n'}
+[34.840018] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_c__visibility_control.h\n'}
+[34.841918] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.sh\n'}
+[34.842771] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.dsv\n'}
+[34.843906] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_generator_c.so\n'}
+[34.847138] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_generator_c.so" to ""\n'}
+[34.847915] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.848659] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.849072] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.849376] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_c.h\n'}
+[34.851161] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_c.h\n'}
+[34.855054] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg\n'}
+[34.855654] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[34.856179] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_c.so\n'}
+[34.856901] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[34.857334] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.857708] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.860750] (-) TimerEvent: {}
+[34.863094] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.863860] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.864971] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/dds_fastrtps\n'}
+[34.865343] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[34.865625] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg\n'}
+[34.865894] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[34.866182] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_cpp.so\n'}
+[34.866652] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[34.867073] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.867638] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.867935] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.868349] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_c.h\n'}
+[34.868769] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_c.h\n'}
+[34.869163] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.c\n'}
+[34.870038] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.c\n'}
+[34.870912] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg\n'}
+[34.871352] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[34.872370] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_c.so\n'}
+[34.875098] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_c.so" to ""\n'}
+[34.875627] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_c.so\n'}
+[34.878166] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_c.so" to ""\n'}
+[34.878621] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.879057] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.879474] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.879775] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__builder.hpp\n'}
+[34.880200] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__traits.hpp\n'}
+[34.880623] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__traits.hpp\n'}
+[34.881353] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.hpp\n'}
+[34.881935] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.hpp\n'}
+[34.882538] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.hpp\n'}
+[34.883384] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.hpp\n'}
+[34.884289] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__builder.hpp\n'}
+[34.884992] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.hpp\n'}
+[34.885662] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.hpp\n'}
+[34.886168] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg\n'}
+[34.886534] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[34.887228] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration\n'}
+[34.889390] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action\n'}
+[34.889963] (calibration) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail\n'}
+[34.890304] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.890614] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[34.891580] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.cpp\n'}
+[34.891938] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.cpp\n'}
+[34.892764] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_cpp.so\n'}
+[34.897486] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[34.898751] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_cpp.so\n'}
+[34.901167] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_cpp.so" to ""\n'}
+[34.901884] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py\n'}
+[34.960950] (-) TimerEvent: {}
+[35.064273] (-) TimerEvent: {}
+[35.094980] (calibration) StdoutLine: {'line': b"Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py'...\n"}
+[35.107435] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action\n'}
+[35.108543] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_do_camera_calibration.py\n'}
+[35.109316] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_take_image_s.c\n'}
+[35.110278] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/__init__.py\n'}
+[35.111039] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_do_camera_calibration_s.c\n'}
+[35.112009] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_take_image.py\n'}
+[35.113904] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.117454] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.118350] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.121574] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.122423] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[35.125994] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[35.126680] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__python.so\n'}
+[35.129552] (calibration) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__python.so" to ""\n'}
+[35.134426] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.idl\n'}
+[35.135666] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.idl\n'}
+[35.136684] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.action\n'}
+[35.138157] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.action\n'}
+[35.143712] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/camera_calibration.py\n'}
+[35.144608] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/imu_calibration.py\n'}
+[35.145004] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/package_run_dependencies/calibration\n'}
+[35.145593] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/parent_prefix_path/calibration\n'}
+[35.146540] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.sh\n'}
+[35.147338] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.dsv\n'}
+[35.148204] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.sh\n'}
+[35.149061] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.dsv\n'}
+[35.149810] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.bash\n'}
+[35.150594] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.sh\n'}
+[35.151378] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.zsh\n'}
+[35.152219] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.dsv\n'}
+[35.152950] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.dsv\n'}
+[35.154000] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/packages/calibration\n'}
+[35.155158] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport.cmake\n'}
+[35.156083] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport-noconfig.cmake\n'}
+[35.157254] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport.cmake\n'}
+[35.158132] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[35.159111] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport.cmake\n'}
+[35.159915] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[35.160955] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cppExport.cmake\n'}
+[35.161935] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[35.162813] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[35.163799] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport.cmake\n'}
+[35.164366] (-) TimerEvent: {}
+[35.165050] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[35.165733] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake-extras.cmake\n'}
+[35.166395] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.167199] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[35.168092] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[35.168848] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.169649] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[35.170518] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[35.171419] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig.cmake\n'}
+[35.172253] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig-version.cmake\n'}
+[35.173168] (calibration) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.xml\n'}
+[35.189300] (calibration) CommandEnded: {'returncode': 0}
+[35.266020] (-) TimerEvent: {}
+[35.370451] (-) TimerEvent: {}
+[35.471944] (-) TimerEvent: {}
+[35.573345] (-) TimerEvent: {}
+[35.676715] (-) TimerEvent: {}
+[35.779523] (-) TimerEvent: {}
+[35.831717] (calibration) JobEnded: {'identifier': 'calibration', 'rc': 0}
+[35.840431] (-) EventReactorShutdown: {}

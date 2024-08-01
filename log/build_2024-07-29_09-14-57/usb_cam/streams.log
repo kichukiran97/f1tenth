@@ -1,0 +1,149 @@
+[0.153s] Invoking command in '/home/f1tenth/f1tenth_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/usb_cam
+[1.096s] -- The C compiler identification is GNU 9.4.0
+[1.769s] -- The CXX compiler identification is GNU 9.4.0
+[1.841s] -- Check for working C compiler: /usr/bin/cc
+[2.532s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.558s] -- Detecting C compiler ABI info
+[3.155s] -- Detecting C compiler ABI info - done
+[3.300s] -- Detecting C compile features
+[3.308s] -- Detecting C compile features - done
+[3.333s] -- Check for working CXX compiler: /usr/bin/c++
+[4.022s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.027s] -- Detecting CXX compiler ABI info
+[4.667s] -- Detecting CXX compiler ABI info - done
+[4.758s] -- Detecting CXX compile features
+[4.761s] -- Detecting CXX compile features - done
+[4.784s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[5.080s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.082s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.376s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.000s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.191s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.702s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.106s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[9.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.123s] -- Looking for pthread.h
+[9.525s] -- Looking for pthread.h - found
+[9.526s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.971s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.974s] -- Looking for pthread_create in pthreads
+[10.305s] -- Looking for pthread_create in pthreads - not found
+[10.306s] -- Looking for pthread_create in pthread
+[10.740s] -- Looking for pthread_create in pthread - found
+[10.747s] -- Found Threads: TRUE  
+[12.667s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[13.272s] -- Found OpenCV: /usr (found version "4.5.4") 
+[13.288s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[13.294s] -- Checking for module 'libavcodec'
+[13.417s] --   Found libavcodec, version 58.54.100
+[13.699s] -- Checking for module 'libavutil'
+[13.807s] --   Found libavutil, version 56.31.100
+[14.065s] -- Checking for module 'libswscale'
+[14.183s] --   Found libswscale, version 5.5.100
+[14.644s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[14.836s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[14.850s] -- Check if compiler accepts -pthread
+[15.283s] -- Check if compiler accepts -pthread - yes
+[15.332s] -- Added test 'copyright' to check source files copyright and LICENSE
+[15.366s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.367s] -- Configured cppcheck include dirs: /home/f1tenth/f1tenth_ws/src/usb_cam/include
+[15.368s] -- Configured cppcheck exclude dirs and/or files: 
+[15.402s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[15.403s] -- Configured cpplint exclude dirs and/or files: 
+[15.409s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.422s] -- Added test 'lint_cmake' to check CMake code style
+[15.430s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[15.464s] -- Added test 'uncrustify' to check C / C++ code style
+[15.465s] -- Configured uncrustify additional arguments: 
+[15.471s] -- Added test 'xmllint' to check XML markup files
+[15.511s] -- Configuring done
+[15.732s] -- Generating done
+[15.754s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/usb_cam
+[15.847s] Invoked command in '/home/f1tenth/f1tenth_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/usb_cam -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/usb_cam
+[15.855s] Invoking command in '/home/f1tenth/f1tenth_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/usb_cam -- -j4 -l4
+[16.110s] [35m[1mScanning dependencies of target usb_cam_node_exe[0m
+[16.114s] [35m[1mScanning dependencies of target gtest[0m
+[16.117s] [35m[1mScanning dependencies of target usb_cam[0m
+[16.130s] [35m[1mScanning dependencies of target gtest_main[0m
+[16.288s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[16.312s] [ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[16.334s] [ 21%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[16.617s] [ 28%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[23.885s] [ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[24.141s] [ 35%] Built target gtest_main
+[32.001s] [ 42%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[32.893s] [ 42%] Built target usb_cam
+[32.966s] [35m[1mScanning dependencies of target usb_cam_node[0m
+[33.056s] [ 50%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[33.344s] [ 57%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/ros2/usb_cam_node.cpp.o[0m
+[33.806s] [ 57%] Built target usb_cam_node_exe
+[36.833s] [ 64%] [32m[1mLinking CXX static library libgtest.a[0m
+[37.254s] [ 64%] Built target gtest
+[37.329s] [35m[1mScanning dependencies of target test_usb_cam_utils[0m
+[37.339s] [35m[1mScanning dependencies of target test_pixel_formats[0m
+[37.453s] [ 71%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[37.500s] [ 78%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[46.189s] [ 85%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[47.042s] [ 85%] Built target test_usb_cam_utils
+[50.027s] [ 92%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[50.699s] [ 92%] Built target test_pixel_formats
+[65.615s] [100%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[67.187s] [100%] Built target usb_cam_node
+[67.261s] Invoked command in '/home/f1tenth/f1tenth_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/usb_cam -- -j4 -l4
+[67.533s] Invoking command in '/home/f1tenth/f1tenth_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/usb_cam
+[67.585s] -- Install configuration: ""
+[67.586s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/library_path.sh
+[67.587s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[67.589s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[67.594s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""
+[67.594s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/lib/usb_cam/show_image.py
+[67.595s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/lib/libusb_cam.so
+[67.601s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/lib/libusb_cam_node.so
+[67.625s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/usb_cam/lib/libusb_cam_node.so" to ""
+[67.626s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include
+[67.626s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam
+[67.627s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[67.627s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/conversions.hpp
+[67.632s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/usb_cam.hpp
+[67.633s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/constants.hpp
+[67.634s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/utils.hpp
+[67.634s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats
+[67.635s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/av_pixel_format_helper.hpp
+[67.635s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[67.636s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/m420.hpp
+[67.636s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[67.637s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/utils.hpp
+[67.637s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[67.638s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/mono.hpp
+[67.639s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[67.639s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[67.641s] -- Up-to-date: /home/f1tenth/f1tenth_ws/install/usb_cam/lib/libusb_cam_node.so
+[67.643s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/launch
+[67.643s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py
+[67.644s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/launch/__init__.py
+[67.644s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/launch/camera_config.py
+[67.645s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/config
+[67.646s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/config/params_2.yaml
+[67.646s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[67.647s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/config/params_1.yaml
+[67.649s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[67.649s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[67.650s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[67.651s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[67.652s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/path.sh
+[67.652s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/environment/path.dsv
+[67.653s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/local_setup.bash
+[67.654s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/local_setup.sh
+[67.655s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/local_setup.zsh
+[67.655s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/local_setup.dsv
+[67.656s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/package.dsv
+[67.657s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[67.658s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[67.659s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[67.661s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[67.662s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[67.663s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[67.664s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[67.665s] -- Installing: /home/f1tenth/f1tenth_ws/install/usb_cam/share/usb_cam/package.xml
+[67.681s] Invoked command in '/home/f1tenth/f1tenth_ws/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/usb_cam

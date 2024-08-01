@@ -1,0 +1,10 @@
+[ 13%] Built target sfml-system
+[ 22%] Built target sfml-network
+[ 38%] Built target sfml-audio
+[ 57%] Built target sfml-window
+[ 81%] Built target sfml-graphics
+[ 87%] Built target interface_lib
+[ 94%] Built target ui_lib
+[ 98%] Built target simulator_lib
+[35m[1mScanning dependencies of target start_dashboard[0m
+[ 99%] [32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o[0m

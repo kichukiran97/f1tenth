@@ -1,0 +1,9 @@
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/install/strip.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/install/local.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/install.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/list_install_components.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/rebuild_cache.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/edit_cache.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/test.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/camera_uninstall.dir
+/home/f1tenth/f1tenth_ws/build/camera/CMakeFiles/uninstall.dir

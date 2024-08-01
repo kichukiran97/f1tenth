@@ -1,0 +1,66 @@
+[0.085s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer
+[0.770s] -- The C compiler identification is GNU 9.4.0
+[1.323s] -- The CXX compiler identification is GNU 9.4.0
+[1.369s] -- Check for working C compiler: /usr/bin/cc
+[1.957s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.961s] -- Detecting C compiler ABI info
+[2.524s] -- Detecting C compiler ABI info - done
+[2.606s] -- Detecting C compile features
+[2.608s] -- Detecting C compile features - done
+[2.632s] -- Check for working CXX compiler: /usr/bin/c++
+[3.231s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.238s] -- Detecting CXX compiler ABI info
+[3.850s] -- Detecting CXX compiler ABI info - done
+[3.948s] -- Detecting CXX compile features
+[3.954s] -- Detecting CXX compile features - done
+[3.981s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.209s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.210s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.873s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.474s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.224s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.446s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.593s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.607s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.613s] -- Looking for pthread.h
+[9.202s] -- Looking for pthread.h - found
+[9.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.782s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.784s] -- Looking for pthread_create in pthreads
+[10.244s] -- Looking for pthread_create in pthreads - not found
+[10.245s] -- Looking for pthread_create in pthread
+[10.811s] -- Looking for pthread_create in pthread - found
+[10.819s] -- Found Threads: TRUE  
+[11.752s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[12.408s] -- Found OpenCV: /usr (found version "4.5.4") 
+[12.775s] Error parsing '/home/f1tenth/f1tenth_ws/src/camera_visualizer/package.xml':
+[13.484s] Traceback (most recent call last):
+[13.484s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 143, in <module>
+[13.485s]     main()
+[13.485s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 52, in main
+[13.485s]     raise e
+[13.486s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 48, in main
+[13.486s]     package = parse_package_string(
+[13.486s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[13.487s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[13.487s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/f1tenth/f1tenth_ws/src/camera_visualizer/package.xml':
+[13.487s] Error(s):
+[13.487s] - The generic dependency on 'opencv4' is redundant with: exec_depend
+[13.600s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[13.601s]   execute_process(/usr/bin/python3
+[13.601s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[13.602s]   /home/f1tenth/f1tenth_ws/src/camera_visualizer/package.xml
+[13.602s]   /home/f1tenth/f1tenth_ws/build/camera_visualizer/ament_cmake_core/package.cmake)
+[13.602s]   returned error code 1
+[13.603s] Call Stack (most recent call first):
+[13.603s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[13.603s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[13.604s]   CMakeLists.txt:37 (ament_package)
+[13.604s] 
+[13.604s] 
+[13.619s] -- Configuring incomplete, errors occurred!
+[13.620s] See also "/home/f1tenth/f1tenth_ws/build/camera_visualizer/CMakeFiles/CMakeOutput.log".
+[13.620s] See also "/home/f1tenth/f1tenth_ws/build/camera_visualizer/CMakeFiles/CMakeError.log".
+[13.675s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '1': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer

@@ -1,0 +1,1 @@
+LocalizedObject[] objects

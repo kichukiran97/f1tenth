@@ -1,0 +1,443 @@
+[0.000000] (-) TimerEvent: {}
+[0.000998] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001300] (-) JobUnselected: {'identifier': 'calibration'}
+[0.001460] (-) JobUnselected: {'identifier': 'camera'}
+[0.001625] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.001773] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.001943] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.002091] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.002232] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.002432] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.002534] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.002621] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.002706] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002789] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.002873] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.002956] (-) JobUnselected: {'identifier': 'vesc'}
+[0.003041] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.003124] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.003236] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.003320] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.003453] (dashboard) JobQueued: {'identifier': 'dashboard', 'dependencies': OrderedDict([('internal_interface', '/home/f1tenth/f1tenth_ws/install/internal_interface'), ('camera', '/home/f1tenth/f1tenth_ws/install/camera'), ('calibration', '/home/f1tenth/f1tenth_ws/install/calibration')])}
+[0.003601] (dashboard) JobStarted: {'identifier': 'dashboard'}
+[0.096636] (-) TimerEvent: {}
+[0.171046] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'cmake'}
+[0.181526] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'build'}
+[0.185439] (dashboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/dashboard', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/dashboard', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2388'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5175'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52300'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '322dc57426434ab6b1191a822e826201'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:677fa234-278d-48de-8525-43e87490a3c2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/dashboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.205777] (-) TimerEvent: {}
+[0.314422] (-) TimerEvent: {}
+[0.415591] (-) TimerEvent: {}
+[0.519083] (-) TimerEvent: {}
+[0.621858] (-) TimerEvent: {}
+[0.701349] (dashboard) StdoutLine: {'line': b'[ 13%] Built target sfml-system\n'}
+[0.722148] (-) TimerEvent: {}
+[0.828787] (-) TimerEvent: {}
+[0.939605] (-) TimerEvent: {}
+[0.976730] (dashboard) StdoutLine: {'line': b'[ 22%] Built target sfml-network\n'}
+[1.009346] (dashboard) StdoutLine: {'line': b'[ 38%] Built target sfml-audio\n'}
+[1.039849] (-) TimerEvent: {}
+[1.069794] (dashboard) StdoutLine: {'line': b'[ 57%] Built target sfml-window\n'}
+[1.143048] (-) TimerEvent: {}
+[1.243906] (-) TimerEvent: {}
+[1.286246] (dashboard) StdoutLine: {'line': b'[ 81%] Built target sfml-graphics\n'}
+[1.344136] (-) TimerEvent: {}
+[1.445105] (-) TimerEvent: {}
+[1.545970] (-) TimerEvent: {}
+[1.569418] (dashboard) StdoutLine: {'line': b'[ 87%] Built target interface_lib\n'}
+[1.646586] (-) TimerEvent: {}
+[1.748530] (-) TimerEvent: {}
+[1.770054] (dashboard) StdoutLine: {'line': b'[ 94%] Built target ui_lib\n'}
+[1.848900] (-) TimerEvent: {}
+[1.962302] (-) TimerEvent: {}
+[1.965373] (dashboard) StdoutLine: {'line': b'[ 98%] Built target simulator_lib\n'}
+[2.052382] (dashboard) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target start_dashboard\x1b[0m\n'}
+[2.062577] (-) TimerEvent: {}
+[2.163454] (-) TimerEvent: {}
+[2.264214] (-) TimerEvent: {}
+[2.321530] (dashboard) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o\x1b[0m\n'}
+[2.364450] (-) TimerEvent: {}
+[2.466086] (-) TimerEvent: {}
+[2.571294] (-) TimerEvent: {}
+[2.672115] (-) TimerEvent: {}
+[2.773979] (-) TimerEvent: {}
+[2.883049] (-) TimerEvent: {}
+[2.987267] (-) TimerEvent: {}
+[3.090628] (-) TimerEvent: {}
+[3.192721] (-) TimerEvent: {}
+[3.293651] (-) TimerEvent: {}
+[3.394578] (-) TimerEvent: {}
+[3.495393] (-) TimerEvent: {}
+[3.596285] (-) TimerEvent: {}
+[3.697186] (-) TimerEvent: {}
+[3.798053] (-) TimerEvent: {}
+[3.899098] (-) TimerEvent: {}
+[3.999978] (-) TimerEvent: {}
+[4.104003] (-) TimerEvent: {}
+[4.205424] (-) TimerEvent: {}
+[4.306639] (-) TimerEvent: {}
+[4.407561] (-) TimerEvent: {}
+[4.510248] (-) TimerEvent: {}
+[4.612161] (-) TimerEvent: {}
+[4.713095] (-) TimerEvent: {}
+[4.813990] (-) TimerEvent: {}
+[4.915219] (-) TimerEvent: {}
+[5.016244] (-) TimerEvent: {}
+[5.119558] (-) TimerEvent: {}
+[5.220690] (-) TimerEvent: {}
+[5.321981] (-) TimerEvent: {}
+[5.423422] (-) TimerEvent: {}
+[5.524725] (-) TimerEvent: {}
+[5.625702] (-) TimerEvent: {}
+[5.727620] (-) TimerEvent: {}
+[5.828570] (-) TimerEvent: {}
+[5.931525] (-) TimerEvent: {}
+[6.039889] (-) TimerEvent: {}
+[6.142145] (-) TimerEvent: {}
+[6.244074] (-) TimerEvent: {}
+[6.344972] (-) TimerEvent: {}
+[6.446881] (-) TimerEvent: {}
+[6.548512] (-) TimerEvent: {}
+[6.649551] (-) TimerEvent: {}
+[6.750794] (-) TimerEvent: {}
+[6.855450] (-) TimerEvent: {}
+[6.956468] (-) TimerEvent: {}
+[7.061292] (-) TimerEvent: {}
+[7.162619] (-) TimerEvent: {}
+[7.263479] (-) TimerEvent: {}
+[7.365462] (-) TimerEvent: {}
+[7.468333] (-) TimerEvent: {}
+[7.573435] (-) TimerEvent: {}
+[7.676491] (-) TimerEvent: {}
+[7.777486] (-) TimerEvent: {}
+[7.878702] (-) TimerEvent: {}
+[7.979729] (-) TimerEvent: {}
+[8.080919] (-) TimerEvent: {}
+[8.183500] (-) TimerEvent: {}
+[8.287471] (-) TimerEvent: {}
+[8.390871] (-) TimerEvent: {}
+[8.496435] (-) TimerEvent: {}
+[8.599060] (-) TimerEvent: {}
+[8.701179] (-) TimerEvent: {}
+[8.807378] (-) TimerEvent: {}
+[8.911990] (-) TimerEvent: {}
+[9.016621] (-) TimerEvent: {}
+[9.118196] (-) TimerEvent: {}
+[9.219765] (-) TimerEvent: {}
+[9.320886] (-) TimerEvent: {}
+[9.424987] (-) TimerEvent: {}
+[9.527272] (-) TimerEvent: {}
+[9.629617] (-) TimerEvent: {}
+[9.731476] (-) TimerEvent: {}
+[9.833136] (-) TimerEvent: {}
+[9.934404] (-) TimerEvent: {}
+[10.036293] (-) TimerEvent: {}
+[10.140890] (-) TimerEvent: {}
+[10.242738] (-) TimerEvent: {}
+[10.346504] (-) TimerEvent: {}
+[10.447442] (-) TimerEvent: {}
+[10.548363] (-) TimerEvent: {}
+[10.649294] (-) TimerEvent: {}
+[10.750626] (-) TimerEvent: {}
+[10.851651] (-) TimerEvent: {}
+[10.952807] (-) TimerEvent: {}
+[11.055483] (-) TimerEvent: {}
+[11.156739] (-) TimerEvent: {}
+[11.257740] (-) TimerEvent: {}
+[11.359296] (-) TimerEvent: {}
+[11.461228] (-) TimerEvent: {}
+[11.563340] (-) TimerEvent: {}
+[11.668603] (-) TimerEvent: {}
+[11.769690] (-) TimerEvent: {}
+[11.872192] (-) TimerEvent: {}
+[11.973278] (-) TimerEvent: {}
+[12.075597] (-) TimerEvent: {}
+[12.176627] (-) TimerEvent: {}
+[12.277690] (-) TimerEvent: {}
+[12.379650] (-) TimerEvent: {}
+[12.481426] (-) TimerEvent: {}
+[12.582420] (-) TimerEvent: {}
+[12.683305] (-) TimerEvent: {}
+[12.784216] (-) TimerEvent: {}
+[12.885163] (-) TimerEvent: {}
+[12.987505] (-) TimerEvent: {}
+[13.096139] (-) TimerEvent: {}
+[13.197989] (-) TimerEvent: {}
+[13.299090] (-) TimerEvent: {}
+[13.401249] (-) TimerEvent: {}
+[13.506174] (-) TimerEvent: {}
+[13.607208] (-) TimerEvent: {}
+[13.710712] (-) TimerEvent: {}
+[13.812187] (-) TimerEvent: {}
+[13.916206] (-) TimerEvent: {}
+[14.017139] (-) TimerEvent: {}
+[14.118080] (-) TimerEvent: {}
+[14.219097] (-) TimerEvent: {}
+[14.319967] (-) TimerEvent: {}
+[14.422767] (-) TimerEvent: {}
+[14.524482] (-) TimerEvent: {}
+[14.621849] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[14.623336] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kconsumed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[14.623755] (dashboard) StderrLine: {'line': b'  101 |             bool \x1b[01;35m\x1b[Kconsumed\x1b[m\x1b[K = ui.HandleEvent(event);\n'}
+[14.624097] (dashboard) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[14.624590] (-) TimerEvent: {}
+[14.725215] (-) TimerEvent: {}
+[14.826073] (-) TimerEvent: {}
+[14.926979] (-) TimerEvent: {}
+[15.028272] (-) TimerEvent: {}
+[15.129411] (-) TimerEvent: {}
+[15.230274] (-) TimerEvent: {}
+[15.331253] (-) TimerEvent: {}
+[15.432129] (-) TimerEvent: {}
+[15.532963] (-) TimerEvent: {}
+[15.633793] (-) TimerEvent: {}
+[15.734693] (-) TimerEvent: {}
+[15.835581] (-) TimerEvent: {}
+[15.936450] (-) TimerEvent: {}
+[16.038222] (-) TimerEvent: {}
+[16.142063] (-) TimerEvent: {}
+[16.245295] (-) TimerEvent: {}
+[16.347288] (-) TimerEvent: {}
+[16.461128] (-) TimerEvent: {}
+[16.564280] (-) TimerEvent: {}
+[16.667746] (-) TimerEvent: {}
+[16.777397] (-) TimerEvent: {}
+[16.878564] (-) TimerEvent: {}
+[16.980315] (-) TimerEvent: {}
+[17.081320] (-) TimerEvent: {}
+[17.183919] (-) TimerEvent: {}
+[17.284845] (-) TimerEvent: {}
+[17.386074] (-) TimerEvent: {}
+[17.487741] (-) TimerEvent: {}
+[17.588736] (-) TimerEvent: {}
+[17.689954] (-) TimerEvent: {}
+[17.791738] (-) TimerEvent: {}
+[17.895285] (-) TimerEvent: {}
+[17.996994] (-) TimerEvent: {}
+[18.104228] (-) TimerEvent: {}
+[18.205108] (-) TimerEvent: {}
+[18.309033] (-) TimerEvent: {}
+[18.409941] (-) TimerEvent: {}
+[18.511024] (-) TimerEvent: {}
+[18.611896] (-) TimerEvent: {}
+[18.714680] (-) TimerEvent: {}
+[18.818287] (-) TimerEvent: {}
+[18.920053] (-) TimerEvent: {}
+[19.021829] (-) TimerEvent: {}
+[19.122893] (-) TimerEvent: {}
+[19.223908] (-) TimerEvent: {}
+[19.324847] (-) TimerEvent: {}
+[19.361387] (dashboard) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable start_dashboard\x1b[0m\n'}
+[19.425103] (-) TimerEvent: {}
+[19.526173] (-) TimerEvent: {}
+[19.627690] (-) TimerEvent: {}
+[19.729595] (-) TimerEvent: {}
+[19.832719] (-) TimerEvent: {}
+[19.933782] (-) TimerEvent: {}
+[20.034616] (-) TimerEvent: {}
+[20.138444] (-) TimerEvent: {}
+[20.242602] (-) TimerEvent: {}
+[20.347573] (-) TimerEvent: {}
+[20.449240] (-) TimerEvent: {}
+[20.550240] (-) TimerEvent: {}
+[20.651952] (-) TimerEvent: {}
+[20.753640] (-) TimerEvent: {}
+[20.855498] (-) TimerEvent: {}
+[20.960338] (-) TimerEvent: {}
+[21.061293] (-) TimerEvent: {}
+[21.162223] (-) TimerEvent: {}
+[21.263439] (-) TimerEvent: {}
+[21.364599] (-) TimerEvent: {}
+[21.465966] (-) TimerEvent: {}
+[21.568257] (-) TimerEvent: {}
+[21.671432] (-) TimerEvent: {}
+[21.773723] (-) TimerEvent: {}
+[21.877456] (-) TimerEvent: {}
+[21.895806] (dashboard) StdoutLine: {'line': b'[100%] Built target start_dashboard\n'}
+[21.977701] (-) TimerEvent: {}
+[22.005608] (dashboard) CommandEnded: {'returncode': 0}
+[22.078074] (-) TimerEvent: {}
+[22.179462] (-) TimerEvent: {}
+[22.280521] (-) TimerEvent: {}
+[22.289712] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'install'}
+[22.368733] (dashboard) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/f1tenth_ws/build/dashboard'], 'cwd': '/home/f1tenth/f1tenth_ws/build/dashboard', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2388'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5175'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52300'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '322dc57426434ab6b1191a822e826201'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:677fa234-278d-48de-8525-43e87490a3c2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/dashboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[22.382136] (-) TimerEvent: {}
+[22.441335] (dashboard) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.442547] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.sh\n'}
+[22.443164] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.dsv\n'}
+[22.443786] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg\n'}
+[22.444407] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py\n'}
+[22.482535] (-) TimerEvent: {}
+[22.583417] (-) TimerEvent: {}
+[22.690509] (-) TimerEvent: {}
+[22.733716] (dashboard) StdoutLine: {'line': b"Listing '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg'...\n"}
+[22.789782] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch\n'}
+[22.790793] (-) TimerEvent: {}
+[22.791630] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch/start_dashboard.launch.py\n'}
+[22.792255] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/package_run_dependencies/dashboard\n'}
+[22.792839] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/parent_prefix_path/dashboard\n'}
+[22.793831] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.sh\n'}
+[22.795082] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.dsv\n'}
+[22.796623] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.sh\n'}
+[22.797308] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.dsv\n'}
+[22.797767] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.bash\n'}
+[22.798455] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.sh\n'}
+[22.799303] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.zsh\n'}
+[22.799941] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.dsv\n'}
+[22.800520] (dashboard) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.dsv\n'}
+[22.801052] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/packages/dashboard\n'}
+[22.801592] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig.cmake\n'}
+[22.802047] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig-version.cmake\n'}
+[22.802446] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.xml\n'}
+[22.807907] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-all.pc\n'}
+[22.809234] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-system.pc\n'}
+[22.809996] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-window.pc\n'}
+[22.811084] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-graphics.pc\n'}
+[22.819676] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-audio.pc\n'}
+[22.821209] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-network.pc\n'}
+[22.822009] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include\n'}
+[22.823964] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML\n'}
+[22.825075] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network.hpp\n'}
+[22.825893] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/GpuPreference.hpp\n'}
+[22.826292] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/OpenGL.hpp\n'}
+[22.826830] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network\n'}
+[22.827418] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Ftp.hpp\n'}
+[22.831259] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Http.hpp\n'}
+[22.832553] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Packet.hpp\n'}
+[22.832922] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpSocket.hpp\n'}
+[22.833298] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/UdpSocket.hpp\n'}
+[22.833595] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/IpAddress.hpp\n'}
+[22.834242] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketHandle.hpp\n'}
+[22.834816] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketSelector.hpp\n'}
+[22.835117] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpListener.hpp\n'}
+[22.835390] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Export.hpp\n'}
+[22.835656] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Socket.hpp\n'}
+[22.835916] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window.hpp\n'}
+[22.836222] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio\n'}
+[22.836487] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileReader.hpp\n'}
+[22.836750] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundSource.hpp\n'}
+[22.837010] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Listener.hpp\n'}
+[22.837286] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.inl\n'}
+[22.837547] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Music.hpp\n'}
+[22.837833] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/AlResource.hpp\n'}
+[22.838095] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/InputSoundFile.hpp\n'}
+[22.838462] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBuffer.hpp\n'}
+[22.838768] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileWriter.hpp\n'}
+[22.839071] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBufferRecorder.hpp\n'}
+[22.840592] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Sound.hpp\n'}
+[22.841121] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.hpp\n'}
+[22.841654] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/OutputSoundFile.hpp\n'}
+[22.842039] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundStream.hpp\n'}
+[22.842321] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Export.hpp\n'}
+[22.842709] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundRecorder.hpp\n'}
+[22.842982] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Main.hpp\n'}
+[22.843330] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio.hpp\n'}
+[22.844048] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics\n'}
+[22.844470] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderStates.hpp\n'}
+[22.845368] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Vertex.hpp\n'}
+[22.845711] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Drawable.hpp\n'}
+[22.846035] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Image.hpp\n'}
+[22.846451] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/BlendMode.hpp\n'}
+[22.846781] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Texture.hpp\n'}
+[22.847187] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.inl\n'}
+[22.847507] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Text.hpp\n'}
+[22.848163] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexArray.hpp\n'}
+[22.848480] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.hpp\n'}
+[22.848765] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/ConvexShape.hpp\n'}
+[22.849123] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/PrimitiveType.hpp\n'}
+[22.849400] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shape.hpp\n'}
+[22.849674] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderWindow.hpp\n'}
+[22.850006] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/View.hpp\n'}
+[22.850278] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.hpp\n'}
+[22.850701] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glyph.hpp\n'}
+[22.851879] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/CircleShape.hpp\n'}
+[22.855703] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shader.hpp\n'}
+[22.856216] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Color.hpp\n'}
+[22.856707] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Font.hpp\n'}
+[22.856980] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RectangleShape.hpp\n'}
+[22.857405] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transformable.hpp\n'}
+[22.857814] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTexture.hpp\n'}
+[22.858094] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Sprite.hpp\n'}
+[22.858672] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Export.hpp\n'}
+[22.872157] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTarget.hpp\n'}
+[22.872578] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transform.hpp\n'}
+[22.872871] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexBuffer.hpp\n'}
+[22.873187] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.inl\n'}
+[22.873692] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System\n'}
+[22.873984] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.hpp\n'}
+[22.874250] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/InputStream.hpp\n'}
+[22.874604] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocal.hpp\n'}
+[22.874928] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Mutex.hpp\n'}
+[22.876505] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.hpp\n'}
+[22.876964] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Sleep.hpp\n'}
+[22.881540] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Time.hpp\n'}
+[22.881881] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.inl\n'}
+[22.882190] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.inl\n'}
+[22.882650] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/FileInputStream.hpp\n'}
+[22.882970] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NativeActivity.hpp\n'}
+[22.883252] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.hpp\n'}
+[22.883522] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.hpp\n'}
+[22.883785] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Lock.hpp\n'}
+[22.884051] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.hpp\n'}
+[22.904448] (-) TimerEvent: {}
+[22.905071] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.hpp\n'}
+[22.905667] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Clock.hpp\n'}
+[22.905997] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/MemoryInputStream.hpp\n'}
+[22.906649] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Err.hpp\n'}
+[22.906963] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.inl\n'}
+[22.907251] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.inl\n'}
+[22.907561] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NonCopyable.hpp\n'}
+[22.907874] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.inl\n'}
+[22.908308] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Export.hpp\n'}
+[22.908687] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.inl\n'}
+[22.908969] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Config.hpp\n'}
+[22.909252] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics.hpp\n'}
+[22.909531] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System.hpp\n'}
+[22.909831] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window\n'}
+[22.910165] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/GlResource.hpp\n'}
+[22.913038] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Touch.hpp\n'}
+[22.913424] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Event.hpp\n'}
+[22.913764] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Mouse.hpp\n'}
+[22.914067] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowHandle.hpp\n'}
+[22.914421] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowStyle.hpp\n'}
+[22.914743] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Window.hpp\n'}
+[22.915291] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Context.hpp\n'}
+[22.915581] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Keyboard.hpp\n'}
+[22.915881] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Export.hpp\n'}
+[22.916182] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Joystick.hpp\n'}
+[22.916464] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/VideoMode.hpp\n'}
+[22.916730] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/ContextSettings.hpp\n'}
+[22.917000] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Clipboard.hpp\n'}
+[22.917319] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Cursor.hpp\n'}
+[22.917576] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Sensor.hpp\n'}
+[22.917851] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/license.md\n'}
+[22.918134] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/readme.md\n'}
+[22.918512] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets.cmake\n'}
+[22.918821] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake\n'}
+[22.919094] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfig.cmake\n'}
+[22.919383] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigDependencies.cmake\n'}
+[22.919954] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigVersion.cmake\n'}
+[22.920315] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5.1\n'}
+[22.920694] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5\n'}
+[22.921008] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so\n'}
+[22.921333] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1\n'}
+[22.921635] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5\n'}
+[22.921928] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so\n'}
+[22.922200] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1\n'}
+[22.922623] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5\n'}
+[22.922920] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so\n'}
+[22.923370] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1\n'}
+[22.926178] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5\n'}
+[22.926608] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so\n'}
+[22.926937] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1\n'}
+[22.927269] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5\n'}
+[22.927567] (dashboard) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so\n'}
+[22.932284] (dashboard) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard\n'}
+[22.981413] (dashboard) StdoutLine: {'line': b'-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard" to ""\n'}
+[23.000939] (dashboard) CommandEnded: {'returncode': 0}
+[23.005394] (-) TimerEvent: {}
+[23.108089] (-) TimerEvent: {}
+[23.214946] (-) TimerEvent: {}
+[23.319246] (-) TimerEvent: {}
+[23.431143] (-) TimerEvent: {}
+[23.475490] (dashboard) JobEnded: {'identifier': 'dashboard', 'rc': 0}
+[23.488097] (-) EventReactorShutdown: {}

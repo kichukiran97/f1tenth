@@ -1,0 +1,32 @@
+[0.088s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer
+[0.226s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.709s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.055s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.128s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.869s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.136s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.152s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.927s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.952s] -- Configuring done
+[5.017s] -- Generating done
+[5.024s] CMake Warning:
+[5.025s]   Manually-specified variables were not used by the project:
+[5.026s] 
+[5.027s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[5.027s] 
+[5.028s] 
+[5.030s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/camera_visualizer
+[5.072s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '0': /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/camera_visualizer -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/camera_visualizer
+[5.094s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4
+[5.390s] [35m[1mScanning dependencies of target camera_subscriber_node[0m
+[5.839s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o[0m
+[6.403s] In file included from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[6.405s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kinternal_interface/msg/encoded_image.hpp: No such file or directory
+[6.406s]     5 | #include [01;31m[K"internal_interface/msg/encoded_image.hpp"[m[K
+[6.406s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.409s] compilation terminated.
+[6.414s] make[2]: *** [CMakeFiles/camera_subscriber_node.dir/build.make:63: CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o] Error 1
+[6.414s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_subscriber_node.dir/all] Error 2
+[6.415s] make: *** [Makefile:141: all] Error 2
+[6.429s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '2': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4

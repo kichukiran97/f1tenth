@@ -1,0 +1,9 @@
+CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find FLAC (missing: FLAC_LIBRARY FLAC_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/cmake/Modules/FindFLAC.cmake:16 (find_package_handle_standard_args)
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/cmake/Macros.cmake:279 (find_package)
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt:71 (sfml_find_package)
+
+

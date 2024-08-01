@@ -1,0 +1,7 @@
+{
+  "package_name": "calibration",
+  "non_idl_tuples": [
+    "/home/f1tenth/f1tenth_ws/src/calibration:action/TakeImage.action",
+    "/home/f1tenth/f1tenth_ws/src/calibration:action/DoCameraCalibration.action"
+  ]
+}

@@ -1,0 +1,13 @@
+[0.083s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4
+[0.495s] [35m[1mScanning dependencies of target camera_subscriber_node[0m
+[0.732s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o[0m
+[1.296s] In file included from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:5[m[K,
+[1.297s]                  from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[1.297s] [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/encoded_image.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kinternal_interface/msg/detail/encoded_image__struct.hpp: No such file or directory
+[1.298s]     7 | #include [01;31m[K"internal_interface/msg/detail/encoded_image__struct.hpp"[m[K
+[1.298s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.301s] compilation terminated.
+[1.309s] make[2]: *** [CMakeFiles/camera_subscriber_node.dir/build.make:63: CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o] Error 1
+[1.312s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_subscriber_node.dir/all] Error 2
+[1.312s] make: *** [Makefile:141: all] Error 2
+[1.323s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_visualizer' returned '2': /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/camera_visualizer -- -j4 -l4

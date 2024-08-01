@@ -1,0 +1,26 @@
+[3.397s] Invoking command in '/home/f1tenth/f1tenth_ws/src/camera_publisher': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/f1tenth/f1tenth_ws/build/camera_publisher/build install --record /home/f1tenth/f1tenth_ws/build/camera_publisher/install.log --install-scripts $base/lib/camera_publisher --single-version-externally-managed install_data
+[4.620s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.621s]   warnings.warn(
+[4.761s] running egg_info
+[4.765s] writing ../../build/camera_publisher/camera_publisher.egg-info/PKG-INFO
+[4.766s] writing dependency_links to ../../build/camera_publisher/camera_publisher.egg-info/dependency_links.txt
+[4.767s] writing entry points to ../../build/camera_publisher/camera_publisher.egg-info/entry_points.txt
+[4.769s] writing requirements to ../../build/camera_publisher/camera_publisher.egg-info/requires.txt
+[4.769s] writing top-level names to ../../build/camera_publisher/camera_publisher.egg-info/top_level.txt
+[4.781s] reading manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[4.784s] writing manifest file '../../build/camera_publisher/camera_publisher.egg-info/SOURCES.txt'
+[4.785s] running build
+[4.785s] running build_py
+[4.786s] copying camera_publisher/camera_publisher_node.py -> /home/f1tenth/f1tenth_ws/build/camera_publisher/build/lib/camera_publisher
+[4.787s] running install
+[4.791s] running install_lib
+[4.801s] copying /home/f1tenth/f1tenth_ws/build/camera_publisher/build/lib/camera_publisher/camera_publisher_node.py -> /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages/camera_publisher
+[4.802s] byte-compiling /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages/camera_publisher/camera_publisher_node.py to camera_publisher_node.cpython-38.pyc
+[4.804s] running install_data
+[4.806s] running install_egg_info
+[4.813s] removing '/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages/camera_publisher-0.0.0-py3.8.egg-info' (and everything under it)
+[4.818s] Copying ../../build/camera_publisher/camera_publisher.egg-info to /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages/camera_publisher-0.0.0-py3.8.egg-info
+[4.821s] running install_scripts
+[4.900s] Installing camera_publisher script to /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/camera_publisher
+[4.903s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_publisher/install.log'
+[5.005s] Invoked command in '/home/f1tenth/f1tenth_ws/src/camera_publisher' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_publisher build --build-base /home/f1tenth/f1tenth_ws/build/camera_publisher/build install --record /home/f1tenth/f1tenth_ws/build/camera_publisher/install.log --install-scripts $base/lib/camera_publisher --single-version-externally-managed install_data

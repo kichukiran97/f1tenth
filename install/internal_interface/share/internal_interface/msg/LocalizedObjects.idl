@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from internal_interface/msg/LocalizedObjects.msg
+// generated code does not contain a copyright notice
+
+#include "internal_interface/msg/LocalizedObject.idl"
+
+module internal_interface {
+  module msg {
+    struct LocalizedObjects {
+      sequence<internal_interface::msg::LocalizedObject> objects;
+    };
+  };
+};

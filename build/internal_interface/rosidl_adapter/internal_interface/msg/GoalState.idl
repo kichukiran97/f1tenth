@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from internal_interface/msg/GoalState.msg
+// generated code does not contain a copyright notice
+
+
+module internal_interface {
+  module msg {
+    struct GoalState {
+      uint64 goal_node_id;
+    };
+  };
+};

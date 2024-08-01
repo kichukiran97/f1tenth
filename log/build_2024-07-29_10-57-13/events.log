@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.006282] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.006531] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.006911] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.007203] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.007440] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.007955] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.008090] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.008262] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.008370] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.008456] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.008602] (-) JobUnselected: {'identifier': 'vesc'}
+[0.009483] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.009634] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.009749] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.010001] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.010114] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.010251] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.074791] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.079058] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[0.082270] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/v4l2_camera', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2292'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth/f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5240'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:49035'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2447,unix/ubuntu:/tmp/.ICE-unix/2447'), ('INVOCATION_ID', '8df8566f1210451893dbb778cdc366f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1926d2d1-08a5-444c-866d-b50d2584d2ea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.099525] (-) TimerEvent: {}
+[0.208801] (-) TimerEvent: {}
+[0.280785] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.308951] (-) TimerEvent: {}
+[0.409898] (-) TimerEvent: {}
+[0.421071] (v4l2_camera) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.510135] (-) TimerEvent: {}
+[0.611659] (-) TimerEvent: {}
+[0.712533] (-) TimerEvent: {}
+[0.813450] (-) TimerEvent: {}
+[0.917049] (-) TimerEvent: {}
+[1.018778] (-) TimerEvent: {}
+[1.120209] (-) TimerEvent: {}
+[1.223045] (-) TimerEvent: {}
+[1.328687] (-) TimerEvent: {}
+[1.408383] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.423726] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.430273] (-) TimerEvent: {}
+[1.533480] (-) TimerEvent: {}
+[1.580453] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.598302] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.633872] (-) TimerEvent: {}
+[1.734788] (-) TimerEvent: {}
+[1.835893] (-) TimerEvent: {}
+[1.937126] (-) TimerEvent: {}
+[2.038092] (-) TimerEvent: {}
+[2.139094] (-) TimerEvent: {}
+[2.234872] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.239194] (-) TimerEvent: {}
+[2.340021] (-) TimerEvent: {}
+[2.442144] (-) TimerEvent: {}
+[2.444291] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.459149] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.542425] (-) TimerEvent: {}
+[2.643473] (-) TimerEvent: {}
+[2.744616] (-) TimerEvent: {}
+[2.846111] (-) TimerEvent: {}
+[2.947036] (-) TimerEvent: {}
+[3.032859] (v4l2_camera) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[3.047254] (-) TimerEvent: {}
+[3.148188] (-) TimerEvent: {}
+[3.245953] (v4l2_camera) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[3.248276] (-) TimerEvent: {}
+[3.349043] (-) TimerEvent: {}
+[3.450036] (-) TimerEvent: {}
+[3.551163] (-) TimerEvent: {}
+[3.652746] (-) TimerEvent: {}
+[3.756457] (-) TimerEvent: {}
+[3.812126] (v4l2_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)\n'}
+[3.857112] (-) TimerEvent: {}
+[3.875439] (v4l2_camera) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[3.957756] (-) TimerEvent: {}
+[4.061301] (-) TimerEvent: {}
+[4.132417] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[4.161282] (-) TimerEvent: {}
+[4.262334] (-) TimerEvent: {}
+[4.363708] (-) TimerEvent: {}
+[4.465176] (-) TimerEvent: {}
+[4.503346] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.504806] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/f1tenth/f1tenth_ws/src/v4l2_camera/include>\n'}
+[4.505406] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.531106] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[4.531895] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[4.534948] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.544863] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.547853] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[4.565394] (-) TimerEvent: {}
+[4.572730] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.573370] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.576737] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.606434] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.666082] (-) TimerEvent: {}
+[4.768111] (-) TimerEvent: {}
+[4.866629] (v4l2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[4.869704] (-) TimerEvent: {}
+[4.876758] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/v4l2_camera\n'}
+[4.969635] (-) TimerEvent: {}
+[5.070588] (-) TimerEvent: {}
+[5.141043] (v4l2_camera) StdoutLine: {'line': b'[ 42%] Built target v4l2_camera\n'}
+[5.170838] (-) TimerEvent: {}
+[5.271869] (-) TimerEvent: {}
+[5.324684] (v4l2_camera) StdoutLine: {'line': b'[ 71%] Built target v4l2_camera_compose_test\n'}
+[5.355841] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_node\n'}
+[5.372216] (-) TimerEvent: {}
+[5.414813] (v4l2_camera) CommandEnded: {'returncode': 0}
+[5.472760] (-) TimerEvent: {}
+[5.574193] (-) TimerEvent: {}
+[5.614142] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[5.676491] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/f1tenth_ws/build/v4l2_camera'], 'cwd': '/home/f1tenth/f1tenth_ws/build/v4l2_camera', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2292'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth/f1tenth_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1647'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5240'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:49035'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2447,unix/ubuntu:/tmp/.ICE-unix/2447'), ('INVOCATION_ID', '8df8566f1210451893dbb778cdc366f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1926d2d1-08a5-444c-866d-b50d2584d2ea'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[5.689166] (-) TimerEvent: {}
+[5.733215] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.734860] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include\n'}
+[5.736686] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera\n'}
+[5.737734] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[5.738399] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[5.741658] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[5.742084] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[5.742458] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[5.742806] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[5.743398] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[5.743713] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/launch\n'}
+[5.744015] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/launch/camera_launch.py\n'}
+[5.744362] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[5.744763] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[5.745744] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[5.747154] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[5.747685] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[5.748749] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[5.749340] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[5.750250] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[5.750795] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[5.751580] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[5.752095] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[5.753195] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[5.753856] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[5.754651] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[5.755052] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[5.755536] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[5.756716] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[5.757300] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[5.757779] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[5.758314] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[5.759169] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.759724] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.760291] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.760934] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.761376] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[5.761710] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[5.762087] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[5.769294] (v4l2_camera) CommandEnded: {'returncode': 0}
+[5.792446] (-) TimerEvent: {}
+[5.897748] (-) TimerEvent: {}
+[5.999697] (-) TimerEvent: {}
+[6.093120] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[6.096756] (-) EventReactorShutdown: {}

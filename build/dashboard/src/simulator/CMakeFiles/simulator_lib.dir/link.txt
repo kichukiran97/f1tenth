@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimulator_lib.a  CMakeFiles/simulator_lib.dir/car.cpp.o CMakeFiles/simulator_lib.dir/car_state_display.cpp.o CMakeFiles/simulator_lib.dir/map.cpp.o CMakeFiles/simulator_lib.dir/simulator.cpp.o
+/usr/bin/ranlib libsimulator_lib.a

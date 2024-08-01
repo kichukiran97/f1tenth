@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info
+writing ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/requires.txt
+writing top-level names to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/top_level.txt
+writing manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build
+creating /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib
+creating /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg
+copying camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg
+copying camera_subscriber_pkg/__init__.py -> /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg
+running install
+running install_lib
+creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg
+copying /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg
+copying /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg/__init__.py -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg
+byte-compiling /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg/camera_subscriber.py to camera_subscriber.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index
+creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index/resource_index
+creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index/resource_index/packages
+copying resource/camera_subscriber_pkg -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/camera_subscriber_pkg
+running install_egg_info
+Copying ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log'

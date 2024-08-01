@@ -1,0 +1,172 @@
+[0.000000] (-) TimerEvent: {}
+[0.010083] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.010302] (-) JobUnselected: {'identifier': 'camera'}
+[0.010400] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.010507] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.010890] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.010995] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.011124] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.011217] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.011493] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.011582] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.011839] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.012012] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.012111] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.012219] (-) JobUnselected: {'identifier': 'vesc'}
+[0.012364] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.012461] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.012557] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.012827] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.013055] (dashboard) JobQueued: {'identifier': 'dashboard', 'dependencies': OrderedDict([('internal_interface', '/home/f1tenth/f1tenth_ws/install/internal_interface')])}
+[0.013183] (dashboard) JobStarted: {'identifier': 'dashboard'}
+[0.092812] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'cmake'}
+[0.096110] (-) TimerEvent: {}
+[0.099880] (dashboard) Command: {'cmd': ['/usr/bin/cmake', '/home/f1tenth/f1tenth_ws/src/dashboard', '-DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/dashboard'], 'cwd': '/home/f1tenth/f1tenth_ws/build/dashboard', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2330'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1691'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52299'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2501,unix/ubuntu:/tmp/.ICE-unix/2501'), ('INVOCATION_ID', '2752c9a9fcc54ab59902a51bcb536aa8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d11c728c_52de_4d80_b09d_4e447e21831c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('GNOME_TERMINAL_SERVICE', ':1.84'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/dashboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee1f5c4edc6c746348edd8e0655d1cd0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.196649] (-) TimerEvent: {}
+[0.201504] (dashboard) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.296778] (-) TimerEvent: {}
+[0.324629] (dashboard) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.396995] (-) TimerEvent: {}
+[0.497902] (-) TimerEvent: {}
+[0.598730] (-) TimerEvent: {}
+[0.701143] (-) TimerEvent: {}
+[0.802032] (-) TimerEvent: {}
+[0.902926] (-) TimerEvent: {}
+[1.003837] (-) TimerEvent: {}
+[1.105634] (-) TimerEvent: {}
+[1.211077] (-) TimerEvent: {}
+[1.307805] (dashboard) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.312002] (-) TimerEvent: {}
+[1.336797] (dashboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.355079] (dashboard) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.412147] (-) TimerEvent: {}
+[1.513258] (-) TimerEvent: {}
+[1.614843] (-) TimerEvent: {}
+[1.717969] (-) TimerEvent: {}
+[1.822101] (-) TimerEvent: {}
+[1.923377] (-) TimerEvent: {}
+[2.024379] (-) TimerEvent: {}
+[2.081196] (dashboard) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.124599] (-) TimerEvent: {}
+[2.205496] (dashboard) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.224728] (-) TimerEvent: {}
+[2.325582] (-) TimerEvent: {}
+[2.359754] (dashboard) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[2.426127] (-) TimerEvent: {}
+[2.528639] (-) TimerEvent: {}
+[2.630583] (-) TimerEvent: {}
+[2.731663] (-) TimerEvent: {}
+[2.832741] (-) TimerEvent: {}
+[2.933884] (-) TimerEvent: {}
+[3.035645] (-) TimerEvent: {}
+[3.136659] (-) TimerEvent: {}
+[3.237721] (-) TimerEvent: {}
+[3.338728] (-) TimerEvent: {}
+[3.440019] (-) TimerEvent: {}
+[3.540999] (-) TimerEvent: {}
+[3.642135] (-) TimerEvent: {}
+[3.743204] (-) TimerEvent: {}
+[3.844891] (-) TimerEvent: {}
+[3.945988] (-) TimerEvent: {}
+[4.046931] (-) TimerEvent: {}
+[4.129447] (dashboard) StdoutLine: {'line': b'-- libudev stable: 1\n'}
+[4.130668] (dashboard) StdoutLine: {'line': b'-- Found UDev: /usr/lib/aarch64-linux-gnu/libudev.so\n'}
+[4.131711] (dashboard) StdoutLine: {'line': b'--    include: /usr/include\n'}
+[4.147242] (-) TimerEvent: {}
+[4.221641] (dashboard) StdoutLine: {'line': b'-- Found FLAC: /usr/lib/aarch64-linux-gnu/libFLAC.so  \n'}
+[4.247554] (-) TimerEvent: {}
+[4.260399] (dashboard) StdoutLine: {'line': b'-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)\n'}
+[4.348123] (-) TimerEvent: {}
+[4.411833] (dashboard) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[4.448382] (-) TimerEvent: {}
+[4.549434] (-) TimerEvent: {}
+[4.650683] (-) TimerEvent: {}
+[4.751637] (-) TimerEvent: {}
+[4.759102] (dashboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.770736] (dashboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.777131] (dashboard) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.852312] (-) TimerEvent: {}
+[4.953299] (-) TimerEvent: {}
+[5.058910] (-) TimerEvent: {}
+[5.160068] (-) TimerEvent: {}
+[5.206446] (dashboard) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[5.208155] (dashboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.260290] (-) TimerEvent: {}
+[5.362712] (-) TimerEvent: {}
+[5.463969] (-) TimerEvent: {}
+[5.565091] (-) TimerEvent: {}
+[5.643845] (dashboard) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[5.645479] (dashboard) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[5.665300] (-) TimerEvent: {}
+[5.766979] (-) TimerEvent: {}
+[5.868020] (-) TimerEvent: {}
+[5.968938] (-) TimerEvent: {}
+[6.027341] (dashboard) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[6.028608] (dashboard) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[6.069157] (-) TimerEvent: {}
+[6.170157] (-) TimerEvent: {}
+[6.272364] (-) TimerEvent: {}
+[6.374635] (-) TimerEvent: {}
+[6.431731] (dashboard) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[6.436995] (dashboard) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.474870] (-) TimerEvent: {}
+[6.575951] (-) TimerEvent: {}
+[6.677091] (-) TimerEvent: {}
+[6.778100] (-) TimerEvent: {}
+[6.879135] (-) TimerEvent: {}
+[6.980189] (-) TimerEvent: {}
+[7.081161] (-) TimerEvent: {}
+[7.182246] (-) TimerEvent: {}
+[7.229018] (dashboard) StdoutLine: {'line': b'-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)\n'}
+[7.283714] (-) TimerEvent: {}
+[7.377424] (dashboard) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[7.383990] (-) TimerEvent: {}
+[7.487075] (-) TimerEvent: {}
+[7.559955] (dashboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.578372] (dashboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.587414] (-) TimerEvent: {}
+[7.689225] (-) TimerEvent: {}
+[7.790812] (-) TimerEvent: {}
+[7.892364] (-) TimerEvent: {}
+[7.993520] (-) TimerEvent: {}
+[8.094539] (-) TimerEvent: {}
+[8.147192] (dashboard) StdoutLine: {'line': b'-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)\n'}
+[8.194998] (-) TimerEvent: {}
+[8.266687] (dashboard) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[8.295287] (-) TimerEvent: {}
+[8.396348] (-) TimerEvent: {}
+[8.423806] (dashboard) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[8.435956] (dashboard) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.496598] (-) TimerEvent: {}
+[8.598254] (-) TimerEvent: {}
+[8.699238] (-) TimerEvent: {}
+[8.800280] (-) TimerEvent: {}
+[8.901442] (-) TimerEvent: {}
+[8.972791] (dashboard) StdoutLine: {'line': b'-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)\n'}
+[9.001643] (-) TimerEvent: {}
+[9.102916] (-) TimerEvent: {}
+[9.136689] (dashboard) StderrLine: {'line': b'CMake Error at src/CMakeLists.txt:11 (find_package):\n'}
+[9.139449] (dashboard) StderrLine: {'line': b'  By not providing "Findcalibration.cmake" in CMAKE_MODULE_PATH this project\n'}
+[9.140156] (dashboard) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[9.140616] (dashboard) StderrLine: {'line': b'  "calibration", but CMake did not find one.\n'}
+[9.140918] (dashboard) StderrLine: {'line': b'\n'}
+[9.141212] (dashboard) StderrLine: {'line': b'  Could not find a package configuration file provided by "calibration" with\n'}
+[9.141596] (dashboard) StderrLine: {'line': b'  any of the following names:\n'}
+[9.142058] (dashboard) StderrLine: {'line': b'\n'}
+[9.142384] (dashboard) StderrLine: {'line': b'    calibrationConfig.cmake\n'}
+[9.142713] (dashboard) StderrLine: {'line': b'    calibration-config.cmake\n'}
+[9.143031] (dashboard) StderrLine: {'line': b'\n'}
+[9.143293] (dashboard) StderrLine: {'line': b'  Add the installation prefix of "calibration" to CMAKE_PREFIX_PATH or set\n'}
+[9.143562] (dashboard) StderrLine: {'line': b'  "calibration_DIR" to a directory containing one of the above files.  If\n'}
+[9.143857] (dashboard) StderrLine: {'line': b'  "calibration" provides a separate development package or SDK, be sure it\n'}
+[9.144162] (dashboard) StderrLine: {'line': b'  has been installed.\n'}
+[9.144444] (dashboard) StderrLine: {'line': b'\n'}
+[9.144709] (dashboard) StderrLine: {'line': b'\n'}
+[9.169187] (dashboard) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.170136] (dashboard) StdoutLine: {'line': b'See also "/home/f1tenth/f1tenth_ws/build/dashboard/CMakeFiles/CMakeOutput.log".\n'}
+[9.170567] (dashboard) StdoutLine: {'line': b'See also "/home/f1tenth/f1tenth_ws/build/dashboard/CMakeFiles/CMakeError.log".\n'}
+[9.205221] (-) TimerEvent: {}
+[9.222390] (dashboard) CommandEnded: {'returncode': 1}
+[9.305942] (-) TimerEvent: {}
+[9.367047] (dashboard) JobEnded: {'identifier': 'dashboard', 'rc': 1}
+[9.379046] (-) EventReactorShutdown: {}

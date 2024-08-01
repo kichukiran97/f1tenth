@@ -1,0 +1,111 @@
+[0.133s] Invoking command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/v4l2_camera
+[0.957s] -- The C compiler identification is GNU 9.4.0
+[1.780s] -- The CXX compiler identification is GNU 9.4.0
+[1.912s] -- Check for working C compiler: /usr/bin/cc
+[2.584s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.591s] -- Detecting C compiler ABI info
+[3.058s] -- Detecting C compiler ABI info - done
+[3.147s] -- Detecting C compile features
+[3.149s] -- Detecting C compile features - done
+[3.165s] -- Check for working CXX compiler: /usr/bin/c++
+[3.717s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.721s] -- Detecting CXX compiler ABI info
+[4.416s] -- Detecting CXX compiler ABI info - done
+[4.509s] -- Detecting CXX compile features
+[4.512s] -- Detecting CXX compile features - done
+[4.541s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.740s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.142s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[6.295s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[6.772s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.839s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[7.535s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[7.696s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.263s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.654s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.670s] -- Looking for pthread.h
+[9.130s] -- Looking for pthread.h - found
+[9.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.618s] -- Looking for pthread_create in pthreads
+[9.997s] -- Looking for pthread_create in pthreads - not found
+[9.998s] -- Looking for pthread_create in pthread
+[10.436s] -- Looking for pthread_create in pthread - found
+[10.443s] -- Found Threads: TRUE  
+[11.289s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[11.590s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[12.290s] -- Found camera_info_manager: 2.4.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[12.388s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[12.673s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.240s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.245s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/f1tenth/f1tenth_ws/src/v4l2_camera/include>
+[13.248s] -- Configured cppcheck exclude dirs and/or files: 
+[13.277s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[13.278s] -- Configured cpplint exclude dirs and/or files: 
+[13.289s] -- Added test 'lint_cmake' to check CMake code style
+[13.316s] -- Added test 'uncrustify' to check C / C++ code style
+[13.316s] -- Configured uncrustify additional arguments: 
+[13.322s] -- Added test 'xmllint' to check XML markup files
+[13.371s] -- Configuring done
+[13.664s] -- Generating done
+[13.672s] -- Build files have been written to: /home/f1tenth/f1tenth_ws/build/v4l2_camera
+[13.719s] Invoked command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake /home/f1tenth/f1tenth_ws/src/v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/f1tenth/f1tenth_ws/install/v4l2_camera
+[13.734s] Invoking command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/v4l2_camera -- -j4 -l4
+[13.989s] [35m[1mScanning dependencies of target v4l2_camera[0m
+[14.403s] [ 14%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[14.409s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[34.492s] [ 42%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[35.724s] [ 42%] Built target v4l2_camera
+[35.792s] [35m[1mScanning dependencies of target v4l2_camera_compose_test[0m
+[35.793s] [35m[1mScanning dependencies of target v4l2_camera_node[0m
+[36.064s] [ 57%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[36.106s] [ 71%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[45.582s] [ 85%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[46.433s] [ 85%] Built target v4l2_camera_node
+[57.730s] [100%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[59.038s] [100%] Built target v4l2_camera_compose_test
+[59.105s] Invoked command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/v4l2_camera -- -j4 -l4
+[59.316s] Invoking command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/v4l2_camera
+[59.375s] -- Install configuration: ""
+[59.376s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include
+[59.377s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera
+[59.377s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[59.379s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[59.379s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[59.380s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/control.hpp
+[59.380s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[59.381s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[59.382s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[59.383s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/libv4l2_camera.so
+[59.402s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[59.402s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[59.406s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[59.406s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[59.427s] -- Set runtime path of "/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[59.427s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[59.428s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[59.429s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[59.430s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[59.431s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[59.432s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[59.432s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[59.433s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[59.434s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[59.435s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[59.436s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[59.436s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[59.437s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.dsv
+[59.438s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[59.439s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[59.441s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[59.442s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[59.442s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.443s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[59.444s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[59.445s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.446s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[59.447s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[59.448s] -- Installing: /home/f1tenth/f1tenth_ws/install/v4l2_camera/share/v4l2_camera/package.xml
+[59.472s] Invoked command in '/home/f1tenth/f1tenth_ws/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/v4l2_camera

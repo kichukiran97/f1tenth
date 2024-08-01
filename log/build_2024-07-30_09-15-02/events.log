@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.001304] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001488] (-) JobUnselected: {'identifier': 'calibration'}
+[0.001584] (-) JobUnselected: {'identifier': 'camera'}
+[0.002676] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.008005] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.008339] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.009219] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.009788] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.009945] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.010056] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.010154] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.010274] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.010357] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.010434] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.010513] (-) JobUnselected: {'identifier': 'vesc'}
+[0.010600] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.010715] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.010800] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.010881] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.011360] (dashboard) JobQueued: {'identifier': 'dashboard', 'dependencies': OrderedDict([('internal_interface', '/home/f1tenth/f1tenth_ws/install/internal_interface'), ('camera', '/home/f1tenth/f1tenth_ws/install/camera'), ('calibration', '/home/f1tenth/f1tenth_ws/install/calibration')])}
+[0.011629] (dashboard) JobStarted: {'identifier': 'dashboard'}
+[0.099658] (-) TimerEvent: {}
+[0.173609] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'cmake'}
+[0.178426] (dashboard) JobProgress: {'identifier': 'dashboard', 'progress': 'build'}
+[0.183659] (dashboard) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/dashboard', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/dashboard', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2388'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1717'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5175'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52300'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '322dc57426434ab6b1191a822e826201'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:677fa234-278d-48de-8525-43e87490a3c2'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/dashboard'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.199757] (-) TimerEvent: {}
+[0.315343] (-) TimerEvent: {}
+[0.418466] (-) TimerEvent: {}
+[0.520729] (-) TimerEvent: {}
+[0.622279] (-) TimerEvent: {}
+[0.678899] (dashboard) StdoutLine: {'line': b'[ 13%] Built target sfml-system\n'}
+[0.723759] (-) TimerEvent: {}
+[0.826541] (-) TimerEvent: {}
+[0.932363] (-) TimerEvent: {}
+[0.973411] (dashboard) StdoutLine: {'line': b'[ 22%] Built target sfml-network\n'}
+[1.003358] (dashboard) StdoutLine: {'line': b'[ 41%] Built target sfml-window\n'}
+[1.023686] (dashboard) StdoutLine: {'line': b'[ 57%] Built target sfml-audio\n'}
+[1.032786] (-) TimerEvent: {}
+[1.133712] (-) TimerEvent: {}
+[1.235813] (-) TimerEvent: {}
+[1.264903] (dashboard) StdoutLine: {'line': b'[ 81%] Built target sfml-graphics\n'}
+[1.336022] (-) TimerEvent: {}
+[1.437520] (-) TimerEvent: {}
+[1.538456] (-) TimerEvent: {}
+[1.566306] (dashboard) StdoutLine: {'line': b'[ 87%] Built target interface_lib\n'}
+[1.647770] (-) TimerEvent: {}
+[1.748923] (-) TimerEvent: {}
+[1.775208] (dashboard) StdoutLine: {'line': b'[ 94%] Built target ui_lib\n'}
+[1.849627] (-) TimerEvent: {}
+[1.935426] (dashboard) StdoutLine: {'line': b'[ 98%] Built target simulator_lib\n'}
+[1.949846] (-) TimerEvent: {}
+[2.021222] (dashboard) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target start_dashboard\x1b[0m\n'}
+[2.050305] (-) TimerEvent: {}
+[2.153186] (-) TimerEvent: {}
+[2.254931] (-) TimerEvent: {}
+[2.283485] (dashboard) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o\x1b[0m\n'}
+[2.355191] (-) TimerEvent: {}
+[2.456232] (-) TimerEvent: {}
+[2.557106] (-) TimerEvent: {}
+[2.658032] (-) TimerEvent: {}
+[2.759024] (-) TimerEvent: {}
+[2.860223] (-) TimerEvent: {}
+[2.965607] (-) TimerEvent: {}
+[3.066490] (-) TimerEvent: {}
+[3.167392] (-) TimerEvent: {}
+[3.269304] (-) TimerEvent: {}
+[3.371314] (-) TimerEvent: {}
+[3.472450] (-) TimerEvent: {}
+[3.573388] (-) TimerEvent: {}
+[3.674341] (-) TimerEvent: {}
+[3.775322] (-) TimerEvent: {}
+[3.878422] (-) TimerEvent: {}
+[3.982799] (-) TimerEvent: {}
+[4.083690] (-) TimerEvent: {}
+[4.187442] (-) TimerEvent: {}
+[4.288327] (-) TimerEvent: {}
+[4.389202] (-) TimerEvent: {}
+[4.491183] (-) TimerEvent: {}
+[4.595569] (-) TimerEvent: {}
+[4.696598] (-) TimerEvent: {}
+[4.797558] (-) TimerEvent: {}
+[4.898443] (-) TimerEvent: {}
+[4.999451] (-) TimerEvent: {}
+[5.100532] (-) TimerEvent: {}
+[5.201494] (-) TimerEvent: {}
+[5.302531] (-) TimerEvent: {}
+[5.405917] (-) TimerEvent: {}
+[5.506878] (-) TimerEvent: {}
+[5.608249] (-) TimerEvent: {}
+[5.709249] (-) TimerEvent: {}
+[5.810274] (-) TimerEvent: {}
+[5.911249] (-) TimerEvent: {}
+[6.012592] (-) TimerEvent: {}
+[6.113636] (-) TimerEvent: {}
+[6.214627] (-) TimerEvent: {}
+[6.315813] (-) TimerEvent: {}
+[6.418586] (-) TimerEvent: {}
+[6.520490] (-) TimerEvent: {}
+[6.621631] (-) TimerEvent: {}
+[6.722968] (-) TimerEvent: {}
+[6.824015] (-) TimerEvent: {}
+[6.929957] (-) TimerEvent: {}
+[7.032429] (-) TimerEvent: {}
+[7.133621] (-) TimerEvent: {}
+[7.234771] (-) TimerEvent: {}
+[7.336782] (-) TimerEvent: {}
+[7.437737] (-) TimerEvent: {}
+[7.542241] (-) TimerEvent: {}
+[7.644500] (-) TimerEvent: {}
+[7.750564] (-) TimerEvent: {}
+[7.851832] (-) TimerEvent: {}
+[7.954649] (-) TimerEvent: {}
+[8.055869] (-) TimerEvent: {}
+[8.157545] (-) TimerEvent: {}
+[8.258458] (-) TimerEvent: {}
+[8.363497] (-) TimerEvent: {}
+[8.465677] (-) TimerEvent: {}
+[8.576262] (-) TimerEvent: {}
+[8.679354] (-) TimerEvent: {}
+[8.785043] (-) TimerEvent: {}
+[8.886059] (-) TimerEvent: {}
+[8.986907] (-) TimerEvent: {}
+[9.088958] (-) TimerEvent: {}
+[9.190849] (-) TimerEvent: {}
+[9.292925] (-) TimerEvent: {}
+[9.393936] (-) TimerEvent: {}
+[9.497424] (-) TimerEvent: {}
+[9.598503] (-) TimerEvent: {}
+[9.699423] (-) TimerEvent: {}
+[9.800387] (-) TimerEvent: {}
+[9.901326] (-) TimerEvent: {}
+[10.002978] (-) TimerEvent: {}
+[10.108742] (-) TimerEvent: {}
+[10.210102] (-) TimerEvent: {}
+[10.311216] (-) TimerEvent: {}
+[10.413131] (-) TimerEvent: {}
+[10.514119] (-) TimerEvent: {}
+[10.616355] (-) TimerEvent: {}
+[10.717495] (-) TimerEvent: {}
+[10.820235] (-) TimerEvent: {}
+[10.921248] (-) TimerEvent: {}
+[11.022961] (-) TimerEvent: {}
+[11.123933] (-) TimerEvent: {}
+[11.225529] (-) TimerEvent: {}
+[11.330177] (-) TimerEvent: {}
+[11.432200] (-) TimerEvent: {}
+[11.533109] (-) TimerEvent: {}
+[11.634488] (-) TimerEvent: {}
+[11.736222] (-) TimerEvent: {}
+[11.842272] (-) TimerEvent: {}
+[11.943326] (-) TimerEvent: {}
+[12.044265] (-) TimerEvent: {}
+[12.145621] (-) TimerEvent: {}
+[12.253875] (-) TimerEvent: {}
+[12.355590] (-) TimerEvent: {}
+[12.458536] (-) TimerEvent: {}
+[12.512271] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.513266] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:65:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[KCameraSubscriber\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshared_ptr<\x1b[01;32m\x1b[Kui::Element\x1b[m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.513640] (dashboard) StderrLine: {'line': b'   65 |     ui.AddElement(\x1b[01;31m\x1b[KcameraSubscriber\x1b[m\x1b[K);\n'}
+[12.513919] (dashboard) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[12.514234] (dashboard) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[12.514556] (dashboard) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[Kshared_ptr<CameraSubscriber>\x1b[m\x1b[K\n'}
+[12.514921] (dashboard) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:11\x1b[m\x1b[K:\n'}
+[12.517639] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/ui/core/ui.hpp:18:46:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ui::UI::AddElement(std::shared_ptr<ui::Element>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.518446] (dashboard) StderrLine: {'line': b'   18 |     void AddElement(\x1b[01;36m\x1b[Kstd::shared_ptr<Element> element\x1b[m\x1b[K);\n'}
+[12.518863] (dashboard) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[12.520585] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:69:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class CameraSubscriber\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass CameraSubscriber\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[KSetBounds\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.522729] (dashboard) StderrLine: {'line': b'   69 |     cameraSubscriber->\x1b[01;31m\x1b[KSetBounds\x1b[m\x1b[K(sf::FloatRect(100, 200, 640, 480));\n'}
+[12.523720] (dashboard) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[12.524098] (dashboard) StderrLine: {'line': b'\x1b[01m\x1b[K/home/f1tenth/f1tenth_ws/src/dashboard/src/dashboard.cpp:101:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kconsumed\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[12.524626] (dashboard) StderrLine: {'line': b'  101 |             bool \x1b[01;35m\x1b[Kconsumed\x1b[m\x1b[K = ui.HandleEvent(event);\n'}
+[12.524960] (dashboard) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[12.558693] (-) TimerEvent: {}
+[12.659643] (-) TimerEvent: {}
+[12.763438] (-) TimerEvent: {}
+[12.867880] (-) TimerEvent: {}
+[12.969652] (-) TimerEvent: {}
+[13.070646] (-) TimerEvent: {}
+[13.171591] (-) TimerEvent: {}
+[13.273653] (-) TimerEvent: {}
+[13.376499] (-) TimerEvent: {}
+[13.477440] (-) TimerEvent: {}
+[13.579948] (-) TimerEvent: {}
+[13.682342] (-) TimerEvent: {}
+[13.789040] (-) TimerEvent: {}
+[13.890096] (-) TimerEvent: {}
+[13.991175] (-) TimerEvent: {}
+[14.093001] (-) TimerEvent: {}
+[14.195013] (-) TimerEvent: {}
+[14.297305] (-) TimerEvent: {}
+[14.399519] (-) TimerEvent: {}
+[14.501414] (-) TimerEvent: {}
+[14.603441] (-) TimerEvent: {}
+[14.704425] (-) TimerEvent: {}
+[14.805388] (-) TimerEvent: {}
+[14.855533] (dashboard) StderrLine: {'line': b'make[2]: *** [src/CMakeFiles/start_dashboard.dir/build.make:63: src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o] Error 1\n'}
+[14.857859] (dashboard) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:531: src/CMakeFiles/start_dashboard.dir/all] Error 2\n'}
+[14.858546] (dashboard) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[14.870335] (dashboard) CommandEnded: {'returncode': 2}
+[14.906017] (-) TimerEvent: {}
+[15.007727] (-) TimerEvent: {}
+[15.108782] (-) TimerEvent: {}
+[15.212112] (-) TimerEvent: {}
+[15.259973] (dashboard) JobEnded: {'identifier': 'dashboard', 'rc': 2}
+[15.273966] (-) EventReactorShutdown: {}

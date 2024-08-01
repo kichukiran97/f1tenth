@@ -1,0 +1,9 @@
+CMake Error at /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:146 (message):
+  Could NOT find OpenAL (missing: OPENAL_LIBRARY OPENAL_INCLUDE_DIR)
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake:393 (_FPHSA_FAILURE_MESSAGE)
+  /usr/share/cmake-3.16/Modules/FindOpenAL.cmake:91 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/cmake/Macros.cmake:279 (find_package)
+  /home/f1tenth/f1tenth_ws/build/dashboard/_deps/sfml-src/src/SFML/Audio/CMakeLists.txt:69 (sfml_find_package)
+
+

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/opencv_tools/opencv_tools.egg-info
+writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build
+creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib
+creating /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/img_publisher.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/__init__.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+copying opencv_tools/img_subscriber.py -> /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools
+running install
+running install_lib
+creating /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/img_publisher.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/__init__.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+copying /home/f1tenth/f1tenth_ws/build/opencv_tools/build/lib/opencv_tools/img_subscriber.py -> /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools
+byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/img_publisher.py to img_publisher.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools/img_subscriber.py to img_subscriber.cpython-38.pyc
+running install_data
+creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index
+creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index
+creating /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying resource/opencv_tools -> /home/f1tenth/f1tenth_ws/install/opencv_tools/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth/f1tenth_ws/install/opencv_tools/share/opencv_tools
+running install_egg_info
+Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/f1tenth/f1tenth_ws/build/opencv_tools/install.log'

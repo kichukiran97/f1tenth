@@ -1,0 +1,9 @@
+In file included from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.hpp:5[m[K,
+                 from [01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/camera_subscriber.cpp:1[m[K:
+[01m[K/home/f1tenth/f1tenth_ws/src/camera_visualizer/src/encoded_image.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kinternal_interface/msg/detail/encoded_image__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"internal_interface/msg/detail/encoded_image__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/camera_subscriber_node.dir/build.make:63: CMakeFiles/camera_subscriber_node.dir/src/camera_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_subscriber_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,309 @@
+[0.000000] (-) TimerEvent: {}
+[0.001907] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.002600] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.002903] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.003080] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.003239] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.003397] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.003719] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.003904] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004283] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.005897] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.006171] (-) JobUnselected: {'identifier': 'vesc'}
+[0.006606] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.006966] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.007115] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.007291] (waypoint_generator) JobQueued: {'identifier': 'waypoint_generator', 'dependencies': OrderedDict()}
+[0.007768] (waypoint_generator) JobStarted: {'identifier': 'waypoint_generator'}
+[0.067241] (waypoint_generator) JobProgress: {'identifier': 'waypoint_generator', 'progress': 'cmake'}
+[0.074447] (waypoint_generator) JobProgress: {'identifier': 'waypoint_generator', 'progress': 'build'}
+[0.078699] (waypoint_generator) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/f1tenth/f1tenth_ws/build/waypoint_generator', '--', '-j4', '-l4'], 'cwd': '/home/f1tenth/f1tenth_ws/build/waypoint_generator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2337'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2507,unix/ubuntu:/tmp/.ICE-unix/2507'), ('INVOCATION_ID', '6c49fdd8f92b495f89b7d4b393719c0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b305ed51-6303-4e51-8c22-d7ba1f00f616'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/waypoint_generator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[0.099825] (-) TimerEvent: {}
+[0.204148] (-) TimerEvent: {}
+[0.305141] (-) TimerEvent: {}
+[0.406649] (-) TimerEvent: {}
+[0.423509] (waypoint_generator) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target waypoint_generator\x1b[0m\n'}
+[0.507035] (-) TimerEvent: {}
+[0.608352] (-) TimerEvent: {}
+[0.676979] (waypoint_generator) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/waypoint_generator.dir/src/waypoint_generator.cpp.o\x1b[0m\n'}
+[0.708673] (-) TimerEvent: {}
+[0.810187] (-) TimerEvent: {}
+[0.912073] (-) TimerEvent: {}
+[1.012967] (-) TimerEvent: {}
+[1.113988] (-) TimerEvent: {}
+[1.215127] (-) TimerEvent: {}
+[1.316025] (-) TimerEvent: {}
+[1.417765] (-) TimerEvent: {}
+[1.518864] (-) TimerEvent: {}
+[1.619960] (-) TimerEvent: {}
+[1.720897] (-) TimerEvent: {}
+[1.823681] (-) TimerEvent: {}
+[1.924705] (-) TimerEvent: {}
+[2.025897] (-) TimerEvent: {}
+[2.126870] (-) TimerEvent: {}
+[2.227979] (-) TimerEvent: {}
+[2.330279] (-) TimerEvent: {}
+[2.431770] (-) TimerEvent: {}
+[2.533342] (-) TimerEvent: {}
+[2.634942] (-) TimerEvent: {}
+[2.738347] (-) TimerEvent: {}
+[2.841366] (-) TimerEvent: {}
+[2.942577] (-) TimerEvent: {}
+[3.043485] (-) TimerEvent: {}
+[3.145148] (-) TimerEvent: {}
+[3.249991] (-) TimerEvent: {}
+[3.351566] (-) TimerEvent: {}
+[3.452746] (-) TimerEvent: {}
+[3.553805] (-) TimerEvent: {}
+[3.654786] (-) TimerEvent: {}
+[3.755892] (-) TimerEvent: {}
+[3.856904] (-) TimerEvent: {}
+[3.957813] (-) TimerEvent: {}
+[4.058751] (-) TimerEvent: {}
+[4.159939] (-) TimerEvent: {}
+[4.263637] (-) TimerEvent: {}
+[4.365644] (-) TimerEvent: {}
+[4.466601] (-) TimerEvent: {}
+[4.567558] (-) TimerEvent: {}
+[4.668483] (-) TimerEvent: {}
+[4.770046] (-) TimerEvent: {}
+[4.873074] (-) TimerEvent: {}
+[4.976851] (-) TimerEvent: {}
+[5.079043] (-) TimerEvent: {}
+[5.180018] (-) TimerEvent: {}
+[5.281713] (-) TimerEvent: {}
+[5.382729] (-) TimerEvent: {}
+[5.484057] (-) TimerEvent: {}
+[5.586762] (-) TimerEvent: {}
+[5.687836] (-) TimerEvent: {}
+[5.788730] (-) TimerEvent: {}
+[5.889714] (-) TimerEvent: {}
+[5.990636] (-) TimerEvent: {}
+[6.091625] (-) TimerEvent: {}
+[6.192683] (-) TimerEvent: {}
+[6.293651] (-) TimerEvent: {}
+[6.394620] (-) TimerEvent: {}
+[6.496374] (-) TimerEvent: {}
+[6.598024] (-) TimerEvent: {}
+[6.700274] (-) TimerEvent: {}
+[6.802329] (-) TimerEvent: {}
+[6.903231] (-) TimerEvent: {}
+[7.004230] (-) TimerEvent: {}
+[7.105221] (-) TimerEvent: {}
+[7.206226] (-) TimerEvent: {}
+[7.307361] (-) TimerEvent: {}
+[7.408258] (-) TimerEvent: {}
+[7.509228] (-) TimerEvent: {}
+[7.610367] (-) TimerEvent: {}
+[7.712483] (-) TimerEvent: {}
+[7.814680] (-) TimerEvent: {}
+[7.915647] (-) TimerEvent: {}
+[8.018026] (-) TimerEvent: {}
+[8.119362] (-) TimerEvent: {}
+[8.221488] (-) TimerEvent: {}
+[8.322569] (-) TimerEvent: {}
+[8.423570] (-) TimerEvent: {}
+[8.524626] (-) TimerEvent: {}
+[8.626021] (-) TimerEvent: {}
+[8.727034] (-) TimerEvent: {}
+[8.827900] (-) TimerEvent: {}
+[8.928941] (-) TimerEvent: {}
+[9.029831] (-) TimerEvent: {}
+[9.131450] (-) TimerEvent: {}
+[9.232377] (-) TimerEvent: {}
+[9.333359] (-) TimerEvent: {}
+[9.434772] (-) TimerEvent: {}
+[9.535661] (-) TimerEvent: {}
+[9.636549] (-) TimerEvent: {}
+[9.737506] (-) TimerEvent: {}
+[9.838549] (-) TimerEvent: {}
+[9.939447] (-) TimerEvent: {}
+[10.041252] (-) TimerEvent: {}
+[10.143440] (-) TimerEvent: {}
+[10.244415] (-) TimerEvent: {}
+[10.345293] (-) TimerEvent: {}
+[10.446812] (-) TimerEvent: {}
+[10.552601] (-) TimerEvent: {}
+[10.653583] (-) TimerEvent: {}
+[10.754649] (-) TimerEvent: {}
+[10.855595] (-) TimerEvent: {}
+[10.957404] (-) TimerEvent: {}
+[11.058361] (-) TimerEvent: {}
+[11.159358] (-) TimerEvent: {}
+[11.261728] (-) TimerEvent: {}
+[11.362658] (-) TimerEvent: {}
+[11.464034] (-) TimerEvent: {}
+[11.565403] (-) TimerEvent: {}
+[11.668620] (-) TimerEvent: {}
+[11.770342] (-) TimerEvent: {}
+[11.872310] (-) TimerEvent: {}
+[11.973152] (-) TimerEvent: {}
+[12.074113] (-) TimerEvent: {}
+[12.175012] (-) TimerEvent: {}
+[12.275938] (-) TimerEvent: {}
+[12.376828] (-) TimerEvent: {}
+[12.477705] (-) TimerEvent: {}
+[12.578556] (-) TimerEvent: {}
+[12.679533] (-) TimerEvent: {}
+[12.780837] (-) TimerEvent: {}
+[12.881821] (-) TimerEvent: {}
+[12.983925] (-) TimerEvent: {}
+[13.084847] (-) TimerEvent: {}
+[13.186735] (-) TimerEvent: {}
+[13.288368] (-) TimerEvent: {}
+[13.389449] (-) TimerEvent: {}
+[13.492352] (-) TimerEvent: {}
+[13.595836] (-) TimerEvent: {}
+[13.698247] (-) TimerEvent: {}
+[13.799298] (-) TimerEvent: {}
+[13.901459] (-) TimerEvent: {}
+[14.002821] (-) TimerEvent: {}
+[14.106827] (-) TimerEvent: {}
+[14.209398] (-) TimerEvent: {}
+[14.311540] (-) TimerEvent: {}
+[14.415356] (-) TimerEvent: {}
+[14.516574] (-) TimerEvent: {}
+[14.617668] (-) TimerEvent: {}
+[14.720014] (-) TimerEvent: {}
+[14.823578] (-) TimerEvent: {}
+[14.924708] (-) TimerEvent: {}
+[15.026182] (-) TimerEvent: {}
+[15.127395] (-) TimerEvent: {}
+[15.228377] (-) TimerEvent: {}
+[15.331119] (-) TimerEvent: {}
+[15.432066] (-) TimerEvent: {}
+[15.532989] (-) TimerEvent: {}
+[15.634046] (-) TimerEvent: {}
+[15.735240] (-) TimerEvent: {}
+[15.836302] (-) TimerEvent: {}
+[15.937673] (-) TimerEvent: {}
+[16.041706] (-) TimerEvent: {}
+[16.145147] (-) TimerEvent: {}
+[16.246222] (-) TimerEvent: {}
+[16.347178] (-) TimerEvent: {}
+[16.448557] (-) TimerEvent: {}
+[16.551042] (-) TimerEvent: {}
+[16.652110] (-) TimerEvent: {}
+[16.753092] (-) TimerEvent: {}
+[16.854262] (-) TimerEvent: {}
+[16.955550] (-) TimerEvent: {}
+[17.056707] (-) TimerEvent: {}
+[17.157726] (-) TimerEvent: {}
+[17.258651] (-) TimerEvent: {}
+[17.359525] (-) TimerEvent: {}
+[17.460506] (-) TimerEvent: {}
+[17.561686] (-) TimerEvent: {}
+[17.663053] (-) TimerEvent: {}
+[17.766318] (-) TimerEvent: {}
+[17.867842] (-) TimerEvent: {}
+[17.969566] (-) TimerEvent: {}
+[18.071391] (-) TimerEvent: {}
+[18.173990] (-) TimerEvent: {}
+[18.277291] (-) TimerEvent: {}
+[18.378853] (-) TimerEvent: {}
+[18.479722] (-) TimerEvent: {}
+[18.580600] (-) TimerEvent: {}
+[18.681487] (-) TimerEvent: {}
+[18.782478] (-) TimerEvent: {}
+[18.883532] (-) TimerEvent: {}
+[18.986315] (-) TimerEvent: {}
+[19.087531] (-) TimerEvent: {}
+[19.193571] (-) TimerEvent: {}
+[19.295228] (-) TimerEvent: {}
+[19.400014] (-) TimerEvent: {}
+[19.502168] (-) TimerEvent: {}
+[19.603357] (-) TimerEvent: {}
+[19.705404] (-) TimerEvent: {}
+[19.806836] (-) TimerEvent: {}
+[19.910515] (-) TimerEvent: {}
+[20.013945] (-) TimerEvent: {}
+[20.114924] (-) TimerEvent: {}
+[20.216953] (-) TimerEvent: {}
+[20.318743] (-) TimerEvent: {}
+[20.419702] (-) TimerEvent: {}
+[20.520631] (-) TimerEvent: {}
+[20.623516] (-) TimerEvent: {}
+[20.725493] (-) TimerEvent: {}
+[20.827793] (-) TimerEvent: {}
+[20.930014] (-) TimerEvent: {}
+[21.030866] (-) TimerEvent: {}
+[21.131861] (-) TimerEvent: {}
+[21.233035] (-) TimerEvent: {}
+[21.335429] (-) TimerEvent: {}
+[21.438227] (-) TimerEvent: {}
+[21.539062] (-) TimerEvent: {}
+[21.640053] (-) TimerEvent: {}
+[21.741285] (-) TimerEvent: {}
+[21.842362] (-) TimerEvent: {}
+[21.943257] (-) TimerEvent: {}
+[22.045114] (-) TimerEvent: {}
+[22.147651] (-) TimerEvent: {}
+[22.248550] (-) TimerEvent: {}
+[22.349537] (-) TimerEvent: {}
+[22.451240] (-) TimerEvent: {}
+[22.553114] (-) TimerEvent: {}
+[22.655481] (-) TimerEvent: {}
+[22.756586] (-) TimerEvent: {}
+[22.861012] (-) TimerEvent: {}
+[22.963233] (-) TimerEvent: {}
+[23.068794] (-) TimerEvent: {}
+[23.175693] (-) TimerEvent: {}
+[23.279117] (-) TimerEvent: {}
+[23.380551] (-) TimerEvent: {}
+[23.483128] (-) TimerEvent: {}
+[23.584385] (-) TimerEvent: {}
+[23.687499] (-) TimerEvent: {}
+[23.793385] (-) TimerEvent: {}
+[23.896429] (-) TimerEvent: {}
+[23.997688] (-) TimerEvent: {}
+[24.098686] (-) TimerEvent: {}
+[24.199770] (-) TimerEvent: {}
+[24.303407] (-) TimerEvent: {}
+[24.404775] (-) TimerEvent: {}
+[24.485104] (waypoint_generator) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable waypoint_generator\x1b[0m\n'}
+[24.504996] (-) TimerEvent: {}
+[24.605938] (-) TimerEvent: {}
+[24.706956] (-) TimerEvent: {}
+[24.807991] (-) TimerEvent: {}
+[24.910344] (-) TimerEvent: {}
+[25.011551] (-) TimerEvent: {}
+[25.112624] (-) TimerEvent: {}
+[25.214496] (-) TimerEvent: {}
+[25.315355] (-) TimerEvent: {}
+[25.416246] (-) TimerEvent: {}
+[25.517295] (-) TimerEvent: {}
+[25.618462] (-) TimerEvent: {}
+[25.720118] (-) TimerEvent: {}
+[25.821337] (-) TimerEvent: {}
+[25.869563] (waypoint_generator) StdoutLine: {'line': b'[100%] Built target waypoint_generator\n'}
+[25.922112] (-) TimerEvent: {}
+[25.943719] (waypoint_generator) CommandEnded: {'returncode': 0}
+[26.022001] (-) TimerEvent: {}
+[26.090922] (waypoint_generator) JobProgress: {'identifier': 'waypoint_generator', 'progress': 'install'}
+[26.122863] (-) TimerEvent: {}
+[26.157880] (waypoint_generator) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/f1tenth/f1tenth_ws/build/waypoint_generator'], 'cwd': '/home/f1tenth/f1tenth_ws/build/waypoint_generator', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'f1tenth'), ('SSH_AGENT_PID', '2337'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:'), ('HOME', '/home/f1tenth'), ('OLDPWD', '/home/f1tenth'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '35.3.1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Xavier NX Developer Kit'), ('MANAGERPID', '1715'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'f1tenth'), ('JETSON_MODULE', 'NVIDIA Jetson Xavier NX (16GB ram)'), ('JETSON_SERIAL_NUMBER', '1423323046042'), ('JOURNAL_STREAM', '7:52324'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Jakku'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'f1tenth'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2507,unix/ubuntu:/tmp/.ICE-unix/2507'), ('INVOCATION_ID', '6c49fdd8f92b495f89b7d4b393719c0a'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra194'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:b305ed51-6303-4e51-8c22-d7ba1f00f616'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '7.2'), ('PWD', '/home/f1tenth/f1tenth_ws/build/waypoint_generator'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '5.1.1'), ('CMAKE_PREFIX_PATH', '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3668-0003')]), 'shell': False}
+[26.215453] (waypoint_generator) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.220408] (waypoint_generator) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.222731] (-) TimerEvent: {}
+[26.224024] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/lib/waypoint_generator/waypoint_generator\n'}
+[26.225661] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/package_run_dependencies/waypoint_generator\n'}
+[26.227343] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/parent_prefix_path/waypoint_generator\n'}
+[26.229510] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.sh\n'}
+[26.231821] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/ament_prefix_path.dsv\n'}
+[26.233922] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.sh\n'}
+[26.235533] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/environment/path.dsv\n'}
+[26.239368] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.bash\n'}
+[26.242845] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.sh\n'}
+[26.248151] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.zsh\n'}
+[26.254712] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/local_setup.dsv\n'}
+[26.256085] (waypoint_generator) StdoutLine: {'line': b'-- Symlinking: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.dsv\n'}
+[26.308932] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/ament_index/resource_index/packages/waypoint_generator\n'}
+[26.313078] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig.cmake\n'}
+[26.315903] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/cmake/waypoint_generatorConfig-version.cmake\n'}
+[26.317790] (waypoint_generator) StdoutLine: {'line': b'-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/waypoint_generator/share/waypoint_generator/package.xml\n'}
+[26.322894] (-) TimerEvent: {}
+[26.328373] (waypoint_generator) CommandEnded: {'returncode': 0}
+[26.423909] (-) TimerEvent: {}
+[26.526259] (-) TimerEvent: {}
+[26.621128] (waypoint_generator) JobEnded: {'identifier': 'waypoint_generator', 'rc': 0}
+[26.625167] (-) EventReactorShutdown: {}

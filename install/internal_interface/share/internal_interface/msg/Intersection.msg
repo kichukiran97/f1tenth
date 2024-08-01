@@ -1,0 +1,3 @@
+float64 intersection_distance
+float64 intersection_angle
+bool is_detected

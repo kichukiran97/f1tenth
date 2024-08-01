@@ -1,0 +1,3 @@
+[console_scripts]
+camera_subscriber = camera_sub.camera_subscriber:main
+

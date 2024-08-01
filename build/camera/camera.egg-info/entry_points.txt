@@ -1,0 +1,4 @@
+[console_scripts]
+img_publisher = camera.camera_pub:main
+img_subscriber = camera.camera_sub:main
+

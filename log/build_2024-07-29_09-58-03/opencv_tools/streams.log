@@ -1,0 +1,22 @@
+[3.333s] Invoking command in '/home/f1tenth/f1tenth_ws/src/opencv_tools': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/f1tenth/f1tenth_ws/build/opencv_tools/build install --record /home/f1tenth/f1tenth_ws/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data
+[4.457s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.457s]   warnings.warn(
+[4.570s] running egg_info
+[4.572s] writing ../../build/opencv_tools/opencv_tools.egg-info/PKG-INFO
+[4.573s] writing dependency_links to ../../build/opencv_tools/opencv_tools.egg-info/dependency_links.txt
+[4.574s] writing entry points to ../../build/opencv_tools/opencv_tools.egg-info/entry_points.txt
+[4.574s] writing requirements to ../../build/opencv_tools/opencv_tools.egg-info/requires.txt
+[4.574s] writing top-level names to ../../build/opencv_tools/opencv_tools.egg-info/top_level.txt
+[4.588s] reading manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[4.593s] writing manifest file '../../build/opencv_tools/opencv_tools.egg-info/SOURCES.txt'
+[4.594s] running build
+[4.595s] running build_py
+[4.595s] running install
+[4.598s] running install_lib
+[4.606s] running install_data
+[4.606s] running install_egg_info
+[4.614s] removing '/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info' (and everything under it)
+[4.616s] Copying ../../build/opencv_tools/opencv_tools.egg-info to /home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages/opencv_tools-0.0.0-py3.8.egg-info
+[4.624s] running install_scripts
+[4.698s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/opencv_tools/install.log'
+[4.790s] Invoked command in '/home/f1tenth/f1tenth_ws/src/opencv_tools' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/opencv_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/opencv_tools build --build-base /home/f1tenth/f1tenth_ws/build/opencv_tools/build install --record /home/f1tenth/f1tenth_ws/build/opencv_tools/install.log --install-scripts $base/lib/opencv_tools --single-version-externally-managed install_data

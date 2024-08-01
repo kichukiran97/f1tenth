@@ -1,0 +1,364 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- libudev stable: 1
+-- Found UDev: /usr/lib/aarch64-linux-gnu/libudev.so
+--    include: /usr/include
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found internal_interface: 0.0.0 (/home/f1tenth/f1tenth_ws/install/internal_interface/share/internal_interface/cmake)
+-- Found calibration: 0.0.0 (/home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/dashboard
+[35m[1mScanning dependencies of target sfml-system[0m
+[  1%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.o[0m
+[  2%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.o[0m
+[  3%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.o[0m
+[  4%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.o[0m
+[  4%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.o[0m
+[  5%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.o[0m
+[  6%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.o[0m
+[  7%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.o[0m
+[  7%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.o[0m
+[  8%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.o[0m
+[  9%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ClockImpl.cpp.o[0m
+[ 10%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/MutexImpl.cpp.o[0m
+[ 10%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/SleepImpl.cpp.o[0m
+[ 11%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadImpl.cpp.o[0m
+[ 12%] [32mBuilding CXX object _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Unix/ThreadLocalImpl.cpp.o[0m
+[ 13%] [32m[1mLinking CXX shared library ../../../lib/libsfml-system.so[0m
+[ 13%] Built target sfml-system
+[35m[1mScanning dependencies of target sfml-audio[0m
+[35m[1mScanning dependencies of target sfml-window[0m
+[35m[1mScanning dependencies of target sfml-network[0m
+[ 14%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Http.cpp.o[0m
+[ 15%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Ftp.cpp.o[0m
+[ 16%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/ALCheck.cpp.o[0m
+[ 16%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o[0m
+[ 17%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AlResource.cpp.o[0m
+[ 18%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o[0m
+[ 19%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o[0m
+[ 20%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o[0m
+[ 21%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/IpAddress.cpp.o[0m
+[ 22%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Packet.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Listener.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Socket.cpp.o[0m
+[ 23%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o[0m
+[ 24%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o[0m
+[ 25%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o[0m
+[ 26%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Music.cpp.o[0m
+[ 27%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/SocketSelector.cpp.o[0m
+[ 28%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o[0m
+[ 29%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o[0m
+[ 29%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o[0m
+[ 30%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpListener.cpp.o[0m
+[ 31%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/Sound.cpp.o[0m
+[ 32%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o[0m
+[ 33%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o[0m
+[ 34%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/TcpSocket.cpp.o[0m
+[ 35%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o[0m
+[ 35%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBuffer.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundBufferRecorder.cpp.o[0m
+[ 36%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/UdpSocket.cpp.o[0m
+[ 37%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o[0m
+[ 38%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/InputSoundFile.cpp.o[0m
+[ 39%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/OutputSoundFile.cpp.o[0m
+[ 40%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Network/CMakeFiles/sfml-network.dir/Unix/SocketImpl.cpp.o[0m
+[ 41%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundRecorder.cpp.o[0m
+[ 41%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundSource.cpp.o[0m
+[ 42%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundStream.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library ../../../lib/libsfml-network.so[0m
+[ 44%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o[0m
+[ 44%] Built target sfml-network
+[ 45%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileFactory.cpp.o[0m
+[ 46%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o[0m
+[ 46%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o[0m
+[ 47%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderFlac.cpp.o[0m
+[ 47%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderOgg.cpp.o[0m
+[ 48%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileReaderWav.cpp.o[0m
+[ 49%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o[0m
+[ 50%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o[0m
+[ 51%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o[0m
+[ 52%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterFlac.cpp.o[0m
+[ 53%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterOgg.cpp.o[0m
+[ 53%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o[0m
+[ 54%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o[0m
+[ 54%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Audio/CMakeFiles/sfml-audio.dir/SoundFileWriterWav.cpp.o[0m
+[ 55%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o[0m
+[ 56%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library ../../../lib/libsfml-audio.so[0m
+[ 57%] Built target sfml-audio
+[ 57%] [32m[1mLinking CXX shared library ../../../lib/libsfml-window.so[0m
+[ 57%] Built target sfml-window
+[35m[1mScanning dependencies of target sfml-graphics[0m
+[ 58%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o[0m
+[ 59%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o[0m
+[ 60%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o[0m
+[ 60%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o[0m
+[ 61%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o[0m
+[ 62%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o[0m
+[ 63%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o[0m
+[ 63%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o[0m
+[ 64%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o[0m
+[ 65%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o[0m
+[ 66%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o[0m
+[ 66%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o[0m
+[ 67%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o[0m
+[ 67%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o[0m
+[ 68%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o[0m
+[ 69%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o[0m
+[ 70%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o[0m
+[ 70%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o[0m
+[ 71%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o[0m
+[ 72%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o[0m
+[ 73%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o[0m
+[ 73%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o[0m
+[ 74%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o[0m
+[ 75%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o[0m
+[ 76%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o[0m
+[ 76%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o[0m
+[ 77%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o[0m
+[ 78%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o[0m
+[ 79%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o[0m
+[ 80%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o[0m
+[ 81%] [32mBuilding CXX object _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library ../../../lib/libsfml-graphics.so[0m
+[ 81%] Built target sfml-graphics
+[35m[1mScanning dependencies of target interface_lib[0m
+[ 82%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/car_state_subscriber.cpp.o[0m
+[ 82%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/camera_subscriber.cpp.o[0m
+[ 83%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/control_publisher.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/gps_curve_subscriber.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/objects_subscriber.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/ros_handler.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/look_ahead_publisher.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/interface/CMakeFiles/interface_lib.dir/gps_subscriber.cpp.o[0m
+[ 87%] [32m[1mLinking CXX static library libinterface_lib.a[0m
+[ 87%] Built target interface_lib
+[35m[1mScanning dependencies of target ui_lib[0m
+[ 87%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/camera_element.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/button.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/element.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/font.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/slider.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/text_box.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/text_element.cpp.o[0m
+[ 93%] [32mBuilding CXX object src/ui/CMakeFiles/ui_lib.dir/core/ui.cpp.o[0m
+[ 94%] [32m[1mLinking CXX static library libui_lib.a[0m
+[ 94%] Built target ui_lib
+[35m[1mScanning dependencies of target simulator_lib[0m
+[ 95%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/car_state_display.cpp.o[0m
+[ 96%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/car.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/map.cpp.o[0m
+[ 97%] [32mBuilding CXX object src/simulator/CMakeFiles/simulator_lib.dir/simulator.cpp.o[0m
+[ 98%] [32m[1mLinking CXX static library libsimulator_lib.a[0m
+[ 98%] Built target simulator_lib
+[35m[1mScanning dependencies of target start_dashboard[0m
+[ 99%] [32mBuilding CXX object src/CMakeFiles/start_dashboard.dir/dashboard.cpp.o[0m
+[100%] [32m[1mLinking CXX executable start_dashboard[0m
+[100%] Built target start_dashboard
+-- Install configuration: ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/pythonpath.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py
+Listing '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg'...
+Compiling '/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages/dashboard_pkg/__init__.py'...
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/launch/start_dashboard.launch.py
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/package_run_dependencies/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/parent_prefix_path/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/ament_prefix_path.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/environment/path.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.bash
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.sh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.zsh
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/local_setup.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/ament_index/resource_index/packages/dashboard
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/cmake/dashboardConfig-version.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/dashboard/package.xml
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-all.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-system.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-window.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-graphics.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-audio.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/pkgconfig/sfml-network.pc
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/GpuPreference.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/OpenGL.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Ftp.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Http.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Packet.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpSocket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/UdpSocket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/IpAddress.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketHandle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/SocketSelector.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/TcpListener.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Network/Socket.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileReader.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundSource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Listener.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Music.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/AlResource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/InputSoundFile.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBuffer.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileWriter.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundBufferRecorder.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Sound.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundFileFactory.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/OutputSoundFile.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio/SoundRecorder.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Main.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Audio.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderStates.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Vertex.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Drawable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Image.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/BlendMode.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Texture.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Text.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexArray.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/ConvexShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/PrimitiveType.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderWindow.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/View.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glsl.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Glyph.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/CircleShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Shader.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Color.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Font.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RectangleShape.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transformable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTexture.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Sprite.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/RenderTarget.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Transform.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/VertexBuffer.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics/Rect.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/InputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocal.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Mutex.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Sleep.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Time.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/String.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/FileInputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NativeActivity.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/ThreadLocalPtr.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Lock.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Clock.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/MemoryInputStream.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Err.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector3.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Vector2.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/NonCopyable.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Utf.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System/Thread.inl
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Config.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Graphics.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/System.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/GlResource.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Touch.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Event.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Mouse.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowHandle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/WindowStyle.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Window.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Context.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Keyboard.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Export.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Joystick.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/VideoMode.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/ContextSettings.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Clipboard.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Cursor.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/./include/SFML/Window/Sensor.hpp
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/license.md
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/share/SFML/readme.md
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLSharedTargets-noconfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfig.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigDependencies.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/cmake/SFML/SFMLConfigVersion.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so.2.5
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-system.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-window.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-network.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-graphics.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so.2.5.1" to ""
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/libsfml-audio.so
+-- Installing: /home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard
+-- Set runtime path of "/home/f1tenth/f1tenth_ws/install/dashboard/lib/dashboard/start_dashboard" to ""
