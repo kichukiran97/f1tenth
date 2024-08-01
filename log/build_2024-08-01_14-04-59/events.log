@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001992] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.002611] (-) JobUnselected: {'identifier': 'birds_eye_view'}
+[0.003124] (-) JobUnselected: {'identifier': 'calibration'}
+[0.003385] (-) JobUnselected: {'identifier': 'camera'}
+[0.003540] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.003702] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.003862] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.004015] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.004164] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.004312] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.004507] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.004651] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.004846] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.005005] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.005149] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.005293] (-) JobUnselected: {'identifier': 'vesc'}
+[0.005451] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.005612] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.005764] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.006031] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.006188] (camera_subscriber_pkg) JobQueued: {'identifier': 'camera_subscriber_pkg', 'dependencies': OrderedDict()}
+[0.006365] (camera_subscriber_pkg) JobStarted: {'identifier': 'camera_subscriber_pkg'}
+[0.099571] (-) TimerEvent: {}
+[0.202273] (-) TimerEvent: {}
+[0.305974] (-) TimerEvent: {}
+[0.409145] (-) TimerEvent: {}
+[0.510503] (-) TimerEvent: {}
+[0.611324] (-) TimerEvent: {}
+[0.712541] (-) TimerEvent: {}
+[0.813395] (-) TimerEvent: {}
+[0.914273] (-) TimerEvent: {}
+[1.015479] (-) TimerEvent: {}
+[1.119949] (-) TimerEvent: {}
+[1.220985] (-) TimerEvent: {}
+[1.324547] (-) TimerEvent: {}
+[1.425513] (-) TimerEvent: {}
+[1.526368] (-) TimerEvent: {}
+[1.627273] (-) TimerEvent: {}
+[1.728107] (-) TimerEvent: {}
+[1.828983] (-) TimerEvent: {}
+[1.929884] (-) TimerEvent: {}
+[2.035593] (-) TimerEvent: {}
+[2.143724] (-) TimerEvent: {}
+[2.245485] (-) TimerEvent: {}
+[2.346350] (-) TimerEvent: {}
+[2.447727] (-) TimerEvent: {}
+[2.549644] (-) TimerEvent: {}
+[2.650597] (-) TimerEvent: {}
+[2.752516] (-) TimerEvent: {}
+[2.853823] (-) TimerEvent: {}
+[2.955301] (-) TimerEvent: {}
+[3.056227] (-) TimerEvent: {}
+[3.157235] (-) TimerEvent: {}
+[3.258223] (-) TimerEvent: {}
+[3.360494] (-) TimerEvent: {}
+[3.465415] (-) TimerEvent: {}
+[3.567119] (-) TimerEvent: {}
+[3.668132] (-) TimerEvent: {}
+[3.770537] (-) TimerEvent: {}
+[3.871279] (-) TimerEvent: {}
+[3.976444] (-) TimerEvent: {}
+[4.086011] (-) TimerEvent: {}
+[4.186907] (-) TimerEvent: {}
+[4.289243] (-) TimerEvent: {}
+[4.326492] (camera_subscriber_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_subscriber_pkg', 'build', '--build-base', '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build', 'install', '--record', '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log', '--install-scripts', '$base/lib/camera_subscriber_pkg', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/f1tenth/f1tenth_ws/src/camera_subscriber_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2500', 'ROS_PACKAGE_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'MANAGERPID': '1718', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '7580', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1423323046042', 'JOURNAL_STREAM': '7:51720', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/aarch64-linux-gnu/pkgconfig:/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/pkgconfig', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2599,unix/ubuntu:/tmp/.ICE-unix/2599', 'INVOCATION_ID': '41f0d1d6b8ce48bd9cc3a3fea1f74a86', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:e5d0322a-e461-45f2-bd40-b916484d5202', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/ackermann_mux', 'JETSON_P_NUMBER': 'p3668-0003'}, 'shell': False}
+[4.390457] (-) TimerEvent: {}
+[4.498250] (-) TimerEvent: {}
+[4.602782] (-) TimerEvent: {}
+[4.708203] (-) TimerEvent: {}
+[4.810731] (-) TimerEvent: {}
+[4.911574] (-) TimerEvent: {}
+[5.012360] (-) TimerEvent: {}
+[5.113295] (-) TimerEvent: {}
+[5.216855] (-) TimerEvent: {}
+[5.317713] (-) TimerEvent: {}
+[5.419170] (-) TimerEvent: {}
+[5.521046] (-) TimerEvent: {}
+[5.621911] (-) TimerEvent: {}
+[5.723917] (-) TimerEvent: {}
+[5.735801] (camera_subscriber_pkg) StderrLine: {'line': b"/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.738394] (camera_subscriber_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.823491] (-) TimerEvent: {}
+[5.884735] (camera_subscriber_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[5.887723] (camera_subscriber_pkg) StdoutLine: {'line': b'writing ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/PKG-INFO\n'}
+[5.888962] (camera_subscriber_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/dependency_links.txt\n'}
+[5.889978] (camera_subscriber_pkg) StdoutLine: {'line': b'writing entry points to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/entry_points.txt\n'}
+[5.891874] (camera_subscriber_pkg) StdoutLine: {'line': b'writing requirements to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/requires.txt\n'}
+[5.893398] (camera_subscriber_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/top_level.txt\n'}
+[5.907632] (camera_subscriber_pkg) StdoutLine: {'line': b"reading manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'\n"}
+[5.915055] (camera_subscriber_pkg) StdoutLine: {'line': b"writing manifest file '../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info/SOURCES.txt'\n"}
+[5.916271] (camera_subscriber_pkg) StdoutLine: {'line': b'running build\n'}
+[5.916745] (camera_subscriber_pkg) StdoutLine: {'line': b'running build_py\n'}
+[5.919803] (camera_subscriber_pkg) StdoutLine: {'line': b'copying camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg\n'}
+[5.921991] (camera_subscriber_pkg) StdoutLine: {'line': b'running install\n'}
+[5.923227] (camera_subscriber_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[5.924453] (-) TimerEvent: {}
+[5.927219] (camera_subscriber_pkg) StdoutLine: {'line': b'copying /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build/lib/camera_subscriber_pkg/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg\n'}
+[5.931095] (camera_subscriber_pkg) StdoutLine: {'line': b'byte-compiling /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg/camera_subscriber.py to camera_subscriber.cpython-38.pyc\n'}
+[5.934518] (camera_subscriber_pkg) StdoutLine: {'line': b'running install_data\n'}
+[5.935466] (camera_subscriber_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.942262] (camera_subscriber_pkg) StdoutLine: {'line': b"removing '/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.944298] (camera_subscriber_pkg) StdoutLine: {'line': b'Copying ../../build/camera_subscriber_pkg/camera_subscriber_pkg.egg-info to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera_subscriber_pkg-0.0.0-py3.8.egg-info\n'}
+[5.951627] (camera_subscriber_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.024662] (-) TimerEvent: {}
+[6.044556] (camera_subscriber_pkg) StdoutLine: {'line': b'Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg\n'}
+[6.046862] (camera_subscriber_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/install.log'\n"}
+[6.125715] (-) TimerEvent: {}
+[6.143723] (camera_subscriber_pkg) CommandEnded: {'returncode': 0}
+[6.219527] (camera_subscriber_pkg) JobEnded: {'identifier': 'camera_subscriber_pkg', 'rc': 0}
+[6.223208] (-) EventReactorShutdown: {}

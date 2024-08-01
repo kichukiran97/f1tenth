@@ -1,0 +1,35 @@
+[0.286s] Invoking command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[1.388s] [100%] Built target ackermann_mux
+[1.737s] Invoked command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy /usr/bin/cmake --build /home/f1tenth/f1tenth_ws/build/ackermann_mux -- -j4 -l4
+[2.331s] Invoking command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/ackermann_mux
+[2.432s] -- Install configuration: ""
+[2.442s] -- Execute custom install script
+[2.446s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/lib/ackermann_mux/ackermann_mux
+[2.451s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/launch/ackermann_mux_launch.py
+[2.455s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_locks.yaml
+[2.458s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/ackermann_mux_topics.yaml
+[2.461s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/config/joystick.yaml
+[2.477s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux.hpp
+[2.482s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics.hpp
+[2.487s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/ackermann_mux_diagnostics_status.hpp
+[2.488s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/params_helpers.hpp
+[2.491s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/topic_handle.hpp
+[2.495s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/include/ackermann_mux/utils.hpp
+[2.498s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/package_run_dependencies/ackermann_mux
+[2.500s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/parent_prefix_path/ackermann_mux
+[2.504s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.sh
+[2.505s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/ament_prefix_path.dsv
+[2.508s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.sh
+[2.509s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/environment/path.dsv
+[2.511s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.bash
+[2.513s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.sh
+[2.518s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.zsh
+[2.519s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/local_setup.dsv
+[2.521s] -- Symlinking: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.dsv
+[2.588s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ament_index/resource_index/packages/ackermann_mux
+[2.590s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.593s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.598s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig.cmake
+[2.601s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/cmake/ackermann_muxConfig-version.cmake
+[2.601s] -- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/ackermann_mux/share/ackermann_mux/package.xml
+[2.627s] Invoked command in '/home/f1tenth/f1tenth_ws/build/ackermann_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/camera_publisher:/opt/ros/foxy /usr/bin/cmake --install /home/f1tenth/f1tenth_ws/build/ackermann_mux

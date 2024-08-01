@@ -1,0 +1,6 @@
+13 # block size
+-5 # c_value
+9 # kernel size
+
+
+# The default was 7, -10

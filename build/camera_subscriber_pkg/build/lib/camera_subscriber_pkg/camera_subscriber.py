@@ -11,7 +11,7 @@ class CameraSubscriber(Node):
         super().__init__('camera_subscriber')
         self.subscription = self.create_subscription(
             EncodedImage,
-            'camera/raw',
+            'birds_eye/birds_eye_raw',
             self.listener_callback,
             10
         )

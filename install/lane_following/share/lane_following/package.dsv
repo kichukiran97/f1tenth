@@ -1,0 +1,11 @@
+source;share/lane_following/hook/cmake_prefix_path.ps1
+source;share/lane_following/hook/cmake_prefix_path.dsv
+source;share/lane_following/hook/cmake_prefix_path.sh
+source;share/lane_following/hook/pythonpath.ps1
+source;share/lane_following/hook/pythonpath.dsv
+source;share/lane_following/hook/pythonpath.sh
+source;share/lane_following/local_setup.bash
+source;share/lane_following/local_setup.dsv
+source;share/lane_following/local_setup.ps1
+source;share/lane_following/local_setup.sh
+source;share/lane_following/local_setup.zsh

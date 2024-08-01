@@ -1,0 +1,4 @@
+source;share/lane_following/local_setup.bash
+source;share/lane_following/local_setup.dsv
+source;share/lane_following/local_setup.sh
+source;share/lane_following/local_setup.zsh
