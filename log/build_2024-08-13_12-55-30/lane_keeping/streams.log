@@ -1,0 +1,39 @@
+[3.795s] Invoking command in '/home/f1tenth/f1tenth_ws/src/lane_keeping': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/f1tenth/f1tenth_ws/build/lane_keeping/build install --record /home/f1tenth/f1tenth_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed install_data
+[5.036s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.036s]   warnings.warn(
+[5.151s] running egg_info
+[5.153s] creating ../../build/lane_keeping/lane_keeping.egg-info
+[5.154s] writing ../../build/lane_keeping/lane_keeping.egg-info/PKG-INFO
+[5.155s] writing dependency_links to ../../build/lane_keeping/lane_keeping.egg-info/dependency_links.txt
+[5.156s] writing entry points to ../../build/lane_keeping/lane_keeping.egg-info/entry_points.txt
+[5.156s] writing requirements to ../../build/lane_keeping/lane_keeping.egg-info/requires.txt
+[5.157s] writing top-level names to ../../build/lane_keeping/lane_keeping.egg-info/top_level.txt
+[5.164s] writing manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'
+[5.173s] reading manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'
+[5.176s] writing manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'
+[5.176s] running build
+[5.177s] running build_py
+[5.178s] creating /home/f1tenth/f1tenth_ws/build/lane_keeping/build
+[5.178s] creating /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib
+[5.179s] creating /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping
+[5.179s] copying lane_keeping/__init__.py -> /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping
+[5.179s] copying lane_keeping/lane_keeping.py -> /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping
+[5.180s] running install
+[5.183s] running install_lib
+[5.187s] creating /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping
+[5.188s] copying /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping/__init__.py -> /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping
+[5.188s] copying /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping/lane_keeping.py -> /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping
+[5.191s] byte-compiling /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping/__init__.py to __init__.cpython-38.pyc
+[5.192s] byte-compiling /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping/lane_keeping.py to lane_keeping.cpython-38.pyc
+[5.205s] running install_data
+[5.207s] creating /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index
+[5.211s] creating /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index
+[5.213s] creating /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index/packages
+[5.214s] copying resource/lane_keeping -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index/packages
+[5.215s] copying package.xml -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/lane_keeping
+[5.216s] running install_egg_info
+[5.216s] Copying ../../build/lane_keeping/lane_keeping.egg-info to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping-0.0.0-py3.8.egg-info
+[5.217s] running install_scripts
+[5.303s] Installing lane_keeping script to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/lane_keeping
+[5.304s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/lane_keeping/install.log'
+[5.401s] Invoked command in '/home/f1tenth/f1tenth_ws/src/lane_keeping' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lane_keeping build --build-base /home/f1tenth/f1tenth_ws/build/lane_keeping/build install --record /home/f1tenth/f1tenth_ws/build/lane_keeping/install.log --install-scripts $base/lib/lane_keeping --single-version-externally-managed install_data

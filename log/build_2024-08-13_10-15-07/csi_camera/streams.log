@@ -1,0 +1,28 @@
+[3.574s] Invoking command in '/home/f1tenth/f1tenth_ws/src/csi_camera': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/csi_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/csi_camera build --build-base /home/f1tenth/f1tenth_ws/build/csi_camera/build install --record /home/f1tenth/f1tenth_ws/build/csi_camera/install.log --install-scripts $base/lib/csi_camera --single-version-externally-managed install_data
+[4.884s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.885s]   warnings.warn(
+[5.012s] running egg_info
+[5.014s] writing ../../build/csi_camera/csi_camera.egg-info/PKG-INFO
+[5.016s] writing dependency_links to ../../build/csi_camera/csi_camera.egg-info/dependency_links.txt
+[5.017s] writing entry points to ../../build/csi_camera/csi_camera.egg-info/entry_points.txt
+[5.018s] writing requirements to ../../build/csi_camera/csi_camera.egg-info/requires.txt
+[5.019s] writing top-level names to ../../build/csi_camera/csi_camera.egg-info/top_level.txt
+[5.031s] reading manifest file '../../build/csi_camera/csi_camera.egg-info/SOURCES.txt'
+[5.033s] adding license file 'LICENSE'
+[5.037s] writing manifest file '../../build/csi_camera/csi_camera.egg-info/SOURCES.txt'
+[5.037s] running build
+[5.039s] running build_py
+[5.039s] copying csi_camera/ros2_simple_camera.py -> /home/f1tenth/f1tenth_ws/build/csi_camera/build/lib/csi_camera
+[5.040s] running install
+[5.044s] running install_lib
+[5.049s] copying /home/f1tenth/f1tenth_ws/build/csi_camera/build/lib/csi_camera/ros2_simple_camera.py -> /home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages/csi_camera
+[5.057s] byte-compiling /home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages/csi_camera/ros2_simple_camera.py to ros2_simple_camera.cpython-38.pyc
+[5.061s] running install_data
+[5.062s] running install_egg_info
+[5.068s] removing '/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages/csi_camera-0.0.0-py3.8.egg-info' (and everything under it)
+[5.070s] Copying ../../build/csi_camera/csi_camera.egg-info to /home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages/csi_camera-0.0.0-py3.8.egg-info
+[5.075s] running install_scripts
+[5.167s] Installing dual_camera script to /home/f1tenth/f1tenth_ws/install/csi_camera/lib/csi_camera
+[5.168s] Installing simple_camera script to /home/f1tenth/f1tenth_ws/install/csi_camera/lib/csi_camera
+[5.170s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/csi_camera/install.log'
+[5.265s] Invoked command in '/home/f1tenth/f1tenth_ws/src/csi_camera' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/csi_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/csi_camera build --build-base /home/f1tenth/f1tenth_ws/build/csi_camera/build install --record /home/f1tenth/f1tenth_ws/build/csi_camera/install.log --install-scripts $base/lib/csi_camera --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+lane_keeping = lane_keeping.lane_keeping:main
+

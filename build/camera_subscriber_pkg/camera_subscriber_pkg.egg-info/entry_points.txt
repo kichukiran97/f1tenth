@@ -1,3 +1,4 @@
 [console_scripts]
 camera_subscriber = camera_subscriber_pkg.camera_subscriber:main
+camera_subscriber_raw = camera_subscriber_pkg.camera_subscriber_raw:main
 

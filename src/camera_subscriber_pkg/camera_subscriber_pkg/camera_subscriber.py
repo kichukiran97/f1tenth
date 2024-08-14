@@ -15,6 +15,12 @@ class CameraSubscriber(Node):
             self.listener_callback,
             10
         )
+        # self.subscription = self.create_subscription(
+        #     EncodedImage,
+        #     'camera/raw',
+        #     self.listener_callback,
+        #     10
+        # )
         self.subscription  # prevent unused variable warning
 
     def listener_callback(self, msg):
@@ -30,6 +36,7 @@ class CameraSubscriber(Node):
                 cv_image = cv2.flip(cv_image, 0)  # Flip vertically
                 # cv_image = cv2.flip(cv_image, 1)  # Flip horizontally
                 # Display the image
+                print(cv_image.shape)
                 cv2.imshow('Camera Image', cv_image)
                 cv2.waitKey(1)
             else:
