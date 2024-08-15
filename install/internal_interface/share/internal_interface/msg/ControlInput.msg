@@ -1,5 +1,1 @@
-float64 speed
-float64 steer
-float64 speed_confidence
-float64 steer_confidence
-string source
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/ControlInput.msg

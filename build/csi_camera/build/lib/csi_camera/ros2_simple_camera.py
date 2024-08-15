@@ -65,11 +65,14 @@ class CameraNode(Node):
             try:
                 ret_val, self.last_image = self.video_capture.read()
                 if ret_val:
+                    # Ensure image is in CPU memory
+                    if isinstance(self.last_image, cv2.cuda_GpuMat):
+                        self.last_image = self.last_image.download()
+
                     # Rotate the image 90 degrees anticlockwise
                     self.last_image = cv2.rotate(self.last_image, cv2.ROTATE_90_COUNTERCLOCKWISE)
             except Exception as e:
                 print(e)
-
     def publish_callback(self):
         time_msg = self.get_time_msg()
         img_msg = self.get_image_msg(self.last_image, time_msg)

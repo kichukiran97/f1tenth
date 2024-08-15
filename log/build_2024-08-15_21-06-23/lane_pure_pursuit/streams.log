@@ -1,0 +1,42 @@
+[11.627s] Invoking command in '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build
+[14.877s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[14.878s]   warnings.warn(
+[15.699s] running develop
+[15.700s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[15.701s]   warnings.warn(
+[18.089s] Removing /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane-pure-pursuit.egg-link (link to .)
+[20.871s] Invoked command in '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build
+[20.882s] Invoking command in '/home/f1tenth/f1tenth_ws/src/lane_pure_pursuit': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lane_pure_pursuit build --build-base /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build install --record /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/install.log --install-scripts $base/lib/lane_pure_pursuit --single-version-externally-managed install_data --force
+[24.649s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[24.653s]   warnings.warn(
+[26.031s] running egg_info
+[26.236s] writing ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/PKG-INFO
+[26.239s] writing dependency_links to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/dependency_links.txt
+[26.242s] writing entry points to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/entry_points.txt
+[26.246s] writing requirements to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/requires.txt
+[26.248s] writing top-level names to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/top_level.txt
+[26.256s] writing ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/PKG-INFO
+[26.258s] writing dependency_links to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/dependency_links.txt
+[26.261s] writing entry points to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/entry_points.txt
+[26.264s] writing requirements to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/requires.txt
+[26.266s] writing top-level names to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/top_level.txt
+[26.563s] reading manifest file '../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/SOURCES.txt'
+[26.608s] writing manifest file '../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/SOURCES.txt'
+[26.610s] running build
+[26.611s] running build_py
+[26.626s] running install
+[26.678s] running install_lib
+[26.940s] creating /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+[26.962s] copying /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build/lib/lane_pure_pursuit/__init__.py -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+[26.964s] copying /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build/lib/lane_pure_pursuit/pure_pursuit_node.py -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+[26.978s] byte-compiling /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit/__init__.py to __init__.cpython-38.pyc
+[26.987s] byte-compiling /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit/pure_pursuit_node.py to pure_pursuit_node.cpython-38.pyc
+[26.992s] running install_data
+[26.996s] copying resource/lane_pure_pursuit -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/ament_index/resource_index/packages
+[26.999s] copying package.xml -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/lane_pure_pursuit
+[27.001s] running install_egg_info
+[27.146s] Copying ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info to /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit-0.0.0-py3.8.egg-info
+[27.151s] running install_scripts
+[27.820s] Installing pure_pursuit_node script to /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/lane_pure_pursuit
+[27.821s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/install.log'
+[28.194s] Invoked command in '/home/f1tenth/f1tenth_ws/src/lane_pure_pursuit' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lane_pure_pursuit build --build-base /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build install --record /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/install.log --install-scripts $base/lib/lane_pure_pursuit --single-version-externally-managed install_data --force

@@ -1,2 +1,1 @@
-float32 speed
-float32 steer
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/RealControlInput.msg

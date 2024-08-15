@@ -1,3 +1,2 @@
 [console_scripts]
 pure_pursuit_node = lane_pure_pursuit.pure_pursuit_node:main
-

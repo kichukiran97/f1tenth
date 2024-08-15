@@ -1,0 +1,2 @@
+[console_scripts]
+robot_mover = robot_mover.robot_mover:main

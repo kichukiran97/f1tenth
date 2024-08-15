@@ -377,15 +377,15 @@ class LaneKeepingNode(Node):
         self.subscription  # prevent unused variable warning
 
         self.kp = 0.15  # Proportional gain
-        self.kd = 0.001  # Derivative gain (adjust this value carefully)
-        self.prev_error = 0.0
-        self.prev_time = self.get_clock().now()
+        # self.kd = 0.001  # Derivative gain (adjust this value carefully)
+        # self.prev_error = 0.0
+        # self.prev_time = self.get_clock().now()
 
         # Publisher for drive commands
         self.drive_publisher = self.create_publisher(AckermannDriveStamped, '/drive', 10)
 
         self.br = CvBridge()
-        self.desired_speed = 0.5  # Desired speed in m/s
+        self.desired_speed = 5  # Desired speed in m/s
 
         # Define source and destination points for perspective transformation
         self.perspective_src = None
@@ -438,7 +438,7 @@ class LaneKeepingNode(Node):
         self.publish_drive_command(steering_angle)
 
         # Visualization (optional)
-        cv2.imshow("Original Frame", frame)
+        #cv2.imshow("Original Frame", frame)
         cv2.imshow("Bird's Eye View", birdseye_frame)
         cv2.waitKey(1)
 
@@ -467,9 +467,6 @@ class LaneKeepingNode(Node):
         # Edge detection
         edges = cv2.Canny(blur, 50, 150)
 
-        # Define region of interest if necessary
-        # For bird's eye view, the entire image can be used
-
         # Detect lines using Hough Transform
         lines = cv2.HoughLinesP(edges, 1, np.pi/180, threshold=100, minLineLength=50, maxLineGap=50)
 
@@ -496,7 +493,7 @@ class LaneKeepingNode(Node):
 
         # Calculate steering angle
         steering_angle = self.compute_steering_angle(image, left_fit_average, right_fit_average)
-        print("Entered ", steering_angle)
+        print("Steering Angle : ", steering_angle)
         return steering_angle
 
     def compute_steering_angle(self, image, left_fit, right_fit):
@@ -521,25 +518,26 @@ class LaneKeepingNode(Node):
             offset = 0
 
         # Time for derivative calculation
-        current_time = self.get_clock().now()
-        time_delta = (current_time - self.prev_time).nanoseconds / 1e9  # Convert to seconds
+        # current_time = self.get_clock().now()
+        # time_delta = (current_time - self.prev_time).nanoseconds / 1e9  # Convert to seconds
 
         # PD controller
         error = -offset / (width / 2)
-        derivative = (error - self.prev_error) / time_delta if time_delta > 0 else 0.0
+        # derivative = (error - self.prev_error) / time_delta if time_delta > 0 else 0.0
 
         # Calculate steering angle
-        steering_angle = self.kp * error + self.kd * derivative
+        # steering_angle = self.kp * error + self.kd * derivative
+        steering_angle = self.kp * error
 
-        # Update previous values
-        self.prev_error = error
-        self.prev_time = current_time
+        # # Update previous values
+        # self.prev_error = error
+        # self.prev_time = current_time
 
         
         # Apply a scaling factor to match the vehicle's steering constraints
         max_steering_angle = 25  # Adjust to match vehicle's constraints
         steering_angle = max(min(steering_angle, max_steering_angle), -max_steering_angle)
-        print(steering_angle)
+        # print(steering_angle)
         return steering_angle
 
     def publish_drive_command(self, steering_angle):
@@ -547,7 +545,7 @@ class LaneKeepingNode(Node):
 
         # Adaptive speed control
         max_speed = 0.5
-        min_speed = 0.3
+        min_speed = 0.5
         speed = max(max_speed - abs(steering_angle) * 2, min_speed)
 
         drive_msg.drive.steering_angle = steering_angle

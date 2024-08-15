@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/lane_following
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/pythonpath.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/pythonpath.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg/__init__.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg/find_lane_lines.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg/lane_detection.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg/lane_following.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg/lane_thresholding.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/lib/lane_following/follow_lanes.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/ament_index/resource_index/package_run_dependencies/lane_following
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/ament_index/resource_index/parent_prefix_path/lane_following
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/ament_prefix_path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/ament_prefix_path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/environment/path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/local_setup.bash
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/local_setup.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/local_setup.zsh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/local_setup.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/package.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/ament_index/resource_index/packages/lane_following
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/cmake/lane_followingConfig.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/cmake/lane_followingConfig-version.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/lane_following/share/lane_following/package.xml
+Listing '/home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages/lane_following_pkg'...

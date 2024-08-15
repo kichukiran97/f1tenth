@@ -1,0 +1,52 @@
+[8.518s] Invoking command in '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build --no-deps symlink_data --force
+[10.124s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[10.126s] !!
+[10.127s] 
+[10.128s]         ********************************************************************************
+[10.128s]         Usage of dash-separated 'script-dir' will not be supported in future
+[10.128s]         versions. Please use the underscore name 'script_dir' instead.
+[10.129s] 
+[10.130s]         This deprecation is overdue, please update your project and remove deprecated
+[10.130s]         calls to avoid build errors in the future.
+[10.131s] 
+[10.131s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[10.131s]         ********************************************************************************
+[10.132s] 
+[10.132s] !!
+[10.132s]   opt = self.warn_dash_deprecation(opt, section)
+[11.978s] running develop
+[11.980s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[11.981s] !!
+[11.987s] 
+[11.988s]         ********************************************************************************
+[11.988s]         Please avoid running ``setup.py`` and ``easy_install``.
+[11.989s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[11.989s]         other standards-based tools.
+[11.990s] 
+[11.990s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[11.991s]         ********************************************************************************
+[11.991s] 
+[11.992s] !!
+[11.992s]   easy_install.initialize_options(self)
+[14.068s] running egg_info
+[14.234s] writing lane_pure_pursuit.egg-info/PKG-INFO
+[14.238s] writing dependency_links to lane_pure_pursuit.egg-info/dependency_links.txt
+[14.242s] writing entry points to lane_pure_pursuit.egg-info/entry_points.txt
+[14.244s] writing requirements to lane_pure_pursuit.egg-info/requires.txt
+[14.245s] writing top-level names to lane_pure_pursuit.egg-info/top_level.txt
+[14.248s] writing lane_pure_pursuit.egg-info/PKG-INFO
+[14.252s] writing dependency_links to lane_pure_pursuit.egg-info/dependency_links.txt
+[14.254s] writing entry points to lane_pure_pursuit.egg-info/entry_points.txt
+[14.255s] writing requirements to lane_pure_pursuit.egg-info/requires.txt
+[14.257s] writing top-level names to lane_pure_pursuit.egg-info/top_level.txt
+[14.618s] reading manifest file 'lane_pure_pursuit.egg-info/SOURCES.txt'
+[14.630s] writing manifest file 'lane_pure_pursuit.egg-info/SOURCES.txt'
+[15.258s] running build_ext
+[15.260s] Creating /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane-pure-pursuit.egg-link (link to .)
+[15.266s] Installing pure_pursuit_node script to /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/lane_pure_pursuit
+[15.266s] 
+[15.267s] Installed /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit
+[15.267s] running symlink_data
+[15.268s] symbolically linking /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/resource/lane_pure_pursuit -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/ament_index/resource_index/packages
+[15.268s] symbolically linking /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/package.xml -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/lane_pure_pursuit
+[15.504s] Invoked command in '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build --no-deps symlink_data --force

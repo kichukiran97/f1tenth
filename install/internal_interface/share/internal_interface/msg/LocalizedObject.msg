@@ -1,5 +1,1 @@
-float64 local_x
-float64 local_y
-float64 map_x
-float64 map_y
-string label
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/LocalizedObject.msg

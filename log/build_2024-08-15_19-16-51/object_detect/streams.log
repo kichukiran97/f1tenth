@@ -1,0 +1,44 @@
+[6.155s] Invoking command in '/home/f1tenth/f1tenth_ws/src/object_detect': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data
+[7.213s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[7.214s] !!
+[7.214s] 
+[7.215s]         ********************************************************************************
+[7.216s]         Usage of dash-separated 'script-dir' will not be supported in future
+[7.217s]         versions. Please use the underscore name 'script_dir' instead.
+[7.218s] 
+[7.219s]         This deprecation is overdue, please update your project and remove deprecated
+[7.219s]         calls to avoid build errors in the future.
+[7.220s] 
+[7.220s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[7.220s]         ********************************************************************************
+[7.221s] 
+[7.221s] !!
+[7.221s]   opt = self.warn_dash_deprecation(opt, section)
+[8.277s] running egg_info
+[8.385s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[8.386s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[8.388s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[8.389s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[8.390s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[8.391s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[8.391s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[8.392s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[8.393s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[8.394s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[9.290s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[9.295s] writing manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[9.297s] running build
+[9.298s] running build_py
+[9.298s] copying object_detect/object_detect.py -> /home/f1tenth/f1tenth_ws/build/object_detect/build/lib/object_detect
+[9.300s] running install
+[9.331s] running install_lib
+[9.444s] copying /home/f1tenth/f1tenth_ws/build/object_detect/build/lib/object_detect/object_detect.py -> /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect
+[9.449s] byte-compiling /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect/object_detect.py to object_detect.cpython-38.pyc
+[9.459s] running install_data
+[9.461s] running install_egg_info
+[9.577s] removing '/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info' (and everything under it)
+[9.580s] Copying ../../build/object_detect/object_detect.egg-info to /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info
+[9.588s] running install_scripts
+[10.025s] Installing object_detect script to /home/f1tenth/f1tenth_ws/install/object_detect/lib/object_detect
+[10.029s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/object_detect/install.log'
+[10.166s] Invoked command in '/home/f1tenth/f1tenth_ws/src/object_detect' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data

@@ -1,4 +1,1 @@
-source;share/internal_interface/environment/ament_prefix_path.sh
-source;share/internal_interface/environment/library_path.sh
-source;share/internal_interface/environment/path.sh
-source;share/internal_interface/environment/pythonpath.sh
+/home/f1tenth/f1tenth_ws/build/internal_interface/ament_cmake_environment_hooks/local_setup.dsv

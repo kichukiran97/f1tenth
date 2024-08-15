@@ -1,0 +1,1 @@
+/home/f1tenth/f1tenth_ws/build/object_detection/ament_cmake_environment_hooks/local_setup.bash

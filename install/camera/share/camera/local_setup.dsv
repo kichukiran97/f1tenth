@@ -1,3 +1,1 @@
-source;share/camera/environment/ament_prefix_path.sh
-source;share/camera/environment/path.sh
-source;share/camera/environment/pythonpath.sh
+/home/f1tenth/f1tenth_ws/build/camera/ament_cmake_environment_hooks/local_setup.dsv

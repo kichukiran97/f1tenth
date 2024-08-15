@@ -1,2 +1,1 @@
-float32 voltage
-float32 instant_consumption
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/RawBattery.msg

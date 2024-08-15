@@ -1,0 +1,40 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/birds_eye_view
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/pythonpath.sh
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages/birds_eye_view_pkg/__init__.py
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages/birds_eye_view_pkg/birds_eye_transform.py
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/birds_eye_view/start_birds_eye_view.py
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/ament_index/resource_index/package_run_dependencies/birds_eye_view
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/ament_index/resource_index/parent_prefix_path/birds_eye_view
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/path.sh
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/environment/path.dsv
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/local_setup.bash
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/local_setup.sh
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/local_setup.zsh
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/local_setup.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/package.dsv
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/ament_index/resource_index/packages/birds_eye_view
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/cmake/birds_eye_viewConfig.cmake
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/cmake/birds_eye_viewConfig-version.cmake
+-- Up-to-date symlink: /home/f1tenth/f1tenth_ws/install/birds_eye_view/share/birds_eye_view/package.xml
+Listing '/home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages/birds_eye_view_pkg'...

@@ -1,0 +1,28 @@
+[12.059s] Invoking command in '/home/f1tenth/f1tenth_ws/src/object_detect': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data
+[16.363s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[16.364s]   warnings.warn(
+[18.310s] running egg_info
+[18.578s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[18.580s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[18.581s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[18.582s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[18.582s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[18.583s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[18.585s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[18.586s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[18.587s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[18.587s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[19.092s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[19.101s] writing manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[19.115s] running build
+[19.116s] running build_py
+[19.120s] running install
+[19.170s] running install_lib
+[19.350s] running install_data
+[19.351s] running install_egg_info
+[19.527s] removing '/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info' (and everything under it)
+[19.528s] Copying ../../build/object_detect/object_detect.egg-info to /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info
+[19.535s] running install_scripts
+[20.777s] Installing object_detect script to /home/f1tenth/f1tenth_ws/install/object_detect/lib/object_detect
+[20.779s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/object_detect/install.log'
+[21.198s] Invoked command in '/home/f1tenth/f1tenth_ws/src/object_detect' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data

@@ -1,0 +1,57 @@
+[6.603s] Invoking command in '/home/f1tenth/f1tenth_ws/src/object_detect': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data
+[8.060s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[8.061s] !!
+[8.061s] 
+[8.062s]         ********************************************************************************
+[8.063s]         Usage of dash-separated 'script-dir' will not be supported in future
+[8.063s]         versions. Please use the underscore name 'script_dir' instead.
+[8.064s] 
+[8.065s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[8.065s]         or your builds will no longer be supported.
+[8.065s] 
+[8.066s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[8.066s]         ********************************************************************************
+[8.067s] 
+[8.067s] !!
+[8.067s]   opt = self.warn_dash_deprecation(opt, section)
+[9.022s] running egg_info
+[9.139s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[9.142s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[9.143s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[9.144s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[9.145s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[9.148s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[9.149s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[9.150s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[9.152s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[9.153s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[10.017s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[10.022s] Traceback (most recent call last):
+[10.023s]   File "setup.py", line 5, in <module>
+[10.027s]     setup(
+[10.028s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 108, in setup
+[10.028s]     return distutils.core.setup(**attrs)
+[10.029s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[10.030s]     return run_commands(dist)
+[10.030s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[10.031s]     dist.run_commands()
+[10.031s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 964, in run_commands
+[10.032s]     self.run_command(cmd)
+[10.032s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py", line 945, in run_command
+[10.032s]     super().run_command(command)
+[10.033s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 983, in run_command
+[10.035s]     cmd_obj.run()
+[10.036s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 310, in run
+[10.036s]     self.find_sources()
+[10.037s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 318, in find_sources
+[10.037s]     mm.run()
+[10.038s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 544, in run
+[10.038s]     self.prune_file_list()
+[10.039s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 610, in prune_file_list
+[10.040s]     base_dir = self.distribution.get_fullname()
+[10.040s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 266, in get_fullname
+[10.041s]     return _distribution_fullname(self.get_name(), self.get_version())
+[10.041s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 284, in _distribution_fullname
+[10.041s]     canonicalize_version(version, strip_trailing_zero=False),
+[10.042s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[10.159s] Invoked command in '/home/f1tenth/f1tenth_ws/src/object_detect' returned '1': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data

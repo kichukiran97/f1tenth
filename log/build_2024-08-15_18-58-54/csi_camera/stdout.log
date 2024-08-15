@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing csi_camera.egg-info/PKG-INFO
+writing dependency_links to csi_camera.egg-info/dependency_links.txt
+writing entry points to csi_camera.egg-info/entry_points.txt
+writing requirements to csi_camera.egg-info/requires.txt
+writing top-level names to csi_camera.egg-info/top_level.txt
+writing csi_camera.egg-info/PKG-INFO
+writing dependency_links to csi_camera.egg-info/dependency_links.txt
+writing entry points to csi_camera.egg-info/entry_points.txt
+writing requirements to csi_camera.egg-info/requires.txt
+writing top-level names to csi_camera.egg-info/top_level.txt
+reading manifest file 'csi_camera.egg-info/SOURCES.txt'
+writing manifest file 'csi_camera.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages/csi-camera.egg-link (link to .)
+Installing dual_camera script to /home/f1tenth/f1tenth_ws/install/csi_camera/lib/csi_camera
+Installing simple_camera script to /home/f1tenth/f1tenth_ws/install/csi_camera/lib/csi_camera
+
+Installed /home/f1tenth/f1tenth_ws/build/csi_camera
+running symlink_data
+symbolically linking /home/f1tenth/f1tenth_ws/build/csi_camera/resource/csi_camera -> /home/f1tenth/f1tenth_ws/install/csi_camera/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/csi_camera/package.xml -> /home/f1tenth/f1tenth_ws/install/csi_camera/share/csi_camera

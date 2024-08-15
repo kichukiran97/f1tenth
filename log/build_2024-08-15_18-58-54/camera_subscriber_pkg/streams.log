@@ -1,0 +1,53 @@
+[7.797s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg': AMENT_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge/lib:/usr/local/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build --no-deps symlink_data --force
+[8.793s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[8.794s] !!
+[8.795s] 
+[8.795s]         ********************************************************************************
+[8.795s]         Usage of dash-separated 'script-dir' will not be supported in future
+[8.796s]         versions. Please use the underscore name 'script_dir' instead.
+[8.796s] 
+[8.797s]         This deprecation is overdue, please update your project and remove deprecated
+[8.797s]         calls to avoid build errors in the future.
+[8.797s] 
+[8.798s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[8.798s]         ********************************************************************************
+[8.799s] 
+[8.799s] !!
+[8.800s]   opt = self.warn_dash_deprecation(opt, section)
+[10.425s] running develop
+[10.426s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[10.427s] !!
+[10.428s] 
+[10.429s]         ********************************************************************************
+[10.429s]         Please avoid running ``setup.py`` and ``easy_install``.
+[10.430s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[10.431s]         other standards-based tools.
+[10.431s] 
+[10.432s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[10.433s]         ********************************************************************************
+[10.438s] 
+[10.439s] !!
+[10.440s]   easy_install.initialize_options(self)
+[11.902s] running egg_info
+[12.015s] writing camera_subscriber_pkg.egg-info/PKG-INFO
+[12.017s] writing dependency_links to camera_subscriber_pkg.egg-info/dependency_links.txt
+[12.023s] writing entry points to camera_subscriber_pkg.egg-info/entry_points.txt
+[12.027s] writing requirements to camera_subscriber_pkg.egg-info/requires.txt
+[12.028s] writing top-level names to camera_subscriber_pkg.egg-info/top_level.txt
+[12.030s] writing camera_subscriber_pkg.egg-info/PKG-INFO
+[12.031s] writing dependency_links to camera_subscriber_pkg.egg-info/dependency_links.txt
+[12.032s] writing entry points to camera_subscriber_pkg.egg-info/entry_points.txt
+[12.033s] writing requirements to camera_subscriber_pkg.egg-info/requires.txt
+[12.034s] writing top-level names to camera_subscriber_pkg.egg-info/top_level.txt
+[12.259s] reading manifest file 'camera_subscriber_pkg.egg-info/SOURCES.txt'
+[12.264s] writing manifest file 'camera_subscriber_pkg.egg-info/SOURCES.txt'
+[12.669s] running build_ext
+[12.670s] Creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera-subscriber-pkg.egg-link (link to .)
+[12.677s] Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+[12.679s] Installing camera_subscriber_raw script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+[12.680s] 
+[12.680s] Installed /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg
+[12.682s] running symlink_data
+[12.683s] symbolically linking /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/resource/camera_subscriber_pkg -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index/resource_index/packages
+[12.684s] symbolically linking /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/package.xml -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/camera_subscriber_pkg
+[12.886s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg' returned '0': AMENT_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/f1tenth/f1tenth_ws/install/cv_bridge/lib:/usr/local/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64 PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/build --no-deps symlink_data --force

@@ -1,1 +1,1 @@
-float64[4] distances
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/RawDistanceSensor.msg

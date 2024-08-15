@@ -1,1 +1,1 @@
-uint64 goal_node_id
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/GoalState.msg

@@ -1,0 +1,36 @@
+[0.000000] (-) TimerEvent: {}
+[0.000955] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001155] (-) JobUnselected: {'identifier': 'birds_eye_view'}
+[0.001301] (-) JobUnselected: {'identifier': 'calibration'}
+[0.002891] (-) JobUnselected: {'identifier': 'camera'}
+[0.003180] (-) JobUnselected: {'identifier': 'camera_package'}
+[0.003430] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.003677] (-) JobUnselected: {'identifier': 'camera_subscriber_pkg'}
+[0.013458] (-) JobUnselected: {'identifier': 'csi_camera'}
+[0.013664] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.013824] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.013925] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.014053] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.014147] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.014248] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.014340] (-) JobUnselected: {'identifier': 'lane_following'}
+[0.014431] (-) JobUnselected: {'identifier': 'lane_keeping'}
+[0.014521] (-) JobUnselected: {'identifier': 'lane_pure_pursuit'}
+[0.015113] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.015248] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.015356] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.015452] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.020616] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.020774] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.020874] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.021001] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.021094] (-) JobUnselected: {'identifier': 'vesc'}
+[0.021324] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.021489] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.021604] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.021717] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.021850] (vision_opencv) JobQueued: {'identifier': 'vision_opencv', 'dependencies': OrderedDict([('cv_bridge', '/home/f1tenth/f1tenth_ws/install/cv_bridge'), ('image_geometry', '/home/f1tenth/f1tenth_ws/install/image_geometry')])}
+[0.021978] (vision_opencv) JobStarted: {'identifier': 'vision_opencv'}
+[0.099529] (-) TimerEvent: {}
+[0.148607] (vision_opencv) JobEnded: {'identifier': 'vision_opencv', 'rc': 1}
+[0.161851] (-) EventReactorShutdown: {}

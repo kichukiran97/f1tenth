@@ -1,0 +1,56 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        By 2024-Sep-26, you need to update your project and remove deprecated calls
+        or your builds will no longer be supported.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running egg_info
+writing ../../build/csi_camera/csi_camera.egg-info/PKG-INFO
+writing dependency_links to ../../build/csi_camera/csi_camera.egg-info/dependency_links.txt
+writing entry points to ../../build/csi_camera/csi_camera.egg-info/entry_points.txt
+writing requirements to ../../build/csi_camera/csi_camera.egg-info/requires.txt
+writing top-level names to ../../build/csi_camera/csi_camera.egg-info/top_level.txt
+writing ../../build/csi_camera/csi_camera.egg-info/PKG-INFO
+writing dependency_links to ../../build/csi_camera/csi_camera.egg-info/dependency_links.txt
+writing entry points to ../../build/csi_camera/csi_camera.egg-info/entry_points.txt
+writing requirements to ../../build/csi_camera/csi_camera.egg-info/requires.txt
+writing top-level names to ../../build/csi_camera/csi_camera.egg-info/top_level.txt
+reading manifest file '../../build/csi_camera/csi_camera.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    setup(
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 108, in setup
+    return distutils.core.setup(**attrs)
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 184, in setup
+    return run_commands(dist)
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+    dist.run_commands()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 964, in run_commands
+    self.run_command(cmd)
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py", line 945, in run_command
+    super().run_command(command)
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 983, in run_command
+    cmd_obj.run()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 310, in run
+    self.find_sources()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 318, in find_sources
+    mm.run()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 544, in run
+    self.prune_file_list()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 610, in prune_file_list
+    base_dir = self.distribution.get_fullname()
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 266, in get_fullname
+    return _distribution_fullname(self.get_name(), self.get_version())
+  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 284, in _distribution_fullname
+    canonicalize_version(version, strip_trailing_zero=False),
+TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'

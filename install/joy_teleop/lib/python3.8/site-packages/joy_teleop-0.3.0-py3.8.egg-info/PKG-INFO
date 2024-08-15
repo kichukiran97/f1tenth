@@ -9,11 +9,9 @@ Maintainer: Bence Magyar
 Maintainer-email: bence.magyar.robotics@gmail.com
 License: BSD
 Keywords: ROS
-Platform: UNKNOWN
 Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD
 Classifier: Programming Language :: Python
 Classifier: Topic :: Software Development
 
         joy_teleop interfaces a joystick to control/actions sent to a robot.         Its flexibility allows to map any joystick button to any message/service/action.
-

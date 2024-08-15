@@ -1,13 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from internal_interface/msg/RawDistanceSensor.msg
-// generated code does not contain a copyright notice
-
-
-module internal_interface {
-  module msg {
-    typedef double double__4[4];
-    struct RawDistanceSensor {
-      double__4 distances;
-    };
-  };
-};
+/home/f1tenth/f1tenth_ws/build/internal_interface/rosidl_adapter/internal_interface/msg/RawDistanceSensor.idl

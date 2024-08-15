@@ -1,0 +1,153 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/calibration
+[  2%] Built target calibration__cpp
+[ 12%] Built target calibration__rosidl_generator_c
+[ 23%] Built target calibration__rosidl_typesupport_cpp
+[ 33%] Built target calibration__rosidl_typesupport_introspection_c
+[ 43%] Built target calibration__rosidl_typesupport_c
+[ 46%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 53%] Built target calibration__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target calibration__rosidl_typesupport_introspection_cpp
+[ 66%] [32m[1mLinking CXX shared library libcalibration__rosidl_typesupport_fastrtps_c.so[0m
+[ 74%] Built target calibration__rosidl_typesupport_fastrtps_c
+[ 74%] Built target calibration
+[ 76%] Built target calibration__py
+[35m[1mScanning dependencies of target calibration__python[0m
+[ 79%] [32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_take_image_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/calibration__python.dir/rosidl_generator_py/calibration/action/_do_camera_calibration_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/calibration/libcalibration__python.so[0m
+[ 84%] Built target calibration__python
+[35m[1mScanning dependencies of target calibration__rosidl_typesupport_introspection_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 89%] [32m[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 89%] Built target calibration__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target calibration__rosidl_typesupport_c__pyext[0m
+[ 92%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[ 94%] Built target calibration__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target calibration__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/calibration__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/calibration/_calibration_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[100%] Built target calibration__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/pythonpath.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/__init__.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/chessboard_calibration.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg/save_image.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/rosidl_interfaces/calibration
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__functions.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__functions.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/library_path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__builder.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__struct.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__traits.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__type_support.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__builder.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__struct.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__traits.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__type_support.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/do_camera_calibration.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/take_image.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/do_camera_calibration__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/include/calibration/action/detail/take_image__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/__init__.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_do_camera_calibration.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/action/_take_image.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/calibration_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__python.so
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.idl
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.idl
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/TakeImage.action
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/action/DoCameraCalibration.action
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/camera_calibration.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/lib/calibration/imu_calibration.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/package_run_dependencies/calibration
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/parent_prefix_path/calibration
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/ament_prefix_path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/environment/path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.bash
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.zsh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/local_setup.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/ament_index/resource_index/packages/calibration
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibrationConfig-version.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/package.xml
+Listing '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration_pkg'...
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_generator_c.so
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_c.so
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/lib/libcalibration__rosidl_typesupport_cpp.so
+Compiling '/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages/calibration/__init__.py'...
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/f1tenth/f1tenth_ws/install/calibration/share/calibration/cmake/calibration__rosidl_typesupport_cppExport-noconfig.cmake

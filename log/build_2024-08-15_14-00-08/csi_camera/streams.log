@@ -1,0 +1,58 @@
+[6.068s] Invoking command in '/home/f1tenth/f1tenth_ws/src/csi_camera': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/csi_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/csi_camera build --build-base /home/f1tenth/f1tenth_ws/build/csi_camera/build install --record /home/f1tenth/f1tenth_ws/build/csi_camera/install.log --install-scripts $base/lib/csi_camera --single-version-externally-managed install_data
+[7.155s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:447: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[7.156s] !!
+[7.156s] 
+[7.157s]         ********************************************************************************
+[7.157s]         Usage of dash-separated 'script-dir' will not be supported in future
+[7.157s]         versions. Please use the underscore name 'script_dir' instead.
+[7.158s] 
+[7.158s]         By 2024-Sep-26, you need to update your project and remove deprecated calls
+[7.159s]         or your builds will no longer be supported.
+[7.159s] 
+[7.159s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[7.161s]         ********************************************************************************
+[7.162s] 
+[7.162s] !!
+[7.163s]   opt = self.warn_dash_deprecation(opt, section)
+[8.070s] running egg_info
+[8.181s] writing ../../build/csi_camera/csi_camera.egg-info/PKG-INFO
+[8.185s] writing dependency_links to ../../build/csi_camera/csi_camera.egg-info/dependency_links.txt
+[8.186s] writing entry points to ../../build/csi_camera/csi_camera.egg-info/entry_points.txt
+[8.187s] writing requirements to ../../build/csi_camera/csi_camera.egg-info/requires.txt
+[8.188s] writing top-level names to ../../build/csi_camera/csi_camera.egg-info/top_level.txt
+[8.189s] writing ../../build/csi_camera/csi_camera.egg-info/PKG-INFO
+[8.190s] writing dependency_links to ../../build/csi_camera/csi_camera.egg-info/dependency_links.txt
+[8.192s] writing entry points to ../../build/csi_camera/csi_camera.egg-info/entry_points.txt
+[8.193s] writing requirements to ../../build/csi_camera/csi_camera.egg-info/requires.txt
+[8.193s] writing top-level names to ../../build/csi_camera/csi_camera.egg-info/top_level.txt
+[9.016s] reading manifest file '../../build/csi_camera/csi_camera.egg-info/SOURCES.txt'
+[9.020s] adding license file 'LICENSE'
+[9.020s] Traceback (most recent call last):
+[9.021s]   File "setup.py", line 5, in <module>
+[9.022s]     setup(
+[9.022s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 108, in setup
+[9.023s]     return distutils.core.setup(**attrs)
+[9.024s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[9.024s]     return run_commands(dist)
+[9.025s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[9.025s]     dist.run_commands()
+[9.026s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 964, in run_commands
+[9.026s]     self.run_command(cmd)
+[9.027s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py", line 945, in run_command
+[9.028s]     super().run_command(command)
+[9.028s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 983, in run_command
+[9.029s]     cmd_obj.run()
+[9.029s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 310, in run
+[9.030s]     self.find_sources()
+[9.030s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 318, in find_sources
+[9.031s]     mm.run()
+[9.031s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 544, in run
+[9.031s]     self.prune_file_list()
+[9.032s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 610, in prune_file_list
+[9.033s]     base_dir = self.distribution.get_fullname()
+[9.034s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 266, in get_fullname
+[9.034s]     return _distribution_fullname(self.get_name(), self.get_version())
+[9.035s]   File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 284, in _distribution_fullname
+[9.035s]     canonicalize_version(version, strip_trailing_zero=False),
+[9.035s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[9.149s] Invoked command in '/home/f1tenth/f1tenth_ws/src/csi_camera' returned '1': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/csi_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/csi_camera build --build-base /home/f1tenth/f1tenth_ws/build/csi_camera/build install --record /home/f1tenth/f1tenth_ws/build/csi_camera/install.log --install-scripts $base/lib/csi_camera --single-version-externally-managed install_data

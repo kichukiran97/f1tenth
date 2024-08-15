@@ -1,3 +1,2 @@
 [console_scripts]
 particle_filter = particle_filter.particle_filter:main
-

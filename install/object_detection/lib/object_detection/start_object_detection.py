@@ -1,0 +1,1 @@
+/home/f1tenth/f1tenth_ws/src/object_detection/scripts/start_object_detection.py

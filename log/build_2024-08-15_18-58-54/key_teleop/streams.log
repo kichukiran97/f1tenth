@@ -1,0 +1,53 @@
+[18.804s] Invoking command in '/home/f1tenth/f1tenth_ws/build/key_teleop': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/key_teleop/build --no-deps symlink_data --force
+[20.339s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[20.340s] !!
+[20.340s] 
+[20.340s]         ********************************************************************************
+[20.341s]         Usage of dash-separated 'script-dir' will not be supported in future
+[20.341s]         versions. Please use the underscore name 'script_dir' instead.
+[20.342s] 
+[20.343s]         This deprecation is overdue, please update your project and remove deprecated
+[20.343s]         calls to avoid build errors in the future.
+[20.344s] 
+[20.344s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[20.345s]         ********************************************************************************
+[20.345s] 
+[20.346s] !!
+[20.346s]   opt = self.warn_dash_deprecation(opt, section)
+[23.287s] running develop
+[23.291s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[23.293s] !!
+[23.295s] 
+[23.296s]         ********************************************************************************
+[23.297s]         Please avoid running ``setup.py`` and ``easy_install``.
+[23.298s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[23.299s]         other standards-based tools.
+[23.300s] 
+[23.301s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[23.302s]         ********************************************************************************
+[23.302s] 
+[23.303s] !!
+[23.304s]   easy_install.initialize_options(self)
+[25.851s] running egg_info
+[26.134s] writing key_teleop.egg-info/PKG-INFO
+[26.144s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[26.145s] writing entry points to key_teleop.egg-info/entry_points.txt
+[26.145s] writing requirements to key_teleop.egg-info/requires.txt
+[26.146s] writing top-level names to key_teleop.egg-info/top_level.txt
+[26.147s] writing key_teleop.egg-info/PKG-INFO
+[26.147s] writing dependency_links to key_teleop.egg-info/dependency_links.txt
+[26.154s] writing entry points to key_teleop.egg-info/entry_points.txt
+[26.155s] writing requirements to key_teleop.egg-info/requires.txt
+[26.155s] writing top-level names to key_teleop.egg-info/top_level.txt
+[26.496s] reading manifest file 'key_teleop.egg-info/SOURCES.txt'
+[26.504s] writing manifest file 'key_teleop.egg-info/SOURCES.txt'
+[27.170s] running build_ext
+[27.171s] Creating /home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages/key-teleop.egg-link (link to .)
+[27.188s] Installing key_teleop script to /home/f1tenth/f1tenth_ws/install/key_teleop/lib/key_teleop
+[27.189s] 
+[27.190s] Installed /home/f1tenth/f1tenth_ws/build/key_teleop
+[27.190s] running symlink_data
+[27.191s] symbolically linking /home/f1tenth/f1tenth_ws/build/key_teleop/package.xml -> /home/f1tenth/f1tenth_ws/install/key_teleop/share/key_teleop
+[27.192s] symbolically linking /home/f1tenth/f1tenth_ws/build/key_teleop/config/key_teleop.yaml -> /home/f1tenth/f1tenth_ws/install/key_teleop/share/key_teleop/config
+[27.193s] symbolically linking /home/f1tenth/f1tenth_ws/build/key_teleop/resource/key_teleop -> /home/f1tenth/f1tenth_ws/install/key_teleop/share/ament_index/resource_index/packages
+[27.535s] Invoked command in '/home/f1tenth/f1tenth_ws/build/key_teleop' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/key_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/key_teleop/build --no-deps symlink_data --force

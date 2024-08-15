@@ -1,0 +1,42 @@
+[14.327s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_package': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_package/build
+[18.108s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[18.110s]   warnings.warn(
+[19.579s] running develop
+[19.579s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[19.580s]   warnings.warn(
+[23.185s] Removing /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera-package.egg-link (link to .)
+[23.573s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_package' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_package/build
+[23.587s] Invoking command in '/home/f1tenth/f1tenth_ws/src/camera_package': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_package build --build-base /home/f1tenth/f1tenth_ws/build/camera_package/build install --record /home/f1tenth/f1tenth_ws/build/camera_package/install.log --install-scripts $base/lib/camera_package --single-version-externally-managed install_data --force
+[27.727s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[27.728s]   warnings.warn(
+[30.014s] running egg_info
+[30.312s] writing ../../build/camera_package/camera_package.egg-info/PKG-INFO
+[30.313s] writing dependency_links to ../../build/camera_package/camera_package.egg-info/dependency_links.txt
+[30.314s] writing entry points to ../../build/camera_package/camera_package.egg-info/entry_points.txt
+[30.315s] writing requirements to ../../build/camera_package/camera_package.egg-info/requires.txt
+[30.316s] writing top-level names to ../../build/camera_package/camera_package.egg-info/top_level.txt
+[30.333s] writing ../../build/camera_package/camera_package.egg-info/PKG-INFO
+[30.341s] writing dependency_links to ../../build/camera_package/camera_package.egg-info/dependency_links.txt
+[30.342s] writing entry points to ../../build/camera_package/camera_package.egg-info/entry_points.txt
+[30.344s] writing requirements to ../../build/camera_package/camera_package.egg-info/requires.txt
+[30.360s] writing top-level names to ../../build/camera_package/camera_package.egg-info/top_level.txt
+[30.688s] reading manifest file '../../build/camera_package/camera_package.egg-info/SOURCES.txt'
+[30.709s] writing manifest file '../../build/camera_package/camera_package.egg-info/SOURCES.txt'
+[30.715s] running build
+[30.716s] running build_py
+[30.735s] running install
+[30.805s] running install_lib
+[31.103s] creating /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package
+[31.104s] copying /home/f1tenth/f1tenth_ws/build/camera_package/build/lib/camera_package/camera_subscriber.py -> /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package
+[31.109s] copying /home/f1tenth/f1tenth_ws/build/camera_package/build/lib/camera_package/__init__.py -> /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package
+[31.111s] byte-compiling /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package/camera_subscriber.py to camera_subscriber.cpython-38.pyc
+[31.131s] byte-compiling /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package/__init__.py to __init__.cpython-38.pyc
+[31.131s] running install_data
+[31.132s] copying resource/camera_package -> /home/f1tenth/f1tenth_ws/install/camera_package/share/ament_index/resource_index/packages
+[31.133s] copying package.xml -> /home/f1tenth/f1tenth_ws/install/camera_package/share/camera_package
+[31.134s] running install_egg_info
+[31.307s] Copying ../../build/camera_package/camera_package.egg-info to /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera_package-0.0.0-py3.8.egg-info
+[31.325s] running install_scripts
+[32.370s] Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_package/lib/camera_package
+[32.374s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/camera_package/install.log'
+[32.714s] Invoked command in '/home/f1tenth/f1tenth_ws/src/camera_package' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/camera_package build --build-base /home/f1tenth/f1tenth_ws/build/camera_package/build install --record /home/f1tenth/f1tenth_ws/build/camera_package/install.log --install-scripts $base/lib/camera_package --single-version-externally-managed install_data --force

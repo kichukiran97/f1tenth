@@ -1,0 +1,38 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane-pure-pursuit.egg-link (link to .)
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/dependency_links.txt
+writing entry points to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/entry_points.txt
+writing requirements to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/requires.txt
+writing top-level names to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/top_level.txt
+writing ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/PKG-INFO
+writing dependency_links to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/dependency_links.txt
+writing entry points to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/entry_points.txt
+writing requirements to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/requires.txt
+writing top-level names to ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/top_level.txt
+reading manifest file '../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/SOURCES.txt'
+writing manifest file '../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+copying /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build/lib/lane_pure_pursuit/__init__.py -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+copying /home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/build/lib/lane_pure_pursuit/pure_pursuit_node.py -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit
+byte-compiling /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit/pure_pursuit_node.py to pure_pursuit_node.cpython-38.pyc
+running install_data
+copying resource/lane_pure_pursuit -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/ament_index/resource_index/packages
+copying package.xml -> /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/share/lane_pure_pursuit
+running install_egg_info
+Copying ../../build/lane_pure_pursuit/lane_pure_pursuit.egg-info to /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages/lane_pure_pursuit-0.0.0-py3.8.egg-info
+running install_scripts
+Installing pure_pursuit_node script to /home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/lane_pure_pursuit
+writing list of installed files to '/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit/install.log'

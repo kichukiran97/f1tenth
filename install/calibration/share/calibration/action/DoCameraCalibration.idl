@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/action.idl.em
-// with input from calibration/action/DoCameraCalibration.action
-// generated code does not contain a copyright notice
-
-
-module calibration {
-  module action {
-    struct DoCameraCalibration_Goal {
-      uint8 structure_needs_at_least_one_member;
-    };
-    struct DoCameraCalibration_Result {
-      boolean success;
-    };
-    struct DoCameraCalibration_Feedback {
-      uint8 structure_needs_at_least_one_member;
-    };
-  };
-};
+/home/f1tenth/f1tenth_ws/build/calibration/rosidl_adapter/calibration/action/DoCameraCalibration.idl

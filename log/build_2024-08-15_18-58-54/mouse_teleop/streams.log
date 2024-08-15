@@ -1,0 +1,54 @@
+[8.739s] Invoking command in '/home/f1tenth/f1tenth_ws/build/mouse_teleop': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/mouse_teleop/build --no-deps symlink_data --force
+[10.048s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[10.049s] !!
+[10.049s] 
+[10.050s]         ********************************************************************************
+[10.050s]         Usage of dash-separated 'script-dir' will not be supported in future
+[10.051s]         versions. Please use the underscore name 'script_dir' instead.
+[10.051s] 
+[10.051s]         This deprecation is overdue, please update your project and remove deprecated
+[10.052s]         calls to avoid build errors in the future.
+[10.052s] 
+[10.052s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[10.053s]         ********************************************************************************
+[10.053s] 
+[10.054s] !!
+[10.054s]   opt = self.warn_dash_deprecation(opt, section)
+[12.180s] running develop
+[12.181s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[12.182s] !!
+[12.183s] 
+[12.183s]         ********************************************************************************
+[12.183s]         Please avoid running ``setup.py`` and ``easy_install``.
+[12.184s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[12.184s]         other standards-based tools.
+[12.184s] 
+[12.185s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[12.185s]         ********************************************************************************
+[12.185s] 
+[12.186s] !!
+[12.186s]   easy_install.initialize_options(self)
+[13.958s] running egg_info
+[14.099s] writing mouse_teleop.egg-info/PKG-INFO
+[14.101s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[14.109s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[14.113s] writing requirements to mouse_teleop.egg-info/requires.txt
+[14.116s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[14.121s] writing mouse_teleop.egg-info/PKG-INFO
+[14.124s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[14.128s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[14.132s] writing requirements to mouse_teleop.egg-info/requires.txt
+[14.135s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[14.473s] reading manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[14.481s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[15.152s] running build_ext
+[15.153s] Creating /home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse-teleop.egg-link (link to .)
+[15.158s] Installing mouse_teleop script to /home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/mouse_teleop
+[15.160s] 
+[15.161s] Installed /home/f1tenth/f1tenth_ws/build/mouse_teleop
+[15.161s] running symlink_data
+[15.162s] symbolically linking /home/f1tenth/f1tenth_ws/build/mouse_teleop/package.xml -> /home/f1tenth/f1tenth_ws/install/mouse_teleop/share/mouse_teleop
+[15.163s] symbolically linking /home/f1tenth/f1tenth_ws/build/mouse_teleop/config/mouse_teleop.yaml -> /home/f1tenth/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/config
+[15.164s] symbolically linking /home/f1tenth/f1tenth_ws/build/mouse_teleop/launch/mouse_teleop.launch.py -> /home/f1tenth/f1tenth_ws/install/mouse_teleop/share/mouse_teleop/launch
+[15.165s] symbolically linking /home/f1tenth/f1tenth_ws/build/mouse_teleop/resource/mouse_teleop -> /home/f1tenth/f1tenth_ws/install/mouse_teleop/share/ament_index/resource_index/packages
+[15.562s] Invoked command in '/home/f1tenth/f1tenth_ws/build/mouse_teleop' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/mouse_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/mouse_teleop/build --no-deps symlink_data --force

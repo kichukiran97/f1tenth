@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from internal_interface/msg/Intersection.msg
-// generated code does not contain a copyright notice
-
-
-module internal_interface {
-  module msg {
-    struct Intersection {
-      double intersection_distance;
-
-      double intersection_angle;
-
-      boolean is_detected;
-    };
-  };
-};
+/home/f1tenth/f1tenth_ws/build/internal_interface/rosidl_adapter/internal_interface/msg/Intersection.idl

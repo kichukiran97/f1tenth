@@ -1,14 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from internal_interface/msg/StopSignal.msg
-// generated code does not contain a copyright notice
-
-
-module internal_interface {
-  module msg {
-    struct StopSignal {
-      boolean should_stop;
-
-      double delay;
-    };
-  };
-};
+/home/f1tenth/f1tenth_ws/build/internal_interface/rosidl_adapter/internal_interface/msg/StopSignal.idl

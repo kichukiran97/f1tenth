@@ -1,0 +1,52 @@
+[8.738s] Invoking command in '/home/f1tenth/f1tenth_ws/build/lane_keeping': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_keeping/build --no-deps symlink_data --force
+[10.029s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[10.030s] !!
+[10.030s] 
+[10.030s]         ********************************************************************************
+[10.031s]         Usage of dash-separated 'script-dir' will not be supported in future
+[10.031s]         versions. Please use the underscore name 'script_dir' instead.
+[10.032s] 
+[10.035s]         This deprecation is overdue, please update your project and remove deprecated
+[10.035s]         calls to avoid build errors in the future.
+[10.037s] 
+[10.038s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[10.039s]         ********************************************************************************
+[10.039s] 
+[10.039s] !!
+[10.040s]   opt = self.warn_dash_deprecation(opt, section)
+[12.152s] running develop
+[12.156s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[12.157s] !!
+[12.157s] 
+[12.158s]         ********************************************************************************
+[12.158s]         Please avoid running ``setup.py`` and ``easy_install``.
+[12.159s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[12.159s]         other standards-based tools.
+[12.159s] 
+[12.160s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[12.160s]         ********************************************************************************
+[12.162s] 
+[12.162s] !!
+[12.163s]   easy_install.initialize_options(self)
+[14.265s] running egg_info
+[14.424s] writing lane_keeping.egg-info/PKG-INFO
+[14.429s] writing dependency_links to lane_keeping.egg-info/dependency_links.txt
+[14.431s] writing entry points to lane_keeping.egg-info/entry_points.txt
+[14.432s] writing requirements to lane_keeping.egg-info/requires.txt
+[14.432s] writing top-level names to lane_keeping.egg-info/top_level.txt
+[14.433s] writing lane_keeping.egg-info/PKG-INFO
+[14.434s] writing dependency_links to lane_keeping.egg-info/dependency_links.txt
+[14.442s] writing entry points to lane_keeping.egg-info/entry_points.txt
+[14.443s] writing requirements to lane_keeping.egg-info/requires.txt
+[14.444s] writing top-level names to lane_keeping.egg-info/top_level.txt
+[14.725s] reading manifest file 'lane_keeping.egg-info/SOURCES.txt'
+[14.731s] writing manifest file 'lane_keeping.egg-info/SOURCES.txt'
+[15.252s] running build_ext
+[15.253s] Creating /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane-keeping.egg-link (link to .)
+[15.259s] Installing lane_keeping script to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/lane_keeping
+[15.262s] 
+[15.264s] Installed /home/f1tenth/f1tenth_ws/build/lane_keeping
+[15.265s] running symlink_data
+[15.265s] symbolically linking /home/f1tenth/f1tenth_ws/build/lane_keeping/resource/lane_keeping -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index/packages
+[15.266s] symbolically linking /home/f1tenth/f1tenth_ws/build/lane_keeping/package.xml -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/lane_keeping
+[17.530s] Invoked command in '/home/f1tenth/f1tenth_ws/build/lane_keeping' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/lane_keeping/build --no-deps symlink_data --force

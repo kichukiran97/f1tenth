@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/f1tenth/f1tenth_ws/build/calibration/libcalibration__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "calibration__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

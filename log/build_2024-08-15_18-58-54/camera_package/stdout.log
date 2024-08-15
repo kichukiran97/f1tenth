@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing camera_package.egg-info/PKG-INFO
+writing dependency_links to camera_package.egg-info/dependency_links.txt
+writing entry points to camera_package.egg-info/entry_points.txt
+writing requirements to camera_package.egg-info/requires.txt
+writing top-level names to camera_package.egg-info/top_level.txt
+writing camera_package.egg-info/PKG-INFO
+writing dependency_links to camera_package.egg-info/dependency_links.txt
+writing entry points to camera_package.egg-info/entry_points.txt
+writing requirements to camera_package.egg-info/requires.txt
+writing top-level names to camera_package.egg-info/top_level.txt
+reading manifest file 'camera_package.egg-info/SOURCES.txt'
+writing manifest file 'camera_package.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages/camera-package.egg-link (link to .)
+Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_package/lib/camera_package
+
+Installed /home/f1tenth/f1tenth_ws/build/camera_package
+running symlink_data
+symbolically linking /home/f1tenth/f1tenth_ws/build/camera_package/resource/camera_package -> /home/f1tenth/f1tenth_ws/install/camera_package/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/camera_package/package.xml -> /home/f1tenth/f1tenth_ws/install/camera_package/share/camera_package

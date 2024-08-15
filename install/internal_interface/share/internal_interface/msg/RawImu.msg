@@ -1,6 +1,1 @@
-float32 yaw
-float32 roll
-float32 pitch
-float32 accel_x
-float32 accel_y
-float32 accel_z
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/RawImu.msg

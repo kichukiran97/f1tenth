@@ -1,3 +1,2 @@
 [console_scripts]
 camera_publisher = camera_publisher.camera_publisher_node:main
-

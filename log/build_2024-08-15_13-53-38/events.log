@@ -1,0 +1,42 @@
+[0.000000] (-) TimerEvent: {}
+[0.000885] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.001224] (-) JobUnselected: {'identifier': 'birds_eye_view'}
+[0.001867] (-) JobUnselected: {'identifier': 'calibration'}
+[0.002911] (-) JobUnselected: {'identifier': 'camera'}
+[0.003595] (-) JobUnselected: {'identifier': 'camera_package'}
+[0.004305] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.004449] (-) JobUnselected: {'identifier': 'camera_subscriber_pkg'}
+[0.004554] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.004653] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.004826] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.005120] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.005263] (-) JobUnselected: {'identifier': 'lane_following'}
+[0.005494] (-) JobUnselected: {'identifier': 'lane_keeping'}
+[0.005702] (-) JobUnselected: {'identifier': 'lane_pure_pursuit'}
+[0.005903] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.006100] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.006297] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.006487] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.006692] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.006888] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.007076] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.007263] (-) JobUnselected: {'identifier': 'vesc'}
+[0.007475] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.007730] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.007920] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.008116] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.008397] (csi_camera) JobQueued: {'identifier': 'csi_camera', 'dependencies': OrderedDict()}
+[0.008620] (csi_camera) JobStarted: {'identifier': 'csi_camera'}
+[0.098997] (-) TimerEvent: {}
+[0.205742] (-) TimerEvent: {}
+[0.311882] (-) TimerEvent: {}
+[0.415525] (-) TimerEvent: {}
+[0.516845] (-) TimerEvent: {}
+[0.617827] (-) TimerEvent: {}
+[0.719136] (-) TimerEvent: {}
+[0.820902] (-) TimerEvent: {}
+[0.921819] (-) TimerEvent: {}
+[1.022834] (-) TimerEvent: {}
+[1.084822] (csi_camera) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 94, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 192, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'-W\', \'ignore:setup.py install is deprecated\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "setup.py", line 1, in <module>\n    from setuptools import setup\n  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 21, in <module>\n    from .dist import Distribution\n  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py", line 29, in <module>\n    from . import _entry_points\n  File "/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/_entry_points.py", line 44, in <module>\n    def validate(eps: metadata.EntryPoints):\nAttributeError: module \'importlib_metadata\' has no attribute \'EntryPoints\'\n\n'}
+[1.088507] (csi_camera) JobEnded: {'identifier': 'csi_camera', 'rc': 1}
+[1.097835] (-) EventReactorShutdown: {}

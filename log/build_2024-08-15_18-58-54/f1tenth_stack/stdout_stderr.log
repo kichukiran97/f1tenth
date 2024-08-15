@@ -1,0 +1,58 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to f1tenth_stack.egg-info/entry_points.txt
+writing requirements to f1tenth_stack.egg-info/requires.txt
+writing top-level names to f1tenth_stack.egg-info/top_level.txt
+writing f1tenth_stack.egg-info/PKG-INFO
+writing dependency_links to f1tenth_stack.egg-info/dependency_links.txt
+writing entry points to f1tenth_stack.egg-info/entry_points.txt
+writing requirements to f1tenth_stack.egg-info/requires.txt
+writing top-level names to f1tenth_stack.egg-info/top_level.txt
+reading manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+writing manifest file 'f1tenth_stack.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages/f1tenth-stack.egg-link (link to .)
+Installing tf_publisher script to /home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+Installing throttle_interpolator script to /home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/f1tenth_stack
+
+Installed /home/f1tenth/f1tenth_ws/build/f1tenth_stack
+running symlink_data
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/resource/f1tenth_stack -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/package.xml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/launch/bringup_launch.py -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/launch/bringup_launch_2.py -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/launch
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/config/f1tenth_online_async.yaml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/config/vesc.yaml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/config/mux.yaml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/config/joy_teleop.yaml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config
+symbolically linking /home/f1tenth/f1tenth_ws/build/f1tenth_stack/config/sensors.yaml -> /home/f1tenth/f1tenth_ws/install/f1tenth_stack/share/f1tenth_stack/config

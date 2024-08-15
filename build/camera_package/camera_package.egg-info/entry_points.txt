@@ -1,3 +1,2 @@
 [console_scripts]
 camera_subscriber = camera_package.camera_subscriber:main
-

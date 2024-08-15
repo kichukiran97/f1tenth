@@ -1,0 +1,50 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing lane_keeping.egg-info/PKG-INFO
+writing dependency_links to lane_keeping.egg-info/dependency_links.txt
+writing entry points to lane_keeping.egg-info/entry_points.txt
+writing requirements to lane_keeping.egg-info/requires.txt
+writing top-level names to lane_keeping.egg-info/top_level.txt
+writing lane_keeping.egg-info/PKG-INFO
+writing dependency_links to lane_keeping.egg-info/dependency_links.txt
+writing entry points to lane_keeping.egg-info/entry_points.txt
+writing requirements to lane_keeping.egg-info/requires.txt
+writing top-level names to lane_keeping.egg-info/top_level.txt
+reading manifest file 'lane_keeping.egg-info/SOURCES.txt'
+writing manifest file 'lane_keeping.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane-keeping.egg-link (link to .)
+Installing lane_keeping script to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/lane_keeping
+
+Installed /home/f1tenth/f1tenth_ws/build/lane_keeping
+running symlink_data
+symbolically linking /home/f1tenth/f1tenth_ws/build/lane_keeping/resource/lane_keeping -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/lane_keeping/package.xml -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/lane_keeping

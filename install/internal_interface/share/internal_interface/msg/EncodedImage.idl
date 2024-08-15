@@ -1,16 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from internal_interface/msg/EncodedImage.msg
-// generated code does not contain a copyright notice
-
-
-module internal_interface {
-  module msg {
-    struct EncodedImage {
-      double capture_ts;
-
-      double publish_ts;
-
-      sequence<octet> data;
-    };
-  };
-};
+/home/f1tenth/f1tenth_ws/build/internal_interface/rosidl_adapter/internal_interface/msg/EncodedImage.idl

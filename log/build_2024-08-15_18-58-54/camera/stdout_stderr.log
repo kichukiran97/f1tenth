@@ -1,0 +1,54 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/f1tenth/f1tenth_ws/build/camera
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/pythonpath.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/pythonpath.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/__init__.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_manager.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_playback_stream.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_publisher.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_realtime_stream.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_shared_object.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_shared_object_client.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/camera_stream.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/default_camera_devices.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/default_shared_memory_objects.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/shm_client.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg/shm_manager.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/camera/start_camera.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/camera/simulate_camera.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/camera/start_shm_manager.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/lib/camera/start_recording.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/launch/start_camera.launch.py
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/ament_index/resource_index/package_run_dependencies/camera
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/ament_index/resource_index/parent_prefix_path/camera
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/ament_prefix_path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/ament_prefix_path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/path.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/environment/path.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/local_setup.bash
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/local_setup.sh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/local_setup.zsh
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/local_setup.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/package.dsv
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/ament_index/resource_index/packages/camera
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/cmake/cameraConfig.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/cmake/cameraConfig-version.cmake
+-- Symlinking: /home/f1tenth/f1tenth_ws/install/camera/share/camera/package.xml
+Listing '/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages/camera_pkg'...

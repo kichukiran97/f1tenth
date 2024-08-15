@@ -1,0 +1,51 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+running develop
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer, pypa/build or
+        other standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+running egg_info
+writing camera_subscriber_pkg.egg-info/PKG-INFO
+writing dependency_links to camera_subscriber_pkg.egg-info/dependency_links.txt
+writing entry points to camera_subscriber_pkg.egg-info/entry_points.txt
+writing requirements to camera_subscriber_pkg.egg-info/requires.txt
+writing top-level names to camera_subscriber_pkg.egg-info/top_level.txt
+writing camera_subscriber_pkg.egg-info/PKG-INFO
+writing dependency_links to camera_subscriber_pkg.egg-info/dependency_links.txt
+writing entry points to camera_subscriber_pkg.egg-info/entry_points.txt
+writing requirements to camera_subscriber_pkg.egg-info/requires.txt
+writing top-level names to camera_subscriber_pkg.egg-info/top_level.txt
+reading manifest file 'camera_subscriber_pkg.egg-info/SOURCES.txt'
+writing manifest file 'camera_subscriber_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages/camera-subscriber-pkg.egg-link (link to .)
+Installing camera_subscriber script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+Installing camera_subscriber_raw script to /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/camera_subscriber_pkg
+
+Installed /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg
+running symlink_data
+symbolically linking /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/resource/camera_subscriber_pkg -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg/package.xml -> /home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/share/camera_subscriber_pkg

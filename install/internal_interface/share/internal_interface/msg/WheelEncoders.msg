@@ -1,2 +1,1 @@
-int64 left_wheel_count
-int64 right_wheel_count
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/WheelEncoders.msg

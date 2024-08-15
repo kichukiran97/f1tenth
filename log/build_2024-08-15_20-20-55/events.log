@@ -1,0 +1,396 @@
+[0.000000] (-) TimerEvent: {}
+[0.005146] (-) JobUnselected: {'identifier': 'ackermann_mux'}
+[0.005332] (-) JobUnselected: {'identifier': 'birds_eye_view'}
+[0.005449] (-) JobUnselected: {'identifier': 'calibration'}
+[0.005548] (-) JobUnselected: {'identifier': 'camera'}
+[0.005626] (-) JobUnselected: {'identifier': 'camera_package'}
+[0.005702] (-) JobUnselected: {'identifier': 'camera_publisher'}
+[0.005777] (-) JobUnselected: {'identifier': 'camera_subscriber_pkg'}
+[0.005851] (-) JobUnselected: {'identifier': 'csi_camera'}
+[0.005924] (-) JobUnselected: {'identifier': 'cv_bridge'}
+[0.005996] (-) JobUnselected: {'identifier': 'f1tenth_stack'}
+[0.006069] (-) JobUnselected: {'identifier': 'image_geometry'}
+[0.006141] (-) JobUnselected: {'identifier': 'internal_interface'}
+[0.006240] (-) JobUnselected: {'identifier': 'joy_teleop'}
+[0.006315] (-) JobUnselected: {'identifier': 'key_teleop'}
+[0.006416] (-) JobUnselected: {'identifier': 'lane_following'}
+[0.006496] (-) JobUnselected: {'identifier': 'lane_pure_pursuit'}
+[0.006584] (-) JobUnselected: {'identifier': 'mouse_teleop'}
+[0.006677] (-) JobUnselected: {'identifier': 'object_detect'}
+[0.006751] (-) JobUnselected: {'identifier': 'object_detection'}
+[0.006831] (-) JobUnselected: {'identifier': 'opencv_tests'}
+[0.006905] (-) JobUnselected: {'identifier': 'particle_filter'}
+[0.007042] (-) JobUnselected: {'identifier': 'pure_pursuit'}
+[0.007118] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.007387] (-) JobUnselected: {'identifier': 'teleop_tools'}
+[0.007477] (-) JobUnselected: {'identifier': 'teleop_tools_msgs'}
+[0.007556] (-) JobUnselected: {'identifier': 'vesc'}
+[0.007652] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.007748] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.007842] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.007961] (-) JobUnselected: {'identifier': 'vision_opencv'}
+[0.008040] (-) JobUnselected: {'identifier': 'waypoint_generator'}
+[0.008137] (lane_keeping) JobQueued: {'identifier': 'lane_keeping', 'dependencies': OrderedDict()}
+[0.008238] (lane_keeping) JobStarted: {'identifier': 'lane_keeping'}
+[0.102702] (-) TimerEvent: {}
+[0.210777] (-) TimerEvent: {}
+[0.312359] (-) TimerEvent: {}
+[0.418776] (-) TimerEvent: {}
+[0.519757] (-) TimerEvent: {}
+[0.621081] (-) TimerEvent: {}
+[0.724391] (-) TimerEvent: {}
+[0.825454] (-) TimerEvent: {}
+[0.926252] (-) TimerEvent: {}
+[1.027153] (-) TimerEvent: {}
+[1.128055] (-) TimerEvent: {}
+[1.229212] (-) TimerEvent: {}
+[1.331183] (-) TimerEvent: {}
+[1.432087] (-) TimerEvent: {}
+[1.533035] (-) TimerEvent: {}
+[1.634104] (-) TimerEvent: {}
+[1.743282] (-) TimerEvent: {}
+[1.846005] (-) TimerEvent: {}
+[1.948213] (-) TimerEvent: {}
+[2.049099] (-) TimerEvent: {}
+[2.150287] (-) TimerEvent: {}
+[2.251821] (-) TimerEvent: {}
+[2.352726] (-) TimerEvent: {}
+[2.453939] (-) TimerEvent: {}
+[2.554787] (-) TimerEvent: {}
+[2.656831] (-) TimerEvent: {}
+[2.757630] (-) TimerEvent: {}
+[2.858394] (-) TimerEvent: {}
+[2.959216] (-) TimerEvent: {}
+[3.060183] (-) TimerEvent: {}
+[3.160934] (-) TimerEvent: {}
+[3.261673] (-) TimerEvent: {}
+[3.362558] (-) TimerEvent: {}
+[3.464837] (-) TimerEvent: {}
+[3.566738] (-) TimerEvent: {}
+[3.668211] (-) TimerEvent: {}
+[3.769355] (-) TimerEvent: {}
+[3.872030] (-) TimerEvent: {}
+[3.972813] (-) TimerEvent: {}
+[4.073729] (-) TimerEvent: {}
+[4.177008] (-) TimerEvent: {}
+[4.278465] (-) TimerEvent: {}
+[4.385743] (-) TimerEvent: {}
+[4.488935] (-) TimerEvent: {}
+[4.592387] (-) TimerEvent: {}
+[4.693413] (-) TimerEvent: {}
+[4.794210] (-) TimerEvent: {}
+[4.895011] (-) TimerEvent: {}
+[4.995774] (-) TimerEvent: {}
+[5.096540] (-) TimerEvent: {}
+[5.197263] (-) TimerEvent: {}
+[5.298039] (-) TimerEvent: {}
+[5.398816] (-) TimerEvent: {}
+[5.499903] (-) TimerEvent: {}
+[5.600650] (-) TimerEvent: {}
+[5.701477] (-) TimerEvent: {}
+[5.803294] (-) TimerEvent: {}
+[5.904068] (-) TimerEvent: {}
+[6.005035] (-) TimerEvent: {}
+[6.107426] (-) TimerEvent: {}
+[6.215184] (-) TimerEvent: {}
+[6.320947] (-) TimerEvent: {}
+[6.432130] (-) TimerEvent: {}
+[6.534598] (-) TimerEvent: {}
+[6.637146] (-) TimerEvent: {}
+[6.740743] (-) TimerEvent: {}
+[6.841489] (-) TimerEvent: {}
+[6.942352] (-) TimerEvent: {}
+[7.044242] (-) TimerEvent: {}
+[7.145197] (-) TimerEvent: {}
+[7.246072] (-) TimerEvent: {}
+[7.346844] (-) TimerEvent: {}
+[7.447672] (-) TimerEvent: {}
+[7.548560] (-) TimerEvent: {}
+[7.649766] (-) TimerEvent: {}
+[7.751268] (-) TimerEvent: {}
+[7.852077] (-) TimerEvent: {}
+[7.953428] (-) TimerEvent: {}
+[8.054341] (-) TimerEvent: {}
+[8.155300] (-) TimerEvent: {}
+[8.259072] (-) TimerEvent: {}
+[8.361919] (-) TimerEvent: {}
+[8.464003] (-) TimerEvent: {}
+[8.565480] (-) TimerEvent: {}
+[8.666232] (-) TimerEvent: {}
+[8.767637] (-) TimerEvent: {}
+[8.871026] (-) TimerEvent: {}
+[8.971854] (-) TimerEvent: {}
+[9.072704] (-) TimerEvent: {}
+[9.173468] (-) TimerEvent: {}
+[9.274590] (-) TimerEvent: {}
+[9.376566] (-) TimerEvent: {}
+[9.477419] (-) TimerEvent: {}
+[9.578754] (-) TimerEvent: {}
+[9.680140] (-) TimerEvent: {}
+[9.781041] (-) TimerEvent: {}
+[9.881908] (-) TimerEvent: {}
+[9.983587] (-) TimerEvent: {}
+[10.085019] (-) TimerEvent: {}
+[10.186604] (-) TimerEvent: {}
+[10.288082] (-) TimerEvent: {}
+[10.390295] (-) TimerEvent: {}
+[10.491382] (-) TimerEvent: {}
+[10.592171] (-) TimerEvent: {}
+[10.693028] (-) TimerEvent: {}
+[10.793852] (-) TimerEvent: {}
+[10.895370] (-) TimerEvent: {}
+[10.996271] (-) TimerEvent: {}
+[11.097584] (-) TimerEvent: {}
+[11.199307] (-) TimerEvent: {}
+[11.300629] (-) TimerEvent: {}
+[11.401446] (-) TimerEvent: {}
+[11.502204] (-) TimerEvent: {}
+[11.603027] (-) TimerEvent: {}
+[11.704402] (-) TimerEvent: {}
+[11.805407] (-) TimerEvent: {}
+[11.907140] (-) TimerEvent: {}
+[12.009990] (-) TimerEvent: {}
+[12.113519] (-) TimerEvent: {}
+[12.214351] (-) TimerEvent: {}
+[12.315429] (-) TimerEvent: {}
+[12.416962] (-) TimerEvent: {}
+[12.520276] (-) TimerEvent: {}
+[12.621589] (-) TimerEvent: {}
+[12.722750] (-) TimerEvent: {}
+[12.823691] (-) TimerEvent: {}
+[12.925420] (-) TimerEvent: {}
+[13.026766] (-) TimerEvent: {}
+[13.127673] (-) TimerEvent: {}
+[13.228961] (-) TimerEvent: {}
+[13.331115] (-) TimerEvent: {}
+[13.431996] (-) TimerEvent: {}
+[13.533000] (-) TimerEvent: {}
+[13.633915] (-) TimerEvent: {}
+[13.737644] (-) TimerEvent: {}
+[13.841279] (-) TimerEvent: {}
+[13.942154] (-) TimerEvent: {}
+[14.043428] (-) TimerEvent: {}
+[14.144452] (-) TimerEvent: {}
+[14.246024] (-) TimerEvent: {}
+[14.346898] (-) TimerEvent: {}
+[14.447783] (-) TimerEvent: {}
+[14.548663] (-) TimerEvent: {}
+[14.649643] (-) TimerEvent: {}
+[14.750733] (-) TimerEvent: {}
+[14.851589] (-) TimerEvent: {}
+[14.952313] (-) TimerEvent: {}
+[15.053093] (-) TimerEvent: {}
+[15.155890] (-) TimerEvent: {}
+[15.256763] (-) TimerEvent: {}
+[15.357487] (-) TimerEvent: {}
+[15.458270] (-) TimerEvent: {}
+[15.559135] (-) TimerEvent: {}
+[15.659971] (-) TimerEvent: {}
+[15.762884] (-) TimerEvent: {}
+[15.864493] (-) TimerEvent: {}
+[15.966031] (-) TimerEvent: {}
+[16.068564] (-) TimerEvent: {}
+[16.124523] (lane_keeping) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/f1tenth/f1tenth_ws/build/lane_keeping/build'], 'cwd': '/home/f1tenth/f1tenth_ws/build/lane_keeping', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2348', 'ROS_PACKAGE_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/image_geometry/lib:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/f1tenth', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'MANAGERPID': '1721', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1423323046042', 'JOURNAL_STREAM': '7:50487', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/aarch64-linux-gnu/pkgconfig:/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/pkgconfig', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2518,unix/ubuntu:/tmp/.ICE-unix/2518', 'INVOCATION_ID': '379a348222204c89be871db18840edc2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vision_opencv:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/opencv_tests:/home/f1tenth/f1tenth_ws/install/object_detection:/home/f1tenth/f1tenth_ws/install/object_detect:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit:/home/f1tenth/f1tenth_ws/install/lane_keeping:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/lane_following:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/image_geometry:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/cv_bridge:/home/f1tenth/f1tenth_ws/install/csi_camera:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/camera_package:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:217ddef6-48c4-4a5f-89b2-a339b0443cc9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/f1tenth/f1tenth_ws/build/lane_keeping', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages/:/home/f1tenth/f1tenth_ws/build/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/joy_teleop:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/particle_filter:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/opencv_tests:/home/f1tenth/f1tenth_ws/install/opencv_tests/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/object_detection/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/mouse_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/lane_keeping:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/key_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/image_geometry/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/csi_camera:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_publisher:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_package:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vision_opencv:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/object_detection:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/lane_following:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/image_geometry:/home/f1tenth/f1tenth_ws/install/cv_bridge:/home/f1tenth/f1tenth_ws/install/ackermann_mux', 'JETSON_P_NUMBER': 'p3668-0003'}, 'shell': False}
+[16.183772] (-) TimerEvent: {}
+[16.285441] (-) TimerEvent: {}
+[16.387974] (-) TimerEvent: {}
+[16.490540] (-) TimerEvent: {}
+[16.592405] (-) TimerEvent: {}
+[16.696591] (-) TimerEvent: {}
+[16.797488] (-) TimerEvent: {}
+[16.898251] (-) TimerEvent: {}
+[16.999188] (-) TimerEvent: {}
+[17.100044] (-) TimerEvent: {}
+[17.202224] (-) TimerEvent: {}
+[17.303983] (-) TimerEvent: {}
+[17.410726] (-) TimerEvent: {}
+[17.512647] (-) TimerEvent: {}
+[17.614645] (-) TimerEvent: {}
+[17.716451] (-) TimerEvent: {}
+[17.817576] (-) TimerEvent: {}
+[17.918358] (-) TimerEvent: {}
+[18.019677] (-) TimerEvent: {}
+[18.120625] (-) TimerEvent: {}
+[18.222137] (-) TimerEvent: {}
+[18.323126] (-) TimerEvent: {}
+[18.424145] (-) TimerEvent: {}
+[18.525074] (-) TimerEvent: {}
+[18.625965] (-) TimerEvent: {}
+[18.729229] (-) TimerEvent: {}
+[18.830454] (-) TimerEvent: {}
+[18.933801] (-) TimerEvent: {}
+[19.034653] (-) TimerEvent: {}
+[19.145159] (-) TimerEvent: {}
+[19.246662] (-) TimerEvent: {}
+[19.349419] (-) TimerEvent: {}
+[19.456286] (-) TimerEvent: {}
+[19.557187] (-) TimerEvent: {}
+[19.657996] (-) TimerEvent: {}
+[19.758699] (-) TimerEvent: {}
+[19.859551] (-) TimerEvent: {}
+[19.920606] (lane_keeping) StderrLine: {'line': b"/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[19.922394] (lane_keeping) StderrLine: {'line': b'  warnings.warn(\n'}
+[19.959747] (-) TimerEvent: {}
+[20.060491] (-) TimerEvent: {}
+[20.161280] (-) TimerEvent: {}
+[20.262126] (-) TimerEvent: {}
+[20.364581] (-) TimerEvent: {}
+[20.465682] (-) TimerEvent: {}
+[20.566440] (-) TimerEvent: {}
+[20.667238] (-) TimerEvent: {}
+[20.769700] (-) TimerEvent: {}
+[20.871333] (-) TimerEvent: {}
+[20.973984] (-) TimerEvent: {}
+[21.079404] (-) TimerEvent: {}
+[21.180317] (-) TimerEvent: {}
+[21.271755] (lane_keeping) StdoutLine: {'line': b'running develop\n'}
+[21.280553] (-) TimerEvent: {}
+[21.289995] (lane_keeping) StderrLine: {'line': b'/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[21.291998] (lane_keeping) StderrLine: {'line': b'  warnings.warn(\n'}
+[21.380887] (-) TimerEvent: {}
+[21.482357] (-) TimerEvent: {}
+[21.584408] (-) TimerEvent: {}
+[21.685628] (-) TimerEvent: {}
+[21.789014] (-) TimerEvent: {}
+[21.890233] (-) TimerEvent: {}
+[21.991084] (-) TimerEvent: {}
+[22.091906] (-) TimerEvent: {}
+[22.192688] (-) TimerEvent: {}
+[22.293535] (-) TimerEvent: {}
+[22.394562] (-) TimerEvent: {}
+[22.495756] (-) TimerEvent: {}
+[22.596533] (-) TimerEvent: {}
+[22.697641] (-) TimerEvent: {}
+[22.801652] (-) TimerEvent: {}
+[22.903044] (-) TimerEvent: {}
+[23.004459] (-) TimerEvent: {}
+[23.105222] (-) TimerEvent: {}
+[23.205975] (-) TimerEvent: {}
+[23.306763] (-) TimerEvent: {}
+[23.407640] (-) TimerEvent: {}
+[23.508422] (-) TimerEvent: {}
+[23.609487] (-) TimerEvent: {}
+[23.710284] (-) TimerEvent: {}
+[23.811103] (-) TimerEvent: {}
+[23.911839] (-) TimerEvent: {}
+[24.012841] (-) TimerEvent: {}
+[24.113621] (-) TimerEvent: {}
+[24.213879] (lane_keeping) StdoutLine: {'line': b'Removing /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane-keeping.egg-link (link to .)\n'}
+[24.214678] (-) TimerEvent: {}
+[24.315418] (-) TimerEvent: {}
+[24.416327] (-) TimerEvent: {}
+[24.520489] (-) TimerEvent: {}
+[24.577800] (lane_keeping) CommandEnded: {'returncode': 0}
+[24.580393] (lane_keeping) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lane_keeping', 'build', '--build-base', '/home/f1tenth/f1tenth_ws/build/lane_keeping/build', 'install', '--record', '/home/f1tenth/f1tenth_ws/build/lane_keeping/install.log', '--install-scripts', '$base/lib/lane_keeping', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/f1tenth/f1tenth_ws/src/lane_keeping', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'f1tenth', 'SSH_AGENT_PID': '2348', 'ROS_PACKAGE_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/share', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib:/home/f1tenth/f1tenth_ws/install/vesc_driver/lib:/home/f1tenth/f1tenth_ws/install/vesc_ackermann/lib:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib:/home/f1tenth/f1tenth_ws/install/v4l2_camera/lib:/home/f1tenth/f1tenth_ws/install/usb_cam/lib:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib:/home/f1tenth/f1tenth_ws/install/dashboard/lib:/home/f1tenth/f1tenth_ws/install/calibration/lib:/home/f1tenth/f1tenth_ws/install/internal_interface/lib:/home/f1tenth/f1tenth_ws/install/image_geometry/lib:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.4/lib64:', 'HOME': '/home/f1tenth', 'OLDPWD': '/home/f1tenth', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '35.3.1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Xavier NX Developer Kit', 'MANAGERPID': '1721', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'f1tenth', 'JETSON_MODULE': 'NVIDIA Jetson Xavier NX (16GB ram)', 'JETSON_SERIAL_NUMBER': '1423323046042', 'JOURNAL_STREAM': '7:50487', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/aarch64-linux-gnu/pkgconfig:/home/f1tenth/f1tenth_ws/install/camera_visualizer/lib/pkgconfig', 'JETSON_CODENAME': 'Jakku', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'f1tenth', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/cuda-11.4/bin:/home/f1tenth/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/f1tenth/.local/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2518,unix/ubuntu:/tmp/.ICE-unix/2518', 'INVOCATION_ID': '379a348222204c89be871db18840edc2', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra194', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vision_opencv:/home/f1tenth/f1tenth_ws/install/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/joy_teleop:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/particle_filter:/home/f1tenth/f1tenth_ws/install/opencv_tools:/home/f1tenth/f1tenth_ws/install/opencv_tests:/home/f1tenth/f1tenth_ws/install/object_detection:/home/f1tenth/f1tenth_ws/install/object_detect:/home/f1tenth/f1tenth_ws/install/my_camera_package:/home/f1tenth/f1tenth_ws/install/mouse_teleop:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit:/home/f1tenth/f1tenth_ws/install/lane_keeping:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/lane_following:/home/f1tenth/f1tenth_ws/install/key_teleop:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/image_geometry:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_sub:/home/f1tenth/f1tenth_ws/install/cv_bridge:/home/f1tenth/f1tenth_ws/install/csi_camera:/home/f1tenth/f1tenth_ws/install/camera_publisher:/home/f1tenth/f1tenth_ws/install/camera_package:/home/f1tenth/f1tenth_ws/install/ackermann_mux:/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:217ddef6-48c4-4a5f-89b2-a339b0443cc9', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '7.2', 'PWD': '/home/f1tenth/f1tenth_ws/build/lane_keeping', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/f1tenth/f1tenth_ws/build/lane_keeping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:/usr/local/lib/python3.8/site-packages/:/home/f1tenth/f1tenth_ws/build/f1tenth_stack:/home/f1tenth/f1tenth_ws/install/f1tenth_stack/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/vesc_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/joy_teleop:/home/f1tenth/f1tenth_ws/install/joy_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/particle_filter:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/opencv_tools/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/opencv_tests:/home/f1tenth/f1tenth_ws/install/opencv_tests/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/object_detection/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/my_camera_package/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/mouse_teleop:/home/f1tenth/f1tenth_ws/install/mouse_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/lane_pure_pursuit:/home/f1tenth/f1tenth_ws/install/lane_pure_pursuit/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/lane_keeping:/home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/dashboard/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/calibration/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/lane_following/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/key_teleop:/home/f1tenth/f1tenth_ws/install/key_teleop/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/birds_eye_view/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/internal_interface/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/image_geometry/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_subscriber_pkg:/home/f1tenth/f1tenth_ws/install/camera_subscriber_pkg/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/camera_sub/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/install/cv_bridge/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/csi_camera:/home/f1tenth/f1tenth_ws/install/csi_camera/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_publisher:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:/home/f1tenth/f1tenth_ws/build/camera_package:/home/f1tenth/f1tenth_ws/install/camera_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '5.1.1', 'CMAKE_PREFIX_PATH': '/home/f1tenth/f1tenth_ws/install/waypoint_generator:/home/f1tenth/f1tenth_ws/install/vision_opencv:/home/f1tenth/f1tenth_ws/install/vesc:/home/f1tenth/f1tenth_ws/install/vesc_driver:/home/f1tenth/f1tenth_ws/install/vesc_ackermann:/home/f1tenth/f1tenth_ws/install/vesc_msgs:/home/f1tenth/f1tenth_ws/install/v4l2_camera:/home/f1tenth/f1tenth_ws/install/usb_cam:/home/f1tenth/f1tenth_ws/install/teleop_tools:/home/f1tenth/f1tenth_ws/install/teleop_tools_msgs:/home/f1tenth/f1tenth_ws/install/rplidar_ros:/home/f1tenth/f1tenth_ws/install/pure_pursuit:/home/f1tenth/f1tenth_ws/install/object_detection:/home/f1tenth/f1tenth_ws/install/dashboard:/home/f1tenth/f1tenth_ws/install/calibration:/home/f1tenth/f1tenth_ws/install/lane_following:/home/f1tenth/f1tenth_ws/install/birds_eye_view:/home/f1tenth/f1tenth_ws/install/camera:/home/f1tenth/f1tenth_ws/install/internal_interface:/home/f1tenth/f1tenth_ws/install/image_geometry:/home/f1tenth/f1tenth_ws/install/cv_bridge:/home/f1tenth/f1tenth_ws/install/ackermann_mux', 'JETSON_P_NUMBER': 'p3668-0003'}, 'shell': False}
+[24.628236] (-) TimerEvent: {}
+[24.733096] (-) TimerEvent: {}
+[24.835741] (-) TimerEvent: {}
+[24.937713] (-) TimerEvent: {}
+[25.039195] (-) TimerEvent: {}
+[25.140502] (-) TimerEvent: {}
+[25.241325] (-) TimerEvent: {}
+[25.342299] (-) TimerEvent: {}
+[25.444756] (-) TimerEvent: {}
+[25.545971] (-) TimerEvent: {}
+[25.648167] (-) TimerEvent: {}
+[25.749409] (-) TimerEvent: {}
+[25.851954] (-) TimerEvent: {}
+[25.953283] (-) TimerEvent: {}
+[26.056348] (-) TimerEvent: {}
+[26.162560] (-) TimerEvent: {}
+[26.266913] (-) TimerEvent: {}
+[26.368765] (-) TimerEvent: {}
+[26.481743] (-) TimerEvent: {}
+[26.584199] (-) TimerEvent: {}
+[26.690688] (-) TimerEvent: {}
+[26.792105] (-) TimerEvent: {}
+[26.895729] (-) TimerEvent: {}
+[26.996562] (-) TimerEvent: {}
+[27.097962] (-) TimerEvent: {}
+[27.200065] (-) TimerEvent: {}
+[27.301835] (-) TimerEvent: {}
+[27.402880] (-) TimerEvent: {}
+[27.507459] (-) TimerEvent: {}
+[27.608306] (-) TimerEvent: {}
+[27.709131] (-) TimerEvent: {}
+[27.754371] (lane_keeping) StderrLine: {'line': b"/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[27.760483] (lane_keeping) StderrLine: {'line': b'  warnings.warn(\n'}
+[27.809334] (-) TimerEvent: {}
+[27.910500] (-) TimerEvent: {}
+[28.012669] (-) TimerEvent: {}
+[28.113488] (-) TimerEvent: {}
+[28.214256] (-) TimerEvent: {}
+[28.315068] (-) TimerEvent: {}
+[28.415916] (-) TimerEvent: {}
+[28.516676] (-) TimerEvent: {}
+[28.617523] (-) TimerEvent: {}
+[28.719566] (-) TimerEvent: {}
+[28.821354] (-) TimerEvent: {}
+[28.923825] (-) TimerEvent: {}
+[29.024622] (-) TimerEvent: {}
+[29.128482] (-) TimerEvent: {}
+[29.232012] (-) TimerEvent: {}
+[29.332899] (-) TimerEvent: {}
+[29.435046] (-) TimerEvent: {}
+[29.535992] (-) TimerEvent: {}
+[29.636809] (-) TimerEvent: {}
+[29.737582] (-) TimerEvent: {}
+[29.807796] (lane_keeping) StdoutLine: {'line': b'running egg_info\n'}
+[29.837778] (-) TimerEvent: {}
+[29.939204] (-) TimerEvent: {}
+[30.040019] (-) TimerEvent: {}
+[30.141296] (-) TimerEvent: {}
+[30.242150] (-) TimerEvent: {}
+[30.259788] (lane_keeping) StdoutLine: {'line': b'writing ../../build/lane_keeping/lane_keeping.egg-info/PKG-INFO\n'}
+[30.260521] (lane_keeping) StdoutLine: {'line': b'writing dependency_links to ../../build/lane_keeping/lane_keeping.egg-info/dependency_links.txt\n'}
+[30.260965] (lane_keeping) StdoutLine: {'line': b'writing entry points to ../../build/lane_keeping/lane_keeping.egg-info/entry_points.txt\n'}
+[30.262449] (lane_keeping) StdoutLine: {'line': b'writing requirements to ../../build/lane_keeping/lane_keeping.egg-info/requires.txt\n'}
+[30.263148] (lane_keeping) StdoutLine: {'line': b'writing top-level names to ../../build/lane_keeping/lane_keeping.egg-info/top_level.txt\n'}
+[30.263865] (lane_keeping) StdoutLine: {'line': b'writing ../../build/lane_keeping/lane_keeping.egg-info/PKG-INFO\n'}
+[30.264967] (lane_keeping) StdoutLine: {'line': b'writing dependency_links to ../../build/lane_keeping/lane_keeping.egg-info/dependency_links.txt\n'}
+[30.268702] (lane_keeping) StdoutLine: {'line': b'writing entry points to ../../build/lane_keeping/lane_keeping.egg-info/entry_points.txt\n'}
+[30.270568] (lane_keeping) StdoutLine: {'line': b'writing requirements to ../../build/lane_keeping/lane_keeping.egg-info/requires.txt\n'}
+[30.272393] (lane_keeping) StdoutLine: {'line': b'writing top-level names to ../../build/lane_keeping/lane_keeping.egg-info/top_level.txt\n'}
+[30.342353] (-) TimerEvent: {}
+[30.443304] (-) TimerEvent: {}
+[30.544137] (-) TimerEvent: {}
+[30.645020] (-) TimerEvent: {}
+[30.746466] (-) TimerEvent: {}
+[30.847417] (-) TimerEvent: {}
+[30.856806] (lane_keeping) StdoutLine: {'line': b"reading manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'\n"}
+[30.877665] (lane_keeping) StdoutLine: {'line': b"writing manifest file '../../build/lane_keeping/lane_keeping.egg-info/SOURCES.txt'\n"}
+[30.880421] (lane_keeping) StdoutLine: {'line': b'running build\n'}
+[30.881385] (lane_keeping) StdoutLine: {'line': b'running build_py\n'}
+[30.901245] (lane_keeping) StdoutLine: {'line': b'copying lane_keeping/lane_keeping.py -> /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping\n'}
+[30.904881] (lane_keeping) StdoutLine: {'line': b'running install\n'}
+[30.947789] (lane_keeping) StdoutLine: {'line': b'running install_lib\n'}
+[30.948441] (-) TimerEvent: {}
+[31.053140] (-) TimerEvent: {}
+[31.106493] (lane_keeping) StdoutLine: {'line': b'creating /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping\n'}
+[31.108940] (lane_keeping) StdoutLine: {'line': b'copying /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping/__init__.py -> /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping\n'}
+[31.110353] (lane_keeping) StdoutLine: {'line': b'copying /home/f1tenth/f1tenth_ws/build/lane_keeping/build/lib/lane_keeping/lane_keeping.py -> /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping\n'}
+[31.115222] (lane_keeping) StdoutLine: {'line': b'byte-compiling /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping/__init__.py to __init__.cpython-38.pyc\n'}
+[31.116460] (lane_keeping) StdoutLine: {'line': b'byte-compiling /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping/lane_keeping.py to lane_keeping.cpython-38.pyc\n'}
+[31.127877] (lane_keeping) StdoutLine: {'line': b'running install_data\n'}
+[31.128781] (lane_keeping) StdoutLine: {'line': b'copying resource/lane_keeping -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/ament_index/resource_index/packages\n'}
+[31.129194] (lane_keeping) StdoutLine: {'line': b'copying package.xml -> /home/f1tenth/f1tenth_ws/install/lane_keeping/share/lane_keeping\n'}
+[31.129554] (lane_keeping) StdoutLine: {'line': b'running install_egg_info\n'}
+[31.153893] (-) TimerEvent: {}
+[31.256458] (-) TimerEvent: {}
+[31.313278] (lane_keeping) StdoutLine: {'line': b'Copying ../../build/lane_keeping/lane_keeping.egg-info to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/python3.8/site-packages/lane_keeping-0.0.0-py3.8.egg-info\n'}
+[31.321927] (lane_keeping) StdoutLine: {'line': b'running install_scripts\n'}
+[31.360408] (-) TimerEvent: {}
+[31.462750] (-) TimerEvent: {}
+[31.564060] (-) TimerEvent: {}
+[31.665483] (-) TimerEvent: {}
+[31.767100] (-) TimerEvent: {}
+[31.868580] (-) TimerEvent: {}
+[31.946255] (lane_keeping) StdoutLine: {'line': b'Installing lane_keeping script to /home/f1tenth/f1tenth_ws/install/lane_keeping/lib/lane_keeping\n'}
+[31.948541] (lane_keeping) StdoutLine: {'line': b"writing list of installed files to '/home/f1tenth/f1tenth_ws/build/lane_keeping/install.log'\n"}
+[31.968897] (-) TimerEvent: {}
+[32.070184] (-) TimerEvent: {}
+[32.171773] (-) TimerEvent: {}
+[32.213100] (lane_keeping) CommandEnded: {'returncode': 0}
+[32.275879] (-) TimerEvent: {}
+[32.347624] (lane_keeping) JobEnded: {'identifier': 'lane_keeping', 'rc': 0}
+[32.352606] (-) EventReactorShutdown: {}

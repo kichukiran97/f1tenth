@@ -1,0 +1,52 @@
+[9.090s] Invoking command in '/home/f1tenth/f1tenth_ws/build/camera_publisher': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_publisher/build --no-deps symlink_data --force
+[10.516s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:755: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[10.517s] !!
+[10.518s] 
+[10.519s]         ********************************************************************************
+[10.519s]         Usage of dash-separated 'script-dir' will not be supported in future
+[10.522s]         versions. Please use the underscore name 'script_dir' instead.
+[10.522s] 
+[10.523s]         This deprecation is overdue, please update your project and remove deprecated
+[10.523s]         calls to avoid build errors in the future.
+[10.524s] 
+[10.528s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[10.529s]         ********************************************************************************
+[10.529s] 
+[10.530s] !!
+[10.530s]   opt = self.warn_dash_deprecation(opt, section)
+[12.483s] running develop
+[12.485s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[12.486s] !!
+[12.486s] 
+[12.487s]         ********************************************************************************
+[12.489s]         Please avoid running ``setup.py`` and ``easy_install``.
+[12.490s]         Instead, use pypa/build, pypa/installer, pypa/build or
+[12.490s]         other standards-based tools.
+[12.490s] 
+[12.491s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[12.491s]         ********************************************************************************
+[12.492s] 
+[12.492s] !!
+[12.492s]   easy_install.initialize_options(self)
+[15.300s] running egg_info
+[15.448s] writing camera_publisher.egg-info/PKG-INFO
+[15.452s] writing dependency_links to camera_publisher.egg-info/dependency_links.txt
+[15.457s] writing entry points to camera_publisher.egg-info/entry_points.txt
+[15.462s] writing requirements to camera_publisher.egg-info/requires.txt
+[15.468s] writing top-level names to camera_publisher.egg-info/top_level.txt
+[15.471s] writing camera_publisher.egg-info/PKG-INFO
+[15.473s] writing dependency_links to camera_publisher.egg-info/dependency_links.txt
+[15.475s] writing entry points to camera_publisher.egg-info/entry_points.txt
+[15.476s] writing requirements to camera_publisher.egg-info/requires.txt
+[15.478s] writing top-level names to camera_publisher.egg-info/top_level.txt
+[15.870s] reading manifest file 'camera_publisher.egg-info/SOURCES.txt'
+[15.888s] writing manifest file 'camera_publisher.egg-info/SOURCES.txt'
+[16.543s] running build_ext
+[16.545s] Creating /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages/camera-publisher.egg-link (link to .)
+[16.546s] Installing camera_publisher script to /home/f1tenth/f1tenth_ws/install/camera_publisher/lib/camera_publisher
+[16.548s] 
+[16.549s] Installed /home/f1tenth/f1tenth_ws/build/camera_publisher
+[16.551s] running symlink_data
+[16.553s] symbolically linking /home/f1tenth/f1tenth_ws/build/camera_publisher/resource/camera_publisher -> /home/f1tenth/f1tenth_ws/install/camera_publisher/share/ament_index/resource_index/packages
+[16.553s] symbolically linking /home/f1tenth/f1tenth_ws/build/camera_publisher/package.xml -> /home/f1tenth/f1tenth_ws/install/camera_publisher/share/camera_publisher
+[16.819s] Invoked command in '/home/f1tenth/f1tenth_ws/build/camera_publisher' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/camera_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/f1tenth/f1tenth_ws/build/camera_publisher/build --no-deps symlink_data --force

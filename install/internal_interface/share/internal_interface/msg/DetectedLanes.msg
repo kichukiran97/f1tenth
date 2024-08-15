@@ -1,3 +1,1 @@
-float32 distance
-float32 speed
-float32 angle
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/DetectedLanes.msg

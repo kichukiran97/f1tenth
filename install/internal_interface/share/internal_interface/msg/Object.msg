@@ -1,5 +1,1 @@
-float64 x1
-float64 y1
-float64 x2
-float64 y2
-string label
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/Object.msg

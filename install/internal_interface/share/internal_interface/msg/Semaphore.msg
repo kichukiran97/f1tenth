@@ -1,6 +1,1 @@
-float64 x
-float64 y
-uint64 id
-string device
-string state
-string name
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/Semaphore.msg

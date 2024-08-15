@@ -1,4 +1,1 @@
-float64 x
-float64 y
-float64 z
-float64 confidence
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/RawGps.msg

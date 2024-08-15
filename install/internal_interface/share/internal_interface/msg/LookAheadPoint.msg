@@ -1,4 +1,1 @@
-float64 alpha
-float64 look_ahead_distance
-float64 confidence
-string source
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/LookAheadPoint.msg

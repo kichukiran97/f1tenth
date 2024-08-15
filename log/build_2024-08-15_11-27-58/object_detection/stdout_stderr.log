@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/pythonpath.sh
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/pythonpath.dsv
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/lib/python3.8/site-packages/object_detection_pkg
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/lib/python3.8/site-packages/object_detection_pkg/__init__.py
+Listing '/home/f1tenth/f1tenth_ws/install/object_detection/lib/python3.8/site-packages/object_detection_pkg'...
+-- Installing: /home/f1tenth/f1tenth_ws/install/object_detection/lib/object_detection/start_object_detection.py
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/ament_index/resource_index/package_run_dependencies/object_detection
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/ament_index/resource_index/parent_prefix_path/object_detection
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/ament_prefix_path.sh
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/path.sh
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/environment/path.dsv
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/local_setup.bash
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/local_setup.sh
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/local_setup.zsh
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/local_setup.dsv
+-- Installing: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/package.dsv
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/ament_index/resource_index/packages/object_detection
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/cmake/object_detectionConfig.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/cmake/object_detectionConfig-version.cmake
+-- Up-to-date: /home/f1tenth/f1tenth_ws/install/object_detection/share/object_detection/package.xml

@@ -1,4 +1,1 @@
-action/DoCameraCalibration.action
-action/DoCameraCalibration.idl
-action/TakeImage.action
-action/TakeImage.idl
+/home/f1tenth/f1tenth_ws/build/calibration/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/calibration

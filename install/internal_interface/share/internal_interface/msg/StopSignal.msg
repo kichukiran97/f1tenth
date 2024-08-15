@@ -1,2 +1,1 @@
-bool should_stop
-float64 delay
+/home/f1tenth/f1tenth_ws/src/internal_interface/msg/StopSignal.msg
