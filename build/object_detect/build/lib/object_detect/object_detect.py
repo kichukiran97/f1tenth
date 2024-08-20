@@ -6,6 +6,7 @@ os.environ['LD_PRELOAD'] = '/usr/lib/aarch64-linux-gnu/libgomp.so.1'
 from internal_interface.msg import Object, Objects
 import yaml
 import cv2
+from cv_bridge import CvBridge
 import numpy as np
 import torch
 import yaml
@@ -36,6 +37,7 @@ class ObjectDetection(Node):
             self.image_callback,
             10)
         self.subscription
+        self.br = CvBridge()
 
         # Load the YOLOv5 model
         self.model = torch.hub.load('yolov5', 'custom', path='models/best_May15.pt', source='local', force_reload=True)
@@ -69,18 +71,20 @@ class ObjectDetection(Node):
 
     def image_callback(self, msg):
         start_time = time.time()
-
         # Convert ROS2 CompressedImage message to OpenCV image
-        np_arr = np.frombuffer(msg.data, np.uint8)
-        frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+        frame = self.br.compressed_imgmsg_to_cv2(msg)
+        print("Image Received")
 
         if PREPROCESS:
             frame = self.preprocess(frame)
         
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        # Run detection on the frame
         detections = self.detect(frame)
+        print("Detection completed", detections)
+        
         msg = Objects()
 
+        # Loop through each detection
         for detection in detections.xyxy[0]:
             obj = Object()
             x1, y1, x2, y2, confidence, class_id = detection
@@ -92,21 +96,13 @@ class ObjectDetection(Node):
             obj.y2 = float(y2)
             obj.label = str(label)
 
-            try:
-                if VISUALISE:
-                    # Draw bounding box and label on the image
-                    cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 0, 255), 2)
-                    cv2.putText(frame, label, (int(x1), int(y1)), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-                    cv2.imshow("frame", frame)
-                    if cv2.waitKey(1) == ord('q'):
-                        exit(0)
-            except Exception as e:
-                print(e)
-                print('Object detection visualization failed')
+            # Draw bounding box and label on the image
+            cv2.rectangle(frame, (int(x1), int(y1)), (int(x2), int(y2)), (0, 0, 255), 2)
+            cv2.putText(frame, label, (int(x1), int(y1) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (0, 0, 255), 2)
 
             # Special handling for traffic light detection
-            if class_id == 12:
-                print('traffic light detected')
+            if class_id == 12:  # Assuming '12' is the class ID for traffic light
+                print('Traffic light detected')
 
                 try:
                     crop = frame[int(y1):int(y2), int(x1):int(x2)]
@@ -118,20 +114,17 @@ class ObjectDetection(Node):
                     bottom = hsv[int(hsv.shape[0] / 2):]
 
                     mask_green = cv2.inRange(bottom, lower_green, upper_green)
-                    res_green = cv2.bitwise_and(bottom, bottom, mask=mask_green)
-
                     mask_red = cv2.inRange(top, lower_red, upper_red)
-                    res_red = cv2.bitwise_and(top, top, mask=mask_red)
 
                     red_nonzero = len(mask_red.nonzero()[0])
                     green_nonzero = len(mask_green.nonzero()[0])
 
                     if red_nonzero > 10 * green_nonzero:
-                        print('red')
+                        print('Red light detected')
                         obj.label = 'TrafficRed'
 
                     if green_nonzero > 10 * red_nonzero:
-                        print('green')
+                        print('Green light detected')
                         obj.label = 'TrafficGreen'
 
                 except Exception as error:
@@ -143,8 +136,19 @@ class ObjectDetection(Node):
             if processing_time > 0.5:
                 print(f"WARNING: Processing time is {processing_time:.2f} seconds.")
             msg.objects.append(obj)
-        
+
+        # Publish the detection results
         self.publisher.publish(msg)
+
+        # Show the frame with detections in the imshow window
+        if VISUALISE:
+            try:
+                cv2.imshow("Camera Feed", frame)
+                if cv2.waitKey(1) == ord('q'):
+                    exit(0)
+            except Exception as e:
+                print(e)
+                print('Object detection visualization failed')
 
     def detect(self, frame):
         results = self.model(frame)

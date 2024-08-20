@@ -1,0 +1,31 @@
+[5.915s] Invoking command in '/home/f1tenth/f1tenth_ws/src/particle_filter': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth_ws/build/particle_filter/build install --record /home/f1tenth/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data
+[7.524s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.525s]   warnings.warn(
+[8.194s] running egg_info
+[8.271s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[8.273s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[8.274s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[8.282s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[8.284s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[8.285s] writing ../../build/particle_filter/particle_filter.egg-info/PKG-INFO
+[8.285s] writing dependency_links to ../../build/particle_filter/particle_filter.egg-info/dependency_links.txt
+[8.286s] writing entry points to ../../build/particle_filter/particle_filter.egg-info/entry_points.txt
+[8.287s] writing requirements to ../../build/particle_filter/particle_filter.egg-info/requires.txt
+[8.287s] writing top-level names to ../../build/particle_filter/particle_filter.egg-info/top_level.txt
+[8.440s] reading manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.449s] writing manifest file '../../build/particle_filter/particle_filter.egg-info/SOURCES.txt'
+[8.452s] running build
+[8.454s] running build_py
+[8.455s] running install
+[8.482s] running install_lib
+[8.564s] running install_data
+[8.565s] copying maps/map_1723749546.pgm -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[8.570s] copying maps/map_1723749546.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/maps
+[8.571s] copying config/localize.yaml -> /home/f1tenth/f1tenth_ws/install/particle_filter/share/particle_filter/config
+[8.571s] running install_egg_info
+[8.652s] removing '/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info' (and everything under it)
+[8.656s] Copying ../../build/particle_filter/particle_filter.egg-info to /home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages/particle_filter-0.2.0-py3.8.egg-info
+[8.661s] running install_scripts
+[8.960s] Installing particle_filter script to /home/f1tenth/f1tenth_ws/install/particle_filter/lib/particle_filter
+[8.963s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/particle_filter/install.log'
+[9.131s] Invoked command in '/home/f1tenth/f1tenth_ws/src/particle_filter' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/particle_filter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/particle_filter build --build-base /home/f1tenth/f1tenth_ws/build/particle_filter/build install --record /home/f1tenth/f1tenth_ws/build/particle_filter/install.log --install-scripts $base/lib/particle_filter --single-version-externally-managed install_data

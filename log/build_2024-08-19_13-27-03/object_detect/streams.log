@@ -1,0 +1,32 @@
+[9.130s] Invoking command in '/home/f1tenth/f1tenth_ws/src/object_detect': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data
+[11.953s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.953s]   warnings.warn(
+[13.140s] running egg_info
+[13.297s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[13.304s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[13.305s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[13.306s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[13.307s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[13.308s] writing ../../build/object_detect/object_detect.egg-info/PKG-INFO
+[13.308s] writing dependency_links to ../../build/object_detect/object_detect.egg-info/dependency_links.txt
+[13.309s] writing entry points to ../../build/object_detect/object_detect.egg-info/entry_points.txt
+[13.310s] writing requirements to ../../build/object_detect/object_detect.egg-info/requires.txt
+[13.310s] writing top-level names to ../../build/object_detect/object_detect.egg-info/top_level.txt
+[13.761s] reading manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[13.772s] writing manifest file '../../build/object_detect/object_detect.egg-info/SOURCES.txt'
+[13.774s] running build
+[13.775s] running build_py
+[13.777s] copying object_detect/object_detect.py -> /home/f1tenth/f1tenth_ws/build/object_detect/build/lib/object_detect
+[13.787s] running install
+[13.823s] running install_lib
+[13.916s] copying /home/f1tenth/f1tenth_ws/build/object_detect/build/lib/object_detect/object_detect.py -> /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect
+[13.922s] byte-compiling /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect/object_detect.py to object_detect.cpython-38.pyc
+[13.925s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (object_detect.py, line 72)
+[13.925s] running install_data
+[13.928s] running install_egg_info
+[14.018s] removing '/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info' (and everything under it)
+[14.020s] Copying ../../build/object_detect/object_detect.egg-info to /home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages/object_detect-0.0.0-py3.8.egg-info
+[14.026s] running install_scripts
+[14.451s] Installing object_detect script to /home/f1tenth/f1tenth_ws/install/object_detect/lib/object_detect
+[14.453s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/object_detect/install.log'
+[14.840s] Invoked command in '/home/f1tenth/f1tenth_ws/src/object_detect' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/object_detect/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/object_detect/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/object_detect build --build-base /home/f1tenth/f1tenth_ws/build/object_detect/build install --record /home/f1tenth/f1tenth_ws/build/object_detect/install.log --install-scripts $base/lib/object_detect --single-version-externally-managed install_data

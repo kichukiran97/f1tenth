@@ -1,0 +1,31 @@
+[16.282s] Invoking command in '/home/f1tenth/f1tenth_ws/src/robot_mover': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/robot_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_mover build --build-base /home/f1tenth/f1tenth_ws/build/robot_mover/build install --record /home/f1tenth/f1tenth_ws/build/robot_mover/install.log --install-scripts $base/lib/robot_mover --single-version-externally-managed install_data
+[21.611s] /home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[21.612s]   warnings.warn(
+[23.642s] running egg_info
+[23.848s] writing ../../build/robot_mover/robot_mover.egg-info/PKG-INFO
+[23.863s] writing dependency_links to ../../build/robot_mover/robot_mover.egg-info/dependency_links.txt
+[23.864s] writing entry points to ../../build/robot_mover/robot_mover.egg-info/entry_points.txt
+[23.865s] writing requirements to ../../build/robot_mover/robot_mover.egg-info/requires.txt
+[23.866s] writing top-level names to ../../build/robot_mover/robot_mover.egg-info/top_level.txt
+[23.867s] writing ../../build/robot_mover/robot_mover.egg-info/PKG-INFO
+[23.867s] writing dependency_links to ../../build/robot_mover/robot_mover.egg-info/dependency_links.txt
+[23.868s] writing entry points to ../../build/robot_mover/robot_mover.egg-info/entry_points.txt
+[23.868s] writing requirements to ../../build/robot_mover/robot_mover.egg-info/requires.txt
+[23.875s] writing top-level names to ../../build/robot_mover/robot_mover.egg-info/top_level.txt
+[24.382s] reading manifest file '../../build/robot_mover/robot_mover.egg-info/SOURCES.txt'
+[24.390s] writing manifest file '../../build/robot_mover/robot_mover.egg-info/SOURCES.txt'
+[24.391s] running build
+[24.393s] running build_py
+[24.397s] copying robot_mover/robot_mover.py -> /home/f1tenth/f1tenth_ws/build/robot_mover/build/lib/robot_mover
+[24.399s] running install
+[24.457s] running install_lib
+[24.604s] copying /home/f1tenth/f1tenth_ws/build/robot_mover/build/lib/robot_mover/robot_mover.py -> /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover
+[24.609s] byte-compiling /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover/robot_mover.py to robot_mover.cpython-38.pyc
+[24.611s] running install_data
+[24.612s] running install_egg_info
+[24.723s] removing '/home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover-0.0.0-py3.8.egg-info' (and everything under it)
+[24.726s] Copying ../../build/robot_mover/robot_mover.egg-info to /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover-0.0.0-py3.8.egg-info
+[24.731s] running install_scripts
+[25.412s] Installing robot_mover script to /home/f1tenth/f1tenth_ws/install/robot_mover/lib/robot_mover
+[25.416s] writing list of installed files to '/home/f1tenth/f1tenth_ws/build/robot_mover/install.log'
+[25.697s] Invoked command in '/home/f1tenth/f1tenth_ws/src/robot_mover' returned '0': PYTHONPATH=/home/f1tenth/f1tenth_ws/build/robot_mover/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_mover build --build-base /home/f1tenth/f1tenth_ws/build/robot_mover/build install --record /home/f1tenth/f1tenth_ws/build/robot_mover/install.log --install-scripts $base/lib/robot_mover --single-version-externally-managed install_data

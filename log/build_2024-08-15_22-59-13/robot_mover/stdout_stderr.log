@@ -1,0 +1,29 @@
+/home/f1tenth/.local/lib/python3.8/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/robot_mover/robot_mover.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_mover/robot_mover.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_mover/robot_mover.egg-info/entry_points.txt
+writing requirements to ../../build/robot_mover/robot_mover.egg-info/requires.txt
+writing top-level names to ../../build/robot_mover/robot_mover.egg-info/top_level.txt
+writing ../../build/robot_mover/robot_mover.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_mover/robot_mover.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_mover/robot_mover.egg-info/entry_points.txt
+writing requirements to ../../build/robot_mover/robot_mover.egg-info/requires.txt
+writing top-level names to ../../build/robot_mover/robot_mover.egg-info/top_level.txt
+reading manifest file '../../build/robot_mover/robot_mover.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_mover/robot_mover.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_mover/robot_mover.py -> /home/f1tenth/f1tenth_ws/build/robot_mover/build/lib/robot_mover
+running install
+running install_lib
+copying /home/f1tenth/f1tenth_ws/build/robot_mover/build/lib/robot_mover/robot_mover.py -> /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover
+byte-compiling /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover/robot_mover.py to robot_mover.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/robot_mover/robot_mover.egg-info to /home/f1tenth/f1tenth_ws/install/robot_mover/lib/python3.8/site-packages/robot_mover-0.0.0-py3.8.egg-info
+running install_scripts
+Installing robot_mover script to /home/f1tenth/f1tenth_ws/install/robot_mover/lib/robot_mover
+writing list of installed files to '/home/f1tenth/f1tenth_ws/build/robot_mover/install.log'
